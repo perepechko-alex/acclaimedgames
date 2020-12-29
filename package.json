@@ -1,0 +1,28 @@
+{
+  "name": "acclaimedgames",
+  "version": "1.0.0",
+  "description": "Listing and determining the greatest video games of all time",
+  "main": "index.js",
+  "scripts": {
+    "export": "node index.js",
+    "import": "node ./utils/import.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Perepechko",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^4.14.2",
+    "csv-stringify": "^5.5.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^2.2.1"
+  }
+}
