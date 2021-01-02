@@ -1,14 +1,17 @@
-import { getGoat } from "./lib/goat.js";
+import {
+  getGoat,
+  getConsolidatedGames,
+  getOtherGameVersions,
+  populateTemp,
+} from "./lib/goat.js";
 import stringify from "csv-stringify";
 import { otherGames } from "./lib/gameNameMappings.js";
 import fs from "fs";
-const outDir = "./data/out";
-let gameArr = [];
-(async () => {
-  // import module for side effects
-  await import("./lib/db.js");
-  gameArr = await getGoat();
+import { createTempTable } from "./lib/db/db.js";
 
+const outDir = "./data/out";
+
+async function writeToFile(gameArr) {
   gameArr = gameArr.filter((game) => !otherGames.includes(game.name));
 
   gameArr = await gameArr.sort((a, b) =>
@@ -25,8 +28,14 @@ let gameArr = [];
       console.log("File is written!");
     }
   );
+}
 
-  setTimeout(function () {
-    return process.exit(0);
-  }, 15000);
+(async () => {
+  await createTempTable();
+  populateTemp();
+  const otherGamesArr = await getOtherGameVersions();
+  const gamesArr = await getGoat();
+  const consolidatedGamesArr = getConsolidatedGames(otherGamesArr, gamesArr);
+
+  await writeToFile(consolidatedGamesArr);
 })();

@@ -1,64 +1,58 @@
 import * as fs from "fs";
 import parse from "csv-parse";
-import { client, GOATGame, GOTYGame } from "../lib/db.js";
 import { goatCalc, gotyCalc } from "../lib/formulas.js";
+import { db, createTables } from "../lib/db/db.js";
 
-const dataFolderGoatRanked = "./data/in/goat/ranked";
-const dataFolderGoatUnranked = "./data/in/goat/unranked";
-const dataFolderGotyUnranked = "./data/in/goty/unranked";
-const dataFolderGotyRanked = "./data/in/goty/ranked";
+const dataFolderGoat = "./data/in/goat";
+const dataFolderGoty = "./data/in/goty";
 const re = /[0-9]{4}/;
 let listDate = "";
 let rank = 0;
 let name = "";
 let publication = "";
-// TODO: Add async invocation to run this as it's own mini-program
+let params = [];
 export async function importCsvGoatData() {
-  fs.readdir(dataFolderGoatRanked, async (err, files) => {
+  fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
       files.map((file, index) => {
-        fs.createReadStream(`${dataFolderGoatRanked}/${file}`)
+        fs.createReadStream(`${dataFolderGoat}/${file}`)
           .pipe(parse({ delimiter: ",", from_line: 2 }))
-          .on("data", async function (csvrow) {
-            rank = parseInt(csvrow[0]);
-            name = csvrow[1];
-            if (rank && name) {
-              listDate = re.exec(`${file}`);
-              const doc = new GOATGame({
-                fileName: file,
-                listYear: listDate[0],
-                rank: rank,
-                name: name,
-                weightedPoints: goatCalc(listDate[0], rank, true),
-              });
-
-              await doc.save();
-            }
-          })
-          .on("end", function () {
-            console.log(`Successfully imported ${file}!`);
-          });
-      })
-    );
-  });
-
-  fs.readdir(dataFolderGoatUnranked, async (err, files) => {
-    await Promise.all(
-      files.map((file, index) => {
-        fs.createReadStream(`${dataFolderGoatUnranked}/${file}`)
-          .pipe(parse({ delimiter: ",", from_line: 2 }))
-          .on("data", async function (csvrow) {
-            name = csvrow[0];
+          .on("data", function (csvrow) {
+            rank = Number.isInteger(parseInt(csvrow[0]))
+              ? parseInt(csvrow[0])
+              : null;
+            name = csvrow[1] ?? csvrow[0];
             if (name) {
               listDate = re.exec(`${file}`);
-              const doc = new GOATGame({
-                fileName: file,
-                listYear: listDate[0],
-                name: name,
-                weightedPoints: goatCalc(listDate[0], rank, false),
+              params = [
+                file,
+                listDate[0],
+                rank,
+                name,
+                goatCalc(listDate[0], rank, !!rank),
+                rank ? 1 : 0,
+              ];
+              db.serialize(() => {
+                db.run(
+                  `INSERT INTO game_metadata(name) VALUES(?)`,
+                  [name],
+                  (err) => {
+                    if (err) {
+                      // console.log(err.message);
+                    }
+                  }
+                );
+                db.run(
+                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?)`,
+                  params,
+                  (err) => {
+                    if (err) {
+                      // console.log(err.message);
+                    }
+                    // console.log(name);
+                  }
+                );
               });
-
-              await doc.save();
             }
           })
           .on("end", function () {
@@ -70,50 +64,47 @@ export async function importCsvGoatData() {
 }
 
 export async function importCsvGotyData() {
-  fs.readdir(dataFolderGotyRanked, async (err, files) => {
+  fs.readdir(dataFolderGoty, async (err, files) => {
     await Promise.all(
       files.map((file) => {
-        fs.createReadStream(`${dataFolderGotyRanked}/${file}`)
+        fs.createReadStream(`${dataFolderGoty}/${file}`)
           .pipe(parse({ delimiter: ",", from_line: 2 }))
-          .on("data", async function (csvrow) {
-            rank = parseInt(csvrow[0]);
+          .on("data", function (csvrow) {
+            rank = Number.isInteger(parseInt(csvrow[0]))
+              ? parseInt(csvrow[0])
+              : null;
+            publication = rank === null ? csvrow[0] : null;
             name = csvrow[1];
-            if (rank && name) {
-              listDate = re.exec(`${file}`);
-              const doc = new GOTYGame({
-                fileName: file,
-                name: name,
-                points: gotyCalc(rank),
+            if (name) {
+              params = [
+                file,
+                publication,
+                name,
+                rank,
+                rank ? gotyCalc(rank) : 1,
+                rank ? 1 : 0,
+              ];
+              db.serialize(() => {
+                db.run(
+                  `INSERT INTO game_metadata(name) VALUES(?)`,
+                  [name],
+                  (err) => {
+                    if (err) {
+                      // console.log(err.message);
+                    }
+                  }
+                );
+                db.run(
+                  `INSERT INTO goty(filename, publication, name, rank, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?)`,
+                  params,
+                  (err) => {
+                    if (err) {
+                      // console.log(err.message);
+                    }
+                    // console.log(name);
+                  }
+                );
               });
-
-              await doc.save();
-            }
-          })
-          .on("end", function () {
-            console.log(`Successfully imported ${file}!`);
-          });
-      })
-    );
-  });
-
-  fs.readdir(dataFolderGotyUnranked, async (err, files) => {
-    await Promise.all(
-      files.map((file) => {
-        fs.createReadStream(`${dataFolderGotyUnranked}/${file}`)
-          .pipe(parse({ delimiter: ",", from_line: 2 }))
-          .on("data", async function (csvrow) {
-            publication = csvrow[0];
-            name = csvrow[1];
-            if (publication && name) {
-              listDate = re.exec(`${file}`);
-              const doc = new GOTYGame({
-                fileName: file,
-                publication: publication,
-                name: name,
-                points: 1,
-              });
-
-              await doc.save();
             }
           })
           .on("end", function () {
@@ -125,10 +116,7 @@ export async function importCsvGotyData() {
 }
 
 (async () => {
-  await client;
+  await createTables();
   await importCsvGoatData();
   await importCsvGotyData();
-  setTimeout(function () {
-    return process.exit(0);
-  }, 5500);
 })();

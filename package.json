@@ -14,8 +14,7 @@
   "dependencies": {
     "csv-parse": "^4.14.2",
     "csv-stringify": "^5.5.3",
-    "mongodb": "^3.6.3",
-    "mongoose": "^5.11.8"
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
