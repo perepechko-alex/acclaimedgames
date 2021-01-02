@@ -2,140 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.sqbpro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/acclaimedGames.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acclaimedGames.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 1996-GOAT-NextGenerationMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 1996-GOAT-NextGenerationMagazine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 1997-GOAT-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 1997-GOAT-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2000-GOAT-Edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2000-GOAT-Edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2001-GOAT-ComputerAndVideoGamesMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2001-GOAT-ComputerAndVideoGamesMagazine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2001-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2001-GOAT-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2002-GOAT-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2002-GOAT-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2003-GOAT-EntertainmentWeekly_GF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2003-GOAT-EntertainmentWeekly_GF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2003-GOAT-IGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2003-GOAT-IGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-GameFAQsReadersPoll.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-GameFAQsReadersPoll.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-GamePro.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-GamePro.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-JadedGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-JadedGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-PALGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-PALGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2005-GOAT-TheAgeNewsPaper_LiveWire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2005-GOAT-TheAgeNewsPaper_LiveWire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2006-GOAT-FamitsuReadersPoll.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2006-GOAT-FamitsuReadersPoll.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2006-GOAT-GameTrailers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2006-GOAT-GameTrailers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2006-GOAT-YahooUKIrelandGames.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2006-GOAT-YahooUKIrelandGames.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2007-GOAT-DengakiOnline.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2007-GOAT-DengakiOnline.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2007-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2007-GOAT-EDGE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2007-GOAT-IGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2007-GOAT-IGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2008-GOAT-EntertainmentWeekly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2008-GOAT-EntertainmentWeekly.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2008-GOAT-GameCoUkPoll.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2008-GOAT-GameCoUkPoll.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2008-GOAT-GamerBlorge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2008-GOAT-GamerBlorge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2008-GOAT-IGNReadersPoll.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2008-GOAT-IGNReadersPoll.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2008-GOAT-StuffMagazineUk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2008-GOAT-StuffMagazineUk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-ActionButton.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-ActionButton.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-EDGE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-FHM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-FHM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-GuinessGamersEdition.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-GuinessGamersEdition.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2009-GOAT-VGChartz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-VGChartz.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2010-GOAT-Fandomania.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2010-GOAT-Fandomania.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2011-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2011-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2011-GOAT-JeuxVideo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2011-GOAT-JeuxVideo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2011-GOAT-SloganYams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2011-GOAT-SloganYams.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2012-GOAT-G4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-G4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2012-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2012-GOAT-GamingBolt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-GamingBolt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2012-GOAT-PCGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-PCGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2012-GOAT-Unikgamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-Unikgamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2013-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2013-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2013-GOAT-IrishTimes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2013-GOAT-IrishTimes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2014-GOAT-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2014-GOAT-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2014-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2014-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2014-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2014-GOAT-Slant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2014-GOAT-Watchmojo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2014-GOAT-Watchmojo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2015-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2015-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2016-GOAT-FloridaToday.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2016-GOAT-FloridaToday.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2016-GOAT-Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2016-GOAT-Time.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2017-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-EDGE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2017-GOAT-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-Polygon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2017-GOAT-TheWrap.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-TheWrap.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2018-GOAT-IGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-IGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2018-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-Slant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2019-GOAT-AnimationCareerReview.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2019-GOAT-AnimationCareerReview.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2019-GOAT-HiConsumption.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2019-GOAT-HiConsumption.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2019-GOAT-IGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2019-GOAT-IGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2019-GOAT-PopularMechanics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2019-GOAT-PopularMechanics.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2019-GOAT-estnn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2019-GOAT-estnn.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-Esquire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-Esquire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-GamingBible.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-GamingBible.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-Mashable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-Mashable.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-MostInfluential-Hongkiat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-MostInfluential-Hongkiat.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-Slant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/ranked/AcclaimedGames - 2020-GOAT-WYRK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-WYRK.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/unranked/2020-GOAT-Collider.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2020-GOAT-Collider.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2016-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2016-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-ArsTechnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-ArsTechnica.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-EuroGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EuroGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-Gamasutra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-Gamasutra.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-GameSpot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-GameSpot.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-HardcoreGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-HardcoreGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-Polygon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-UsGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-UsGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2017-GOTY-YahooFinance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-YahooFinance.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2018-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2018-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2019-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-ArsTechnica.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-ArsTechnica.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-EntertainmentWeekly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-EntertainmentWeekly.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-Gamasutra.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Gamasutra.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-HardcoreGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-HardcoreGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Polygon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Time.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/ranked/2020-GOTY-UsGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-UsGamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/1996-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/1997-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1997-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/1998-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1998-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/1999-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1999-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2000-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2000-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2001-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2001-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2002-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2002-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2003-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2003-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2004-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2004-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2005-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2005-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2006-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2006-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2007-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2007-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2008-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2008-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2009-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2009-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2010-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2010-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2011-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2011-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2012-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2012-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2013-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2013-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2014-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2015-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2015-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2016-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2016-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2017-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2018-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2018-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2019-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/unranked/2020-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2010-GOAT-Fandomania.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2010-GOAT-Fandomania.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-G4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-G4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-Polygon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-GameInformer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/updateMetadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/updateMetadata.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +109,7 @@
       <workItem from="1609474843085" duration="2217000" />
       <workItem from="1609477075793" duration="9138000" />
       <workItem from="1609532457926" duration="8343000" />
-      <workItem from="1609550033773" duration="11389000" />
+      <workItem from="1609550033773" duration="14388000" />
     </task>
     <servers />
   </component>

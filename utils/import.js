@@ -116,7 +116,7 @@ export async function importCsvGotyData() {
 }
 
 (async () => {
-  await createTables();
+  createTables();
   await importCsvGoatData();
   await importCsvGotyData();
 })();

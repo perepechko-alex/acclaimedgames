@@ -3,11 +3,12 @@ import {
   getConsolidatedGames,
   getOtherGameVersions,
   populateTemp,
+  populateFinalResults,
 } from "./lib/goat.js";
 import stringify from "csv-stringify";
 import { otherGames } from "./lib/gameNameMappings.js";
 import fs from "fs";
-import { createTempTable } from "./lib/db/db.js";
+import { createFinalResultsTable, createTempTable } from "./lib/db/db.js";
 
 const outDir = "./data/out";
 
@@ -20,6 +21,9 @@ async function writeToFile(gameArr) {
   for (let i = 0; i < gameArr.length; i++) {
     gameArr[i].finalRank = i + 1;
   }
+
+  populateFinalResults(gameArr);
+
   stringify(
     gameArr,
     { header: true, columns: ["finalRank", "name", "totalScore"] },
@@ -31,8 +35,9 @@ async function writeToFile(gameArr) {
 }
 
 (async () => {
-  await createTempTable();
+  createTempTable();
   populateTemp();
+  createFinalResultsTable();
   const otherGamesArr = await getOtherGameVersions();
   const gamesArr = await getGoat();
   const consolidatedGamesArr = getConsolidatedGames(otherGamesArr, gamesArr);
