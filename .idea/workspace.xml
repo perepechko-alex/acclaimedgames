@@ -3,16 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2010-GOAT-Fandomania.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2010-GOAT-Fandomania.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2009-GOAT-EDGE.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2011-GOAT-JeuxVideo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2011-GOAT-JeuxVideo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-G4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-G4.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2017-GOAT-Polygon.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2018-GOAT-GameInformer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-Mashable.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2020-GOAT-Mashable.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2009-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2009-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY-HardcoreGamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-HardcoreGamer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Polygon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Time.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gameNameMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gameNameMappings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +115,11 @@
       <workItem from="1609474843085" duration="2217000" />
       <workItem from="1609477075793" duration="9138000" />
       <workItem from="1609532457926" duration="8343000" />
-      <workItem from="1609550033773" duration="14388000" />
+      <workItem from="1609550033773" duration="14650000" />
+      <workItem from="1609644544038" duration="1503000" />
+      <workItem from="1609648050808" duration="64000" />
+      <workItem from="1609648865186" duration="1423000" />
+      <workItem from="1609654809508" duration="1708000" />
     </task>
     <servers />
   </component>
