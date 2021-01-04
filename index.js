@@ -2,13 +2,12 @@ import {
   getGoat,
   getConsolidatedGames,
   getOtherGameVersions,
-  populateTemp,
   populateFinalResults,
 } from "./lib/goat.js";
 import stringify from "csv-stringify";
 import { otherGames } from "./lib/gameNameMappings.js";
 import fs from "fs";
-import { createFinalResultsTable, createTempTable } from "./lib/db/db.js";
+import { createFinalResultsTable } from "./lib/db/db.js";
 
 const outDir = "./data/out";
 let rankCount = 1;
@@ -16,9 +15,7 @@ let rankCount = 1;
 async function writeToFile(gameArr) {
   // gameArr = gameArr.filter((game) => !otherGames.includes(game.name));
 
-  gameArr = await gameArr.sort((a, b) =>
-    a.totalScore > b.totalScore ? -1 : 1
-  );
+  gameArr = gameArr.sort((a, b) => (a.totalScore > b.totalScore ? -1 : 1));
 
   for (let game of gameArr) {
     if (!otherGames.includes(game.name)) {
@@ -26,7 +23,6 @@ async function writeToFile(gameArr) {
       rankCount++;
     }
   }
-
   populateFinalResults(gameArr);
 
   stringify(
@@ -40,8 +36,6 @@ async function writeToFile(gameArr) {
 }
 
 (async () => {
-  createTempTable();
-  populateTemp();
   createFinalResultsTable();
   const otherGamesArr = await getOtherGameVersions();
   const gamesArr = await getGoat();

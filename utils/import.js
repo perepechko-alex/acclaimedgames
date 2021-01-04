@@ -76,8 +76,10 @@ export async function importCsvGotyData() {
             publication = rank === null ? csvrow[0] : null;
             name = csvrow[1];
             if (name) {
+              listDate = re.exec(`${file}`);
               params = [
                 file,
+                listDate,
                 publication,
                 name,
                 rank,
@@ -95,7 +97,7 @@ export async function importCsvGotyData() {
                   }
                 );
                 db.run(
-                  `INSERT INTO goty(filename, publication, name, rank, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?)`,
+                  `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?, ?)`,
                   params,
                   (err) => {
                     if (err) {
