@@ -25,14 +25,14 @@ async function writeToFile(gameArr) {
   }
   populateFinalResults(gameArr);
 
-  stringify(
-    gameArr,
-    { header: true, columns: ["finalRank", "name", "totalScore"] },
-    function (err, output) {
-      fs.writeFileSync(`${outDir}/finalList.csv`, output);
-      console.log("File is written!");
-    }
-  );
+  // stringify(
+  //   gameArr,
+  //   { header: true, columns: ["finalRank", "name", "totalScore"] },
+  //   function (err, output) {
+  //     fs.writeFileSync(`${outDir}/finalList.csv`, output);
+  //     console.log("File is written!");
+  //   }
+  // );
 }
 
 (async () => {
