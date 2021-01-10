@@ -217,6 +217,6 @@ fabric.properties
 .idea/codestream.xml
 
 # vscode
-.vscode/**/*
+.vs/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
