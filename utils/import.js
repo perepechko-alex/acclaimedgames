@@ -1,7 +1,12 @@
 import * as fs from "fs";
 import parse from "csv-parse";
 import { goatCalc, gotyCalc } from "../lib/formulas.js";
-import { db, createTables } from "../lib/db/db.js";
+import {
+  db,
+  createTables,
+  createViews,
+  writeGameMetadata,
+} from "../lib/db/db.js";
 
 const dataFolderGoat = "./data/in/goat";
 const dataFolderGoty = "./data/in/goty";
@@ -33,15 +38,7 @@ export async function importCsvGoatData() {
                 rank ? 1 : 0,
               ];
               db.serialize(() => {
-                db.run(
-                  `INSERT INTO game_metadata(name) VALUES(?)`,
-                  [name],
-                  (err) => {
-                    if (err) {
-                      // console.log(err.message);
-                    }
-                  }
-                );
+                writeGameMetadata([name]);
                 db.run(
                   `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?)`,
                   params,
@@ -49,7 +46,6 @@ export async function importCsvGoatData() {
                     if (err) {
                       // console.log(err.message);
                     }
-                    // console.log(name);
                   }
                 );
               });
@@ -87,15 +83,7 @@ export async function importCsvGotyData() {
                 rank ? 1 : 0,
               ];
               db.serialize(() => {
-                db.run(
-                  `INSERT INTO game_metadata(name) VALUES(?)`,
-                  [name],
-                  (err) => {
-                    if (err) {
-                      // console.log(err.message);
-                    }
-                  }
-                );
+                writeGameMetadata([name]);
                 db.run(
                   `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?, ?)`,
                   params,
@@ -103,7 +91,6 @@ export async function importCsvGotyData() {
                     if (err) {
                       // console.log(err.message);
                     }
-                    // console.log(name);
                   }
                 );
               });
@@ -119,6 +106,7 @@ export async function importCsvGotyData() {
 
 (async () => {
   createTables();
+  createViews();
   await importCsvGoatData();
   await importCsvGotyData();
 })();
