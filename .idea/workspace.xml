@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/acclaimedGames.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acclaimedGames.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-90sNation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-90sNation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-FunStockRetro(2018).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-FunStockRetro(2018).csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TamaBayTimes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TamaBayTimes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TheTopLister(2013).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TheTopLister(2013).csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1997-GOTY-TheTopLister(2013).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1997-GOTY-TheTopLister(2013).csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/1998-GOTY-TheTopLister(2013).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1998-GOTY-TheTopLister(2013).csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2002-GOTY-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2002-GOTY-GameInformer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/writeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +118,9 @@
       <workItem from="1610157922996" duration="15000" />
       <workItem from="1610334600605" duration="162000" />
       <workItem from="1610335065458" duration="70000" />
-      <workItem from="1610421161543" duration="5340000" />
+      <workItem from="1610421161543" duration="5462000" />
+      <workItem from="1610427537449" duration="83000" />
+      <workItem from="1610578987772" duration="4729000" />
     </task>
     <servers />
   </component>
