@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/writeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="C:\Users\alx\Documents\Development\acclaimedgames\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.import">
+  <component name="RunManager" selected="npm.write-data">
     <configuration name="import" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -76,18 +75,25 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="write-data" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="write-data" />
       </scripts>
       <node-interpreter value="project" />
-      <envs />
+      <envs>
+        <env name="EXPORT_TO_CSV" value="false" />
+      </envs>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.import" />
+      <item itemvalue="npm.write-data" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.write-data" />
         <item itemvalue="npm.import" />
       </list>
     </recent_temporary>
@@ -120,7 +126,8 @@
       <workItem from="1610335065458" duration="70000" />
       <workItem from="1610421161543" duration="5462000" />
       <workItem from="1610427537449" duration="83000" />
-      <workItem from="1610578987772" duration="4729000" />
+      <workItem from="1610578987772" duration="5143000" />
+      <workItem from="1610676259738" duration="1112000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,9 @@
   "description": "Listing and determining the greatest video games of all time",
   "main": "index.js",
   "scripts": {
-    "export": "node index.js",
+    "write-to-db": "node index.js",
+    "export": "node ./utils/export.js",
+    "write-and-export": "npm run write-to-db && npm run export",
     "import": "node ./utils/import.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

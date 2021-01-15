@@ -11,6 +11,5 @@ import { writeFinalResults } from "./lib/writeResults.js";
   const otherGamesArr = await getOtherGameVersions();
   const gamesArr = await getGoat();
   const consolidatedGamesArr = getConsolidatedGames(otherGamesArr, gamesArr);
-
   await writeFinalResults(consolidatedGamesArr);
 })();

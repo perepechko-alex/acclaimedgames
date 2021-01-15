@@ -16,7 +16,7 @@ let rank = 0;
 let name = "";
 let publication = "";
 let params = [];
-export async function importCsvGoatData(dataFolderGoat) {
+export async function importCsvGoatData() {
   fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
       files.map((file, index) => {
