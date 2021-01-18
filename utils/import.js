@@ -15,6 +15,7 @@ let listDate = "";
 let rank = 0;
 let name = "";
 let publication = "";
+let notes = "";
 let params = [];
 export async function importCsvGoatData() {
   fs.readdir(dataFolderGoat, async (err, files) => {
@@ -28,6 +29,9 @@ export async function importCsvGoatData() {
               : null;
             name = csvrow[1] ?? csvrow[0];
             if (name) {
+              if (name === csvrow[1]) notes = csvrow[2];
+              else notes = csvrow[1];
+
               listDate = re.exec(`${file}`);
               params = [
                 file,
@@ -36,11 +40,12 @@ export async function importCsvGoatData() {
                 name,
                 goatCalc(listDate[0], rank, !!rank),
                 rank ? 1 : 0,
+                notes,
               ];
               db.serialize(() => {
                 writeGameMetadata([name]);
                 db.run(
-                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?)`,
+                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES(?, ?, ?, ?, ?, ?, ?)`,
                   params,
                   (err) => {
                     if (err) {
@@ -71,6 +76,7 @@ export async function importCsvGotyData() {
               : null;
             publication = rank === null ? csvrow[0] : null;
             name = csvrow[1];
+            notes = csvrow[2];
             if (name) {
               listDate = re.exec(`${file}`);
               params = [
@@ -81,11 +87,12 @@ export async function importCsvGotyData() {
                 rank,
                 rank ? gotyCalc(rank) : 1,
                 rank ? 1 : 0,
+                notes,
               ];
               db.serialize(() => {
                 writeGameMetadata([name]);
                 db.run(
-                  `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked) VALUES(?, ?, ?, ?, ?, ?, ?)`,
+                  `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES(?, ?, ?, ?, ?, ?, ?, ?)`,
                   params,
                   (err) => {
                     if (err) {

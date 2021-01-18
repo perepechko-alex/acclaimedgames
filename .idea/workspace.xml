@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2012-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2013-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2015-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2016-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2018-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-ArsTechnica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-EGM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Esquire.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Guardian.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-NewYorker.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY-Vulture.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2012-GOAT-GamesRadar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2013-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/AcclaimedGames - 2013-GOAT-GamesRadar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-90sNation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-90sNation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TheTopLister(2013).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/1996-GOTY-TheTopLister(2013).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/writeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
@@ -41,6 +62,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.21" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ruby" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -64,12 +87,22 @@
       <recent name="C:\Users\alx\Documents\Development\acclaimedgames\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.write-data">
+  <component name="RunManager" selected="npm.write-and-export">
     <configuration name="import" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="import" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="write-and-export" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="write-and-export" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -87,14 +120,28 @@
       </envs>
       <method v="2" />
     </configuration>
+    <configuration name="write-to-db" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="write-to-db" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.import" />
       <item itemvalue="npm.write-data" />
+      <item itemvalue="npm.write-to-db" />
+      <item itemvalue="npm.write-and-export" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.write-data" />
+        <item itemvalue="npm.write-and-export" />
         <item itemvalue="npm.import" />
+        <item itemvalue="npm.write-to-db" />
+        <item itemvalue="npm.write-data" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +175,8 @@
       <workItem from="1610427537449" duration="83000" />
       <workItem from="1610578987772" duration="5143000" />
       <workItem from="1610676259738" duration="1112000" />
+      <workItem from="1610903815528" duration="1731000" />
+      <workItem from="1610946266553" duration="2864000" />
     </task>
     <servers />
   </component>

@@ -7,8 +7,7 @@
     "write-to-db": "node index.js",
     "export": "node ./utils/export.js",
     "write-and-export": "npm run write-to-db && npm run export",
-    "import": "node ./utils/import.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "import": "node ./utils/import.js"
   },
   "author": "Alexander Perepechko",
   "license": "ISC",
