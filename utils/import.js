@@ -27,9 +27,10 @@ export async function importCsvGoatData() {
             rank = Number.isInteger(parseInt(csvrow[0]))
               ? parseInt(csvrow[0])
               : null;
-            name = csvrow[1] ?? csvrow[0];
-            if (name) {
-              if (name === csvrow[1]) notes = csvrow[2];
+
+            name = !rank ? csvrow[0] : csvrow[1];
+            if (name && name !== "LIST_YEAR") {
+              if (csvrow[1] === "GAME") notes = csvrow[2];
               else notes = csvrow[1];
 
               listDate = re.exec(`${file}`);
