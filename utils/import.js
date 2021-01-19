@@ -24,11 +24,9 @@ export async function importCsvGoatData() {
         fs.createReadStream(`${dataFolderGoat}/${file}`)
           .pipe(parse({ delimiter: ",", from_line: 2 }))
           .on("data", function (csvrow) {
-            rank = Number.isInteger(parseInt(csvrow[0]))
-              ? parseInt(csvrow[0])
-              : null;
-
+            rank = isNaN(csvrow[0]) ? null : parseInt(csvrow[0]);
             name = !rank ? csvrow[0] : csvrow[1];
+
             if (name && name !== "LIST_YEAR") {
               if (csvrow[1] === "GAME") notes = csvrow[2];
               else notes = csvrow[1];
