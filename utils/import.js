@@ -17,6 +17,7 @@ let name = "";
 let publication = "";
 let notes = "";
 let params = [];
+const override = process.env.OVERRIDE === "true" ? true : false;
 export async function importCsvGoatData() {
   fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
@@ -27,7 +28,12 @@ export async function importCsvGoatData() {
             rank = isNaN(csvrow[0]) ? null : parseInt(csvrow[0]);
             name = !rank ? csvrow[0] : csvrow[1];
 
-            if (name && name !== "LIST_YEAR") {
+            if (
+              name &&
+              name !== "LIST_YEAR" &&
+              name !== "ET: The Extra-Terrestrial" &&
+              override !== true
+            ) {
               if (csvrow[1] === "GAME") notes = csvrow[2];
               else notes = csvrow[1];
 
