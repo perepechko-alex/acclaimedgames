@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/findStr.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/utils/findStr.ps1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\alx\Documents\Development\acclaimedgames\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\alx\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -111,16 +107,16 @@
     </configuration>
     <list>
       <item itemvalue="npm.import" />
+      <item itemvalue="npm.write-and-export" />
       <item itemvalue="npm.write-data" />
       <item itemvalue="npm.write-to-db" />
-      <item itemvalue="npm.write-and-export" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.write-and-export" />
-        <item itemvalue="npm.import" />
         <item itemvalue="npm.write-to-db" />
         <item itemvalue="npm.write-data" />
+        <item itemvalue="npm.write-and-export" />
+        <item itemvalue="npm.import" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,11 @@
       <workItem from="1611279730537" duration="6045000" />
       <workItem from="1611633516591" duration="1564000" />
       <workItem from="1612226983326" duration="456000" />
-      <workItem from="1612239149915" duration="621000" />
+      <workItem from="1612239149915" duration="2940000" />
+      <workItem from="1612242104519" duration="25000" />
+      <workItem from="1612242141568" duration="2884000" />
+      <workItem from="1612299704107" duration="710000" />
+      <workItem from="1612300540617" duration="304000" />
     </task>
     <servers />
   </component>
