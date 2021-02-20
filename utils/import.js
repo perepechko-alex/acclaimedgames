@@ -34,7 +34,7 @@ export async function importCsvGoatData() {
               name !== "ET: The Extra-Terrestrial" &&
               override !== true
             ) {
-              if (csvrow[1] === "GAME") notes = csvrow[2];
+              if (rank) notes = csvrow[2];
               else notes = csvrow[1];
 
               listDate = re.exec(`${file}`);
