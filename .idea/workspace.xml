@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/writeMetadata.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/1999-GOAT-NextGeneration.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1999-GOAT-NextGeneration.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2020-GOAT-HardcoreOneHundredOne.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2020-GOAT-HardcoreOneHundredOne.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-TheGuardian.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-TheGuardian.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/formulas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/formulas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gameNameMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gameNameMappings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/writeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +203,7 @@
       <workItem from="1613851787151" duration="678000" />
       <workItem from="1613853060425" duration="684000" />
       <workItem from="1613926574101" duration="11699000" />
-      <workItem from="1613941682805" duration="6629000" />
+      <workItem from="1613941682805" duration="14814000" />
     </task>
     <servers />
   </component>

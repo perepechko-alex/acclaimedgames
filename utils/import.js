@@ -21,7 +21,6 @@ const override = process.env.OVERRIDE === "true" ? true : false;
 
 export async function importCsvGoatData() {
   let batch = [];
-  let batchName = [];
   fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
       files.map((file, index) => {
@@ -95,7 +94,6 @@ export async function importCsvGoatData() {
 
 export async function importCsvGotyData() {
   let batch = [];
-  let batchName = [];
   fs.readdir(dataFolderGoty, async (err, files) => {
     await Promise.all(
       files.map((file) => {
@@ -137,7 +135,6 @@ export async function importCsvGotyData() {
                   });
                 });
                 batch = [];
-                batchName = [];
               }
             }
           })
@@ -171,5 +168,4 @@ export async function importCsvGotyData() {
   createViews();
   await importCsvGoatData();
   await importCsvGotyData();
-  writeGameMetadata();
 })();
