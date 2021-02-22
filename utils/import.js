@@ -18,7 +18,10 @@ let publication = "";
 let notes = "";
 let params = [];
 const override = process.env.OVERRIDE === "true" ? true : false;
+
 export async function importCsvGoatData() {
+  let batch = [];
+  let batchName = [];
   fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
       files.map((file, index) => {
@@ -47,22 +50,43 @@ export async function importCsvGoatData() {
                 rank ? 1 : 0,
                 notes,
               ];
-              db.serialize(() => {
-                writeGameMetadata([name]);
-                db.run(
-                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES(?, ?, ?, ?, ?, ?, ?)`,
-                  params,
-                  (err) => {
+              batch.push(params);
+              if (batch.length === 100) {
+                const placeholders = batch
+                  .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
+                  .join(",");
+                const query = `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+                const flatBatch = batch.flat();
+                db.serialize(() => {
+                  db.run(query, ...flatBatch, (err) => {
                     if (err) {
                       // console.log(err.message);
                     }
-                  }
-                );
-              });
+                  });
+                });
+                batch = [];
+              }
             }
           })
           .on("end", function () {
             console.log(`Successfully imported ${file}!`);
+          })
+          .on("finish", function () {
+            if (batch.length > 0) {
+              const placeholders = batch
+                .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
+                .join(",");
+              const query = `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+              const flatBatch = batch.flat();
+              db.serialize(() => {
+                db.run(query, ...flatBatch, (err) => {
+                  if (err) {
+                    // console.log(err.message);
+                  }
+                });
+              });
+              batch = [];
+            }
           });
       })
     );
@@ -70,6 +94,8 @@ export async function importCsvGoatData() {
 }
 
 export async function importCsvGotyData() {
+  let batch = [];
+  let batchName = [];
   fs.readdir(dataFolderGoty, async (err, files) => {
     await Promise.all(
       files.map((file) => {
@@ -79,6 +105,8 @@ export async function importCsvGotyData() {
             rank = Number.isInteger(parseInt(csvrow[0]))
               ? parseInt(csvrow[0])
               : null;
+            if (csvrow[0].toLowerCase() === "unranked" && rank === null)
+              rank = "Unranked";
             publication = rank === null ? csvrow[0] : null;
             name = csvrow[1];
             notes = csvrow[2];
@@ -91,25 +119,47 @@ export async function importCsvGotyData() {
                 name,
                 rank,
                 rank ? gotyCalc(rank) : 1,
-                rank ? 1 : 0,
+                rank && rank !== "Unranked" ? 1 : 0,
                 notes,
               ];
-              db.serialize(() => {
-                writeGameMetadata([name]);
-                db.run(
-                  `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES(?, ?, ?, ?, ?, ?, ?, ?)`,
-                  params,
-                  (err) => {
+              batch.push(params);
+              if (batch.length === 100) {
+                const placeholders = batch
+                  .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
+                  .join(",");
+                const query = `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+                const flatBatch = batch.flat();
+                db.serialize(() => {
+                  db.run(query, ...flatBatch, (err) => {
                     if (err) {
                       // console.log(err.message);
                     }
-                  }
-                );
-              });
+                  });
+                });
+                batch = [];
+                batchName = [];
+              }
             }
           })
           .on("end", function () {
             console.log(`Successfully imported ${file}!`);
+          })
+          .on("finish", function () {
+            if (batch.length > 0) {
+              const placeholders = batch
+                .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
+                .join(",");
+              const query = `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+              const flatBatch = batch.flat();
+              db.serialize(() => {
+                db.run(query, ...flatBatch, (err) => {
+                  if (err) {
+                    // console.log(err.message);
+                  }
+                });
+              });
+              batch = [];
+            }
           });
       })
     );
@@ -121,4 +171,5 @@ export async function importCsvGotyData() {
   createViews();
   await importCsvGoatData();
   await importCsvGotyData();
+  writeGameMetadata();
 })();
