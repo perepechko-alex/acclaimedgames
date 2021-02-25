@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/writeMetadata.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/1999-GOAT-NextGeneration.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1999-GOAT-NextGeneration.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/1995-GOAT-FluxMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1995-GOAT-FluxMagazine.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/1995-GOAT-Hyper.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1995-GOAT-Hyper.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/1996-GOAT-NextGenerationMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1996-GOAT-NextGenerationMagazine.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2009-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2009-GOAT-EDGE.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2009-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2009-GOAT-GameInformer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2020-GOAT-HardcoreOneHundredOne.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2020-GOAT-HardcoreOneHundredOne.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-TheGuardian.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-TheGuardian.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2011-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2011-GOAT-GamesRadar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2011-GOAT-JeuxVideo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2011-GOAT-JeuxVideo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2012-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2012-GOAT-GamesRadar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2017-GOAT-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2017-GOAT-Polygon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2018-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2018-GOAT-Slant.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2020-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2020-GOAT-Slant.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2003-GOTY-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2003-GOTY-GameInformer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2005-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2005-GOTY-Eurogamer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2006-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2006-GOTY-Eurogamer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2007-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2007-GOTY-Eurogamer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2014-GOTY-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY-EGM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Polygon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/other/1993-GOTY-HorrorGeekLife.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/other/1993-GOTY-HorrorGeekLife.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/other/2007-GOTY-FunkStockRetro(2018).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/other/2007-GOTY-FunkStockRetro(2018).csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/writeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/writeResults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gameNameMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gameNameMappings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +220,7 @@
       <workItem from="1613851787151" duration="678000" />
       <workItem from="1613853060425" duration="684000" />
       <workItem from="1613926574101" duration="11699000" />
-      <workItem from="1613941682805" duration="14814000" />
+      <workItem from="1613941682805" duration="17784000" />
     </task>
     <servers />
   </component>
