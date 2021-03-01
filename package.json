@@ -7,9 +7,8 @@
     "write-to-db": "node index.js",
     "export": "node ./utils/export.js",
     "write-and-export": "npm run write-to-db && npm run export",
-    "write-game-metadata": "node ./utils/writeMetadata.js",
     "import": "node ./utils/import.js",
-    "start": "npm run import && npm run write-game-metadata && npm run write-and-export"
+    "start": "npm run import && npm run write-and-export"
   },
   "author": "Alexander Perepechko",
   "license": "ISC",

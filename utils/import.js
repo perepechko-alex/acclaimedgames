@@ -1,12 +1,8 @@
 import * as fs from "fs";
 import parse from "csv-parse";
 import { goatCalc, gotyCalc } from "../lib/formulas.js";
-import {
-  db,
-  createTables,
-  createViews,
-  writeGameMetadata,
-} from "../lib/db/db.js";
+import { writeGameMetadata } from "./writeMetadata.js";
+import { db, createTables, createViews } from "../lib/db/db.js";
 
 const dataFolderGoat = "./data/in/goat";
 const dataFolderGoty = "./data/in/goty";

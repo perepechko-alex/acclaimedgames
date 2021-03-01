@@ -3,34 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/1995-GOAT-FluxMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1995-GOAT-FluxMagazine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/1995-GOAT-Hyper.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1995-GOAT-Hyper.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/1996-GOAT-NextGenerationMagazine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/1996-GOAT-NextGenerationMagazine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2004-GOAT-OneUp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2009-GOAT-EDGE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2009-GOAT-EDGE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2009-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2009-GOAT-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2010-GOAT-GamesTM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2011-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2011-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2011-GOAT-JeuxVideo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2011-GOAT-JeuxVideo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2012-GOAT-GamesRadar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2012-GOAT-GamesRadar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2012-GOAT-OneUp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2017-GOAT-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2017-GOAT-Polygon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2018-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2018-GOAT-Slant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2020-GOAT-Slant.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2020-GOAT-Slant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2003-GOTY-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2003-GOTY-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2005-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2005-GOTY-Eurogamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2006-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2006-GOTY-Eurogamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2007-GOTY-Eurogamer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2007-GOTY-Eurogamer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2014-GOTY-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Polygon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Polygon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/other/1993-GOTY-HorrorGeekLife.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/other/1993-GOTY-HorrorGeekLife.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/other/2007-GOTY-FunkStockRetro(2018).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/other/2007-GOTY-FunkStockRetro(2018).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2012-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2012-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2014-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2015-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2015-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2016-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2016-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EGM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2018-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2018-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Empire.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gameNameMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gameNameMappings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/formulas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/formulas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/writeMetadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/writeMetadata.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,12 +103,12 @@
       <recent name="C:\Users\alx\Documents\Development\acclaimedgames\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.write-to-db">
-    <configuration name="import" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="import" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -148,6 +136,16 @@
       </envs>
       <method v="2" />
     </configuration>
+    <configuration name="write-game-metadata" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="write-game-metadata" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="write-to-db" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -159,17 +157,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.import" />
       <item itemvalue="npm.write-and-export" />
       <item itemvalue="npm.write-data" />
       <item itemvalue="npm.write-to-db" />
+      <item itemvalue="npm.write-game-metadata" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.write-game-metadata" />
         <item itemvalue="npm.write-to-db" />
         <item itemvalue="npm.write-data" />
         <item itemvalue="npm.write-and-export" />
-        <item itemvalue="npm.import" />
       </list>
     </recent_temporary>
   </component>

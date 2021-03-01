@@ -1,3 +1,15 @@
-import { db, writeGameMetadata } from "../lib/db/db.js";
+import { db } from "../lib/db/db.js";
 
-writeGameMetadata();
+export function writeGameMetadata() {
+  db.serialize(() => {
+    db.all(`SELECT DISTINCT name from goat`, [], (err, rows) => {
+      rows.forEach((row) => {
+        let query = `INSERT INTO game_metadata(name) VALUES (?)`;
+        db.run(query, row.name, (err) => {
+          if (err) {
+          }
+        });
+      });
+    });
+  });
+}
