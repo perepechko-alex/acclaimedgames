@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2012-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2012-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2014-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2014-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2015-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2015-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2016-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2016-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EGM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2017-GOTY-EGM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2018-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2018-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Empire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY-Empire.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/formulas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/formulas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/writeMetadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/writeMetadata.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,19 +147,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="npm.start" />
       <item itemvalue="npm.write-and-export" />
       <item itemvalue="npm.write-data" />
-      <item itemvalue="npm.write-to-db" />
       <item itemvalue="npm.write-game-metadata" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="npm.write-to-db" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.write-game-metadata" />
         <item itemvalue="npm.write-to-db" />
+        <item itemvalue="npm.write-game-metadata" />
         <item itemvalue="npm.write-data" />
         <item itemvalue="npm.write-and-export" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +211,8 @@
       <workItem from="1613853060425" duration="684000" />
       <workItem from="1613926574101" duration="11699000" />
       <workItem from="1613941682805" duration="17784000" />
+      <workItem from="1615145879726" duration="876000" />
+      <workItem from="1615158382718" duration="627000" />
     </task>
     <servers />
   </component>

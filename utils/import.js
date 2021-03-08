@@ -41,7 +41,7 @@ export async function importCsvGoatData() {
                 listDate[0],
                 rank,
                 name,
-                goatCalc(listDate[0], rank, !!rank),
+                goatCalc(listDate[0], rank, !!rank, 2),
                 rank ? 1 : 0,
                 notes,
               ];
