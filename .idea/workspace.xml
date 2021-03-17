@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/formulas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/formulas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +32,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="frontendDesign" />
+                    <option name="lastUsedInstant" value="1615922340" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1612677172" />
+                    <option name="lastUsedInstant" value="1615922298" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="vuejs" />
@@ -80,6 +81,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\alx\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,37 +95,35 @@
       <recent name="C:\Users\alx\Documents\Development\acclaimedgames\data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="write-and-export" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="write-and-export" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="write-data" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-site" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="write-data" />
+        <script value="start-site" />
       </scripts>
       <node-interpreter value="project" />
-      <envs>
-        <env name="EXPORT_TO_CSV" value="false" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="write-game-metadata" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -147,19 +147,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
-      <item itemvalue="npm.write-and-export" />
-      <item itemvalue="npm.write-data" />
       <item itemvalue="npm.write-game-metadata" />
       <item itemvalue="npm.write-to-db" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start-site" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start-site" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.write-to-db" />
         <item itemvalue="npm.write-game-metadata" />
-        <item itemvalue="npm.write-data" />
-        <item itemvalue="npm.write-and-export" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +213,7 @@
       <workItem from="1613941682805" duration="17784000" />
       <workItem from="1615145879726" duration="876000" />
       <workItem from="1615158382718" duration="627000" />
+      <workItem from="1615923470444" duration="5259000" />
     </task>
     <servers />
   </component>
