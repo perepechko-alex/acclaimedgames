@@ -50,16 +50,15 @@ export async function importCsvGoatData() {
                 const placeholders = batch
                   .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
                   .join(",");
-                const query = `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+                const query = db.prepare(
+                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
+                );
                 const flatBatch = batch.flat();
                 db.serialize(() => {
-                  db.run(query, ...flatBatch, (err) => {
-                    if (err) {
-                      // console.log(err.message);
-                    }
-                  });
+                  query.run(...flatBatch);
                 });
                 batch = [];
+                query.finalize();
               }
             }
           })
@@ -71,16 +70,15 @@ export async function importCsvGoatData() {
               const placeholders = batch
                 .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
                 .join(",");
-              const query = `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+              const query = db.prepare(
+                `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
+              );
               const flatBatch = batch.flat();
               db.serialize(() => {
-                db.run(query, ...flatBatch, (err) => {
-                  if (err) {
-                    // console.log(err.message);
-                  }
-                });
+                query.run(...flatBatch);
               });
               batch = [];
+              query.finalize();
             }
           });
       })
@@ -121,16 +119,15 @@ export async function importCsvGotyData() {
                 const placeholders = batch
                   .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
                   .join(",");
-                const query = `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+                const query = db.prepare(
+                  `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`
+                );
                 const flatBatch = batch.flat();
                 db.serialize(() => {
-                  db.run(query, ...flatBatch, (err) => {
-                    if (err) {
-                      // console.log(err.message);
-                    }
-                  });
+                  query.run(...flatBatch);
                 });
                 batch = [];
+                query.finalize();
               }
             }
           })
@@ -142,16 +139,15 @@ export async function importCsvGotyData() {
               const placeholders = batch
                 .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
                 .join(",");
-              const query = `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`;
+              const query = db.prepare(
+                `INSERT INTO goat(filename, listyear, publication, name, rank, weightedpoints, isranked, notes) VALUES ${placeholders}`
+              );
               const flatBatch = batch.flat();
               db.serialize(() => {
-                db.run(query, ...flatBatch, (err) => {
-                  if (err) {
-                    // console.log(err.message);
-                  }
-                });
+                query.run(...flatBatch);
               });
               batch = [];
+              query.finalize();
             }
           });
       })
@@ -159,9 +155,9 @@ export async function importCsvGotyData() {
   });
 }
 
-(async () => {
-  createTables();
-  createViews();
-  await importCsvGoatData();
-  await importCsvGotyData();
-})();
+// (async () => {
+//   createTables();
+//   createViews();
+//   await importCsvGoatData();
+//   await importCsvGotyData();
+// })();

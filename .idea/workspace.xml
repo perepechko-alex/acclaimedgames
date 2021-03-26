@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2013-GOAT-GamesBeforeYouDie.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goat/2018-GOAT-GameInformer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/formulas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/formulas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/export.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/export.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1612677172" />
+                    <option name="lastUsedInstant" value="1616767485" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="vuejs" />
@@ -155,11 +157,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.write-to-db" />
         <item itemvalue="npm.write-game-metadata" />
         <item itemvalue="npm.write-data" />
         <item itemvalue="npm.write-and-export" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
