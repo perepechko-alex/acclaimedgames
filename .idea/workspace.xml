@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2019-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/goty/2020-GOTY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/finalList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/finalList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/acclaimedgames.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/acclaimedgames.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/goat.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/goat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/export.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/export.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/runUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/runUtils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +153,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.write-to-db" />
         <item itemvalue="npm.write-game-metadata" />
-        <item itemvalue="npm.write-data" />
-        <item itemvalue="npm.write-and-export" />
       </list>
     </recent_temporary>
   </component>
