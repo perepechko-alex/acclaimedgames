@@ -4,18 +4,12 @@
   "description": "Listing and determining the greatest video games of all time",
   "main": "index.js",
   "scripts": {
-    "write-to-db": "node ./utils/runUtils.js",
     "export": "node ./utils/export.js",
-    "write-and-export": "npm run write-to-db && npm run export",
     "import": "node ./utils/import.js",
-    "start": "npm run import && npm run write-and-export",
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start-site": "nuxt start"
+    "start": "node ./utils/runUtils.js"
   },
   "author": "Alexander Perepechko",
-  "license": "ISC",
+  "license": "GNU AGPLv3",
   "type": "module",
   "dependencies": {
     "csv-parse": "^4.14.2",
