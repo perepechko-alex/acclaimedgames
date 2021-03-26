@@ -98,13 +98,13 @@ rank,name,totalscore,releasedate,platforms,developers
 96,Planescape Torment,38.60730779322138,1999,PC,Black Isle Studios
 97,Shenmue,38.4914133323049,1999,Dreamcast,Sega AM2
 98,Galaga,38.192839749737914,1981,Arcade,Namco
-99,Tony Hawk's Pro Skater 2,38.064498123046356,2000,"Dreamcast, N64, PC, PS1",Neversoft
-100,Advance Wars,37.91136629846847,2001,GBA,Intelligent Systems
-101,Halo 2,37.87768933315375,2004,Xbox,Bungie
-102,Day of the Tentacle,37.352233846295455,1993,PC,LucasArts
-103,Sid Meier's Civilization IV,37.32567896875349,2005,"Mac, PC",Firaxis Games
-104,Wii Sports,37.22066533019324,2006,Wii,Nintendo EAD
-105,The Elder Scrolls IV: Oblivion,36.95381422583789,2006,"PC, PS3, Xbox 360",Bethesda Game Studios
+99,Advance Wars,37.91136629846847,2001,GBA,Intelligent Systems
+100,Halo 2,37.87768933315375,2004,Xbox,Bungie
+101,Day of the Tentacle,37.352233846295455,1993,PC,LucasArts
+102,Sid Meier's Civilization IV,37.32567896875349,2005,"Mac, PC",Firaxis Games
+103,Wii Sports,37.22066533019324,2006,Wii,Nintendo EAD
+104,The Elder Scrolls IV: Oblivion,36.95381422583789,2006,"PC, PS3, Xbox 360",Bethesda Game Studios
+105,Tony Hawk's Pro Skater 2,36.2473552659035,2000,"Dreamcast, N64, PC, PS1",Neversoft
 106,Baldur's Gate II: Shadows of Amn,36.2448707373073,2000,"Mac, PC",BioWare
 107,Mortal Kombat,36.147776650546845,1992,"Arcade, SNES, Mega Drive/Genesis",Midway
 108,Rock Band 3,36.037912814897254,2010,"PS3, Wii, Xbox 360","Harmonix, Pi Studios"
@@ -199,64 +199,64 @@ rank,name,totalscore,releasedate,platforms,developers
 197,Super Mario RPG: Legend of the Seven Stars,23.17949310698503,1996,SNES,Square
 198,Prince of Persia,23.040052104757983,1989,Apple II,Broderbund
 199,Tony Hawk's Pro Skater 3,22.755839148852854,2001,"GameCube, PS2, Xbox",Neversoft
-200,Tony Hawk's Pro Skater,22.290302557891398,1999,"Dreamcast, N64, PC, PS1",Neversoft
-201,Burnout Paradise,22.268396628989848,,,
-202,Homeworld,22.257603045956476,1999,PC,Relic Entertainment
-203,NHL '94,22.21354299063809,1993,"Mega Drive/Genesis, Sega CD, SNES","EA Canada, Park Place Productions"
-204,Phantasy Star IV: The End of the Millennium,22.185729541217963,1993,Mega Drive/Genesis,Sega
-205,Rock Band 2,22.03209816134786,2008,"PS3, Xbox 360","Harmonix, Pi Studios"
-206,Warcraft II,21.87481281175868,1995,"Mac, PC",Blizzard Entertainment
-207,Banjo-Kazooie,21.709341107447155,1998,"N64, Xbox 360",Rare
-208,Far Cry 3,21.58994005537491,2012,"PC, PS3, Xbox 360",Ubisoft Montreal
-209,Demon's Souls,21.169421971571854,2009,"PS3, PS5",FromSoftware
-210,Final Fantasy IV,21.080502862839133,1991,SNES,Square
-211,Horizon: Zero Dawn,20.97593627732246,2017,"PC, PS4",Guerrilla Games
-212,Out of This World,20.901755858204236,1991,"Amiga, Atari ST, PC",Delphine Software
-213,Mario Kart 64,20.85831335970743,1996,N64,Nintendo EAD
-214,Star Wars (1983),20.79378495563768,1983,Arcade,Atari
-215,Devil May Cry,20.58226610587342,2001,PS2,Capcom
-216,Fable II,20.570786718509783,2008,Xbox 360,Lionhead Studios
+200,Burnout Paradise,22.268396628989848,,,
+201,Homeworld,22.257603045956476,1999,PC,Relic Entertainment
+202,NHL '94,22.21354299063809,1993,"Mega Drive/Genesis, Sega CD, SNES","EA Canada, Park Place Productions"
+203,Phantasy Star IV: The End of the Millennium,22.185729541217963,1993,Mega Drive/Genesis,Sega
+204,Rock Band 2,22.03209816134786,2008,"PS3, Xbox 360","Harmonix, Pi Studios"
+205,Warcraft II,21.87481281175868,1995,"Mac, PC",Blizzard Entertainment
+206,Banjo-Kazooie,21.709341107447155,1998,"N64, Xbox 360",Rare
+207,Far Cry 3,21.58994005537491,2012,"PC, PS3, Xbox 360",Ubisoft Montreal
+208,Demon's Souls,21.13608863823852,2009,"PS3, PS5",FromSoftware
+209,Final Fantasy IV,21.080502862839133,1991,SNES,Square
+210,Horizon: Zero Dawn,20.97593627732246,2017,"PC, PS4",Guerrilla Games
+211,Out of This World,20.901755858204236,1991,"Amiga, Atari ST, PC",Delphine Software
+212,Mario Kart 64,20.85831335970743,1996,N64,Nintendo EAD
+213,Star Wars (1983),20.79378495563768,1983,Arcade,Atari
+214,Devil May Cry,20.58226610587342,2001,PS2,Capcom
+215,Fable II,20.570786718509783,2008,Xbox 360,Lionhead Studios
+216,Tony Hawk's Pro Skater,20.473159700748543,1999,"Dreamcast, N64, PC, PS1",Neversoft
 217,SoulCalibur II,20.441509037102257,2002,"Arcade, GameCube, PS2, Xbox",Project Soul
 218,Metroid,20.324561819737305,1986,"Famicom Disk System, NES","Intelligent Systems, Nintendo R&D1"
-219,Tomb Raider (2013),20.033073547963618,2013,"PC, PS3, PS4, Xbox 360, Xbox One",Crystal Dynamics
-220,Fallout,19.834892149420178,1997,"Mac, PC",Interplay Productions
-221,Geometry Wars Retro Evolved 2,19.81947158525205,2008,Xbox 360,Bizarre Creations
-222,"Warioware, Inc: Mega Microgames!",19.55646484807597,2003,GBA,Nintendo R&D1
-223,Ultima IV: Quest of the Avatar,19.547833286939113,1985,"Amiga, Apple II, Atari ST, Commodore 64, PC",Origin Systems
-224,Dance Dance Revolution,19.525385947260965,1998,"Arcade, PS1","Bemani, Konami"
-225,Gone Home,19.499668570676633,2013,"Linux, Mac, PS4, Xbox One","BlitWorks, The Fullbright Company
+219,Hades,20.2925,2020,"Mac, PC, Switch",Supergiant Games
+220,Tomb Raider (2013),20.033073547963618,2013,"PC, PS3, PS4, Xbox 360, Xbox One",Crystal Dynamics
+221,Fallout,19.834892149420178,1997,"Mac, PC",Interplay Productions
+222,Geometry Wars Retro Evolved 2,19.81947158525205,2008,Xbox 360,Bizarre Creations
+223,"Warioware, Inc: Mega Microgames!",19.55646484807597,2003,GBA,Nintendo R&D1
+224,Ultima IV: Quest of the Avatar,19.547833286939113,1985,"Amiga, Apple II, Atari ST, Commodore 64, PC",Origin Systems
+225,Dance Dance Revolution,19.525385947260965,1998,"Arcade, PS1","Bemani, Konami"
+226,Gone Home,19.499668570676633,2013,"Linux, Mac, PS4, Xbox One","BlitWorks, The Fullbright Company
 "
-226,Thief: The Dark Project,19.3572198635728,,,
-227,Angry Birds,19.33233998146318,,,
-228,Hearthstone,19.229119339075424,2014,"Android, iOS, Mac, PC",Blizzard Entertainment
-229,Firewatch,19.035900219211662,2016,"Linux, Mac, PC, PS4, Switch, Xbox One",Campo Santo
-230,Hitman: Blood Money,18.76932928629155,2006,"PC, PS2, Xbox, Xbox 360",IO Interactive
-231,The Sims 3,18.717486337287912,2009,"Mac, PC",Maxis
-232,Ultima Online,18.670010422468557,1997,PC,Origin Systems
-233,Mega Man 3,18.535727771897633,1990,"Famicon, NES",Capcom
-234,Stardew Valley,18.460383535779037,,,
-235,Ultima VII: The Black Gate,18.45190617466083,1992,PC,Origin Systems
-236,Assassin's Creed IV: Black Flag,18.38398318794995,2013,"PC, PS3, PS4, Wii U, Xbox 360, Xbox One","Ubisoft Kyiv, Ubisoft Milan, Ubisoft Montreal"
-237,F-Zero GX,18.37647358598909,2003,GameCube,Amusement Vision
-238,Persona 5,18.36653988315336,2016,"PS3, PS4",P-Studio
-239,Call of Duty 2,18.260995531153622,2005,"PC, Xbox 360",Infinity Ward
-240,Hotline Miami,18.199061856911175,2012,"Linux, Mac, PC, PS3, PS4, PS Vita, Switch, Xbox One",Dennaton Games
-241,Castlevania,18.075054630088957,1986,"Famicom Disk System, NES",Konami
-242,Panzer Dragoon Saga,17.968936326429912,1998,Sega Saturn,Team Andromeda
-243,Her Story,17.95481520345192,2015,"Android, iOS, Mac, PC",Sam Barlow
-244,Dragon Warrior,17.941007898320272,1986,"Famicom, NES",Chunsoft
-245,Mario Kart 8,17.915799506243175,2014,Wii U,Nintendo EAD
-246,Super Mario Maker,17.88375205694973,2015,Wii U,Nintendo EAD
-247,Splatoon,17.881525230418607,2015,Wii U,Nintendo EAD
-248,Suikoden II,17.86258885927258,,,
-249,Max Payne 2: The Fall of Max Payne,17.783047709993923,2003,"PC, PS2, Xbox",Remedy Entertainment
-250,Super Smash Bros. Ultimate,17.768318708318706,2018,Switch,"Bandi Namco Studios, Sora Ltd"
-251,Heavy Rain,17.69577813702363,2010,"PC, PS3, PS4",Quantic Dream
-252,Adventure,17.617480128850254,1980,Atari 2600,Atari
-253,Super Mario Bros. 2,17.57322321925101,1988,NES,Nintendo EAD
-254,Company of Heroes,17.537540818551047,2006,"Mac, PC",Relic Entertainment
-255,Star Wars: X-Wing,17.47981444838554,1993,"Mac, PC",LucasArts
-256,Hades,17.3925,2020,"Mac, PC, Switch",Supergiant Games
+227,Thief: The Dark Project,19.3572198635728,,,
+228,Angry Birds,19.33233998146318,,,
+229,Persona 5,19.26653988315336,2016,"PS3, PS4",P-Studio
+230,Hearthstone,19.229119339075424,2014,"Android, iOS, Mac, PC",Blizzard Entertainment
+231,Firewatch,19.035900219211662,2016,"Linux, Mac, PC, PS4, Switch, Xbox One",Campo Santo
+232,Hitman: Blood Money,18.76932928629155,2006,"PC, PS2, Xbox, Xbox 360",IO Interactive
+233,The Sims 3,18.717486337287912,2009,"Mac, PC",Maxis
+234,Ultima Online,18.670010422468557,1997,PC,Origin Systems
+235,Mega Man 3,18.535727771897633,1990,"Famicon, NES",Capcom
+236,Stardew Valley,18.460383535779037,,,
+237,Ultima VII: The Black Gate,18.45190617466083,1992,PC,Origin Systems
+238,Assassin's Creed IV: Black Flag,18.38398318794995,2013,"PC, PS3, PS4, Wii U, Xbox 360, Xbox One","Ubisoft Kyiv, Ubisoft Milan, Ubisoft Montreal"
+239,F-Zero GX,18.37647358598909,2003,GameCube,Amusement Vision
+240,Call of Duty 2,18.260995531153622,2005,"PC, Xbox 360",Infinity Ward
+241,Hotline Miami,18.199061856911175,2012,"Linux, Mac, PC, PS3, PS4, PS Vita, Switch, Xbox One",Dennaton Games
+242,Castlevania,18.075054630088957,1986,"Famicom Disk System, NES",Konami
+243,Panzer Dragoon Saga,17.968936326429912,1998,Sega Saturn,Team Andromeda
+244,Her Story,17.95481520345192,2015,"Android, iOS, Mac, PC",Sam Barlow
+245,Dragon Warrior,17.941007898320272,1986,"Famicom, NES",Chunsoft
+246,Mario Kart 8,17.915799506243175,2014,Wii U,Nintendo EAD
+247,Super Mario Maker,17.88375205694973,2015,Wii U,Nintendo EAD
+248,Splatoon,17.881525230418607,2015,Wii U,Nintendo EAD
+249,Suikoden II,17.86258885927258,,,
+250,Max Payne 2: The Fall of Max Payne,17.783047709993923,2003,"PC, PS2, Xbox",Remedy Entertainment
+251,Super Smash Bros. Ultimate,17.768318708318706,2018,Switch,"Bandi Namco Studios, Sora Ltd"
+252,Heavy Rain,17.69577813702363,2010,"PC, PS3, PS4",Quantic Dream
+253,Adventure,17.617480128850254,1980,Atari 2600,Atari
+254,Super Mario Bros. 2,17.57322321925101,1988,NES,Nintendo EAD
+255,Company of Heroes,17.537540818551047,2006,"Mac, PC",Relic Entertainment
+256,Star Wars: X-Wing,17.47981444838554,1993,"Mac, PC",LucasArts
 257,Bayonetta 2,17.30147799103551,2014,"Switch, Wii U",PlatinumGames
 258,Final Fantasy VIII,17.239144776362625,1999,"PC, PS1",Square
 259,Call of Duty,17.22295357563991,2003,PC,Infinity Ward
@@ -282,74 +282,74 @@ rank,name,totalscore,releasedate,platforms,developers
 279,Saints Row: The Third,16.190301133986132,2011,"PC, PS3, Xbox 360",Volition
 280,Pokemon Yellow,15.983256207394138,1998,"Game Boy, GBC",Game Freak
 281,Xenoblade Chronicles,15.973200969902486,2010,"New Nintendo 3DS, Switch, Wii",Monolith Soft
-282,Streets of Rage 2,15.942718873825196,1992,Mega Drive/Genesis,Sega
-283,Star Wars Jedi Knight: Dark Forces II,15.933185317189078,1997,PC,LucasArts
-284,Paper Mario,15.930039198457829,2000,N64,Intelligent Systems
-285,Bubble Bobble,15.909192785187651,1986,"Arcade, Commodore 64, NES",Taito
-286,Super Mario 3D World,15.905409396107071,2013,"Wii U, Switch",Nintendo EAD
-287,Sonic CD,15.873494154493025,1993,Sega CD,Sonic Team
-288,The Sims 2,15.83158739149272,2004,"Mac, PC",Maxis
-289,Dune II: The Building of a Dynasty,15.798327591277284,1992,"Amiga, PC",Westwood Studios
-290,EverQuest,15.756429141034406,1999,"Mac, PC","989 Studios, Verant Interactive"
-291,Rome: Total War,15.734740413153455,2004,"Android, iOS, Mac, PC",Creative Assembly
-292,Contra III: Alien Wars,15.698177560508716,1992,SNES,Konami
-293,Kentucky Route Zero,15.618442772934197,,,
-294,Peggle,15.56190890986439,2007,"PC, PS3, Xbox 360",PopCap Games
-295,Defender,15.555204772261352,,,
-296,Marble Madness,15.549107289450252,1984,Arcade,Atari
-297,Rocket League,15.548836763518967,2015,"PC, PS4, Switch, Xbox One, Xbox Series X/S",Psyonix
-298,Command and Conquer: Red Alert,15.511786181857833,,,
-299,Super Smash Bros.,15.483562595051957,1999,N64,HAL Laborotory
-300,Outer Wilds,15.45040365040365,2019,"PC, PS4, Xbox One",Mobius Digital
-301,Valkyria Chronicles,15.422025004861938,2008,"PC, PS3, PS4, Switch","Media.Vision, Sega"
-302,Tecmo Super Bowl,15.371942693823438,1991,NES,Tecmo
-303,Metal Gear Solid V: The Phantom Pain,15.359224985540775,2015,"PC, PS4, Xbox One",Konami
-304,Kingdom Hearts II,15.131875822071901,2005,PS2,Square Enix
-305,R-Type,15.104338170456181,1987,Arcade,Irem
-306,Viewtiful Joe,15.040993666690403,,,
-307,Sam and Max Hit the Road,15.0183005601739,,,
-308,Animal Crossing,15.015195493747903,2001,GameCube,Nintendo EAD
-309,Silent Hill,14.971626663068577,1999,PS1,Konami
-310,The Chronicles of Riddick: Escape From Butcher Bay,14.915874713466755,2004,"PC, Xbox",Starbreeze Studios
-311,Pokemon Gold and Silver,14.86822133983038,1999,GBC,Game Freak
-312,Star Fox,14.781005751106807,1993,SNES,"Argonaut Software, Nintendo EAD"
-313,Animal Crossing: New Leaf,14.779777746859786,2012,3DS,Nintendo EAD
-314,Cuphead,14.777992289720437,2017,"Mac, PC, PS4, Switch, Xbox One",Studio MDHR
-315,Mega Man X,14.755006623611608,1993,SNES,Capcom
-316,Phoenix Wright: Ace Attorney,14.638099657064403,2001,"DS, GBA",Capcom
-317,Rise of the Tomb Raider,14.599890013087688,2015,"PC, PS4, Xbox One",Crystal Dynamics
-318,Lumines,14.554543055468493,2004,"PS2, PSP",Q Entertainment
-319,The World Ends With You,14.543022412262156,2007,DS,"Jupiter, Square Enix"
-320,Doom (2016),14.470302821442653,2016,"PC, PS4, Switch, Xbox One",id Software
-321,God of War III,14.364994760544757,2010,"PS3, PS4",Santa Monica Studio
-322,Wizardry: Proving Grounds of the Mad Overlord,14.269861160822067,,,
-323,Shenmue II,14.25250506612548,2001,"Dreamcast, Xbox",Sega AM2
-324,Elite Beat Agents,14.240936472508219,2006,DS,iNiS
-325,Sekiro: Shadows Die Twice,14.12136904761905,2019,"PC, PS4, Xbox One",FromSoftware
-326,OutRun,14.085685294034132,,,
-327,Animal Crossing: New Horizons,14.047692307692309,2020,Switch,Nintendo EPD
-328,The Witcher 2: Assassins of Kings,13.85762422430722,,,
-329,Fallout: New Vegas,13.856979225037009,2010,"PC, PS3, Xbox 360",Obsedian Entertainment
-330,Divinity: Original Sin II,13.82559630435246,2017,"Mac, PC, PS4, Switch, Xbox One",Larian Studios
-331,Paper Mario: The Thousand Year Door,13.752910665155179,2004,GameCube,Intelligent Systems
-332,Tetris Attack,13.748543594315594,1995,SNES,Intelligent Systems
-333,Super Monkey Ball,13.726989625837554,,,
-334,Virtua Fighter 5,13.718341140964885,,,
-335,Towerfall Ascension,13.670366798094172,,,
-336,Killer7,13.654482378057606,2005,"GameCube, PS2",Grasshopper Manufacture
-337,A Mind Forever Voyaging,13.60513094748389,,,
-338,Mafia,13.537329007331103,,,
-339,Warlords,13.520307996800552,1980,"Arcade, Atari 2600",Atari
-340,Arkanoid,13.518162899975842,1986,"Arcade, Amiga, Apple II, Atari ST, PC, ZX Spectrum",Taito
-341,Bejeweled,13.510649845727318,,,
-342,Alone in the Dark,13.48481032111703,,,
-343,Populous,13.476978506215795,,,
-344,Flashback,13.458970473970473,,,
-345,Battlefield 2,13.45759754480492,2005,PC,DICE
-346,Super Bomberman,13.439839170200615,1993,SNES,Produce
-347,Resident Evil 2 (2019),13.34618406285073,2019,"PC, PS4, Xbox One",Capcom
-348,Robotron: 2084,13.337828101710901,1982,Arcade,Vid Kidz
-349,The Last of Us Part II,13.33628389154705,2020,PS4,Naughty Dog
+282,Animal Crossing: New Horizons,15.947692307692309,2020,Switch,Nintendo EPD
+283,Streets of Rage 2,15.942718873825196,1992,Mega Drive/Genesis,Sega
+284,Star Wars Jedi Knight: Dark Forces II,15.933185317189078,1997,PC,LucasArts
+285,Paper Mario,15.930039198457829,2000,N64,Intelligent Systems
+286,Bubble Bobble,15.909192785187651,1986,"Arcade, Commodore 64, NES",Taito
+287,Super Mario 3D World,15.905409396107071,2013,"Wii U, Switch",Nintendo EAD
+288,Sonic CD,15.873494154493025,1993,Sega CD,Sonic Team
+289,The Sims 2,15.83158739149272,2004,"Mac, PC",Maxis
+290,Dune II: The Building of a Dynasty,15.798327591277284,1992,"Amiga, PC",Westwood Studios
+291,EverQuest,15.756429141034406,1999,"Mac, PC","989 Studios, Verant Interactive"
+292,Rome: Total War,15.734740413153455,2004,"Android, iOS, Mac, PC",Creative Assembly
+293,Contra III: Alien Wars,15.698177560508716,1992,SNES,Konami
+294,Kentucky Route Zero,15.618442772934197,,,
+295,Peggle,15.56190890986439,2007,"PC, PS3, Xbox 360",PopCap Games
+296,Defender,15.555204772261352,,,
+297,Marble Madness,15.549107289450252,1984,Arcade,Atari
+298,Rocket League,15.548836763518967,2015,"PC, PS4, Switch, Xbox One, Xbox Series X/S",Psyonix
+299,Command and Conquer: Red Alert,15.511786181857833,,,
+300,Super Smash Bros.,15.483562595051957,1999,N64,HAL Laborotory
+301,Outer Wilds,15.45040365040365,2019,"PC, PS4, Xbox One",Mobius Digital
+302,Valkyria Chronicles,15.422025004861938,2008,"PC, PS3, PS4, Switch","Media.Vision, Sega"
+303,Tecmo Super Bowl,15.371942693823438,1991,NES,Tecmo
+304,Metal Gear Solid V: The Phantom Pain,15.359224985540775,2015,"PC, PS4, Xbox One",Konami
+305,Kingdom Hearts II,15.131875822071901,2005,PS2,Square Enix
+306,R-Type,15.104338170456181,1987,Arcade,Irem
+307,Viewtiful Joe,15.040993666690403,,,
+308,Sam and Max Hit the Road,15.0183005601739,,,
+309,Animal Crossing,15.015195493747903,2001,GameCube,Nintendo EAD
+310,Silent Hill,14.971626663068577,1999,PS1,Konami
+311,The Chronicles of Riddick: Escape From Butcher Bay,14.915874713466755,2004,"PC, Xbox",Starbreeze Studios
+312,Pokemon Gold and Silver,14.86822133983038,1999,GBC,Game Freak
+313,Star Fox,14.781005751106807,1993,SNES,"Argonaut Software, Nintendo EAD"
+314,Animal Crossing: New Leaf,14.779777746859786,2012,3DS,Nintendo EAD
+315,Cuphead,14.777992289720437,2017,"Mac, PC, PS4, Switch, Xbox One",Studio MDHR
+316,Mega Man X,14.755006623611608,1993,SNES,Capcom
+317,Phoenix Wright: Ace Attorney,14.638099657064403,2001,"DS, GBA",Capcom
+318,Rise of the Tomb Raider,14.599890013087688,2015,"PC, PS4, Xbox One",Crystal Dynamics
+319,Lumines,14.554543055468493,2004,"PS2, PSP",Q Entertainment
+320,The World Ends With You,14.543022412262156,2007,DS,"Jupiter, Square Enix"
+321,Doom (2016),14.470302821442653,2016,"PC, PS4, Switch, Xbox One",id Software
+322,God of War III,14.364994760544757,2010,"PS3, PS4",Santa Monica Studio
+323,Wizardry: Proving Grounds of the Mad Overlord,14.269861160822067,,,
+324,Shenmue II,14.25250506612548,2001,"Dreamcast, Xbox",Sega AM2
+325,Elite Beat Agents,14.240936472508219,2006,DS,iNiS
+326,The Last of Us Part II,14.23628389154705,2020,PS4,Naughty Dog
+327,Sekiro: Shadows Die Twice,14.12136904761905,2019,"PC, PS4, Xbox One",FromSoftware
+328,OutRun,14.085685294034132,,,
+329,The Witcher 2: Assassins of Kings,13.85762422430722,,,
+330,Fallout: New Vegas,13.856979225037009,2010,"PC, PS3, Xbox 360",Obsedian Entertainment
+331,Divinity: Original Sin II,13.82559630435246,2017,"Mac, PC, PS4, Switch, Xbox One",Larian Studios
+332,Paper Mario: The Thousand Year Door,13.752910665155179,2004,GameCube,Intelligent Systems
+333,Tetris Attack,13.748543594315594,1995,SNES,Intelligent Systems
+334,Super Monkey Ball,13.726989625837554,,,
+335,Virtua Fighter 5,13.718341140964885,,,
+336,Towerfall Ascension,13.670366798094172,,,
+337,Killer7,13.654482378057606,2005,"GameCube, PS2",Grasshopper Manufacture
+338,A Mind Forever Voyaging,13.60513094748389,,,
+339,Mafia,13.537329007331103,,,
+340,Warlords,13.520307996800552,1980,"Arcade, Atari 2600",Atari
+341,Arkanoid,13.518162899975842,1986,"Arcade, Amiga, Apple II, Atari ST, PC, ZX Spectrum",Taito
+342,Bejeweled,13.510649845727318,,,
+343,Alone in the Dark,13.48481032111703,,,
+344,Populous,13.476978506215795,,,
+345,Flashback,13.458970473970473,,,
+346,Battlefield 2,13.45759754480492,2005,PC,DICE
+347,Super Bomberman,13.439839170200615,1993,SNES,Produce
+348,Resident Evil 2 (2019),13.34618406285073,2019,"PC, PS4, Xbox One",Capcom
+349,Robotron: 2084,13.337828101710901,1982,Arcade,Vid Kidz
 350,Nier: Automata,13.292771672771673,2017,"PC, PS4, Xbox One",PlatinumGames
 351,Bomberman,13.265859264255209,1983,"MSX, NES",Hudson Soft
 352,Unreal Tournament 2004,13.169341536098003,2004,"Linux, Mac, PC","Digital Extremes, Epic Games"
@@ -410,46 +410,46 @@ rank,name,totalscore,releasedate,platforms,developers
 406,Ninja Gaiden (2004),11.270976737618694,2004,Xbox,Team Ninja
 407,Plants vs. Zombies,11.258182203379748,,,
 408,FIFA 12,11.257194730152477,,,
-409,Pole Position,11.233428526840683,,,
-410,Shadow of Mordor,11.220833333333331,2014,"PC, PS4, Xbox One",Monolith Productions
-411,Metal Slug,11.215786990786992,,,
-412,Final Fight,11.184533367866702,,,
-413,Fortnite,11.171549418718534,2017,"PC, PS4, PS5, Switch, Xbox One, Xbox Series X/S",Epic Games
-414,Vagrant Story,11.132473486924905,2000,PS1,Swuare
-415,Ghosts'n Goblins,11.129190254190256,1985,"Arcade, NES",Capcom
-416,Untitled Goose Game,11.09644696089818,,,
-417,PlayerUnknown's Battlegrounds,11.044904761904762,2017,"PC, PS4, Xbox One",PUBG Corporation
-418,M.U.L.E.,10.983810542398778,1983,"Atari 8-bit, Commodore 64",Ozark Softscape
-419,Nidhogg,10.962038974667223,2014,"Mac, PC, PS4, PS Vita",Messhof
-420,Hitman (2016),10.939862547441603,2016,"Linux, Mac, PS4, Xbox One",IO Interactive
-421,Guitar Hero II,10.92351169148553,2006,"PS2, Xbox 360",Harmonix
-422,Wolfenstein: The New Order,10.91534749034749,,,
-423,Herzog Zwei,10.870051282982471,1989,Mega Drive/Genesis,Technosoft
-424,Virtua Racing,10.847610722610723,1992,Arcade,Sega AM2
-425,Super Castlevania IV,10.842142910000053,1991,SNES,Konami
-426,Fable,10.832026561316557,2004,"Mac, PC, Xbox","Big Blue Box Studios, Lionhead Studios, Robosoft Technologies"
-427,Vanquish,10.779320556242496,2010,"PS3, Xbox 360",PlatinumGames
-428,King's Quest I,10.778714615890008,1984,"Apple II, PC",Sierra On-Line
-429,Eternal Darkness: Sanity's Requiem,10.752749389083496,2002,GameCube,"Silicon Knights
+409,Ghost of Tsushima,11.24068612391193,2020,PS4,Sucker Punch Productions
+410,Pole Position,11.233428526840683,,,
+411,Shadow of Mordor,11.220833333333331,2014,"PC, PS4, Xbox One",Monolith Productions
+412,Metal Slug,11.215786990786992,,,
+413,Final Fight,11.184533367866702,,,
+414,Fortnite,11.171549418718534,2017,"PC, PS4, PS5, Switch, Xbox One, Xbox Series X/S",Epic Games
+415,Vagrant Story,11.132473486924905,2000,PS1,Swuare
+416,Ghosts'n Goblins,11.129190254190256,1985,"Arcade, NES",Capcom
+417,Untitled Goose Game,11.09644696089818,,,
+418,PlayerUnknown's Battlegrounds,11.044904761904762,2017,"PC, PS4, Xbox One",PUBG Corporation
+419,M.U.L.E.,10.983810542398778,1983,"Atari 8-bit, Commodore 64",Ozark Softscape
+420,Nidhogg,10.962038974667223,2014,"Mac, PC, PS4, PS Vita",Messhof
+421,Hitman (2016),10.939862547441603,2016,"Linux, Mac, PS4, Xbox One",IO Interactive
+422,Guitar Hero II,10.92351169148553,2006,"PS2, Xbox 360",Harmonix
+423,Wolfenstein: The New Order,10.91534749034749,,,
+424,Herzog Zwei,10.870051282982471,1989,Mega Drive/Genesis,Technosoft
+425,Virtua Racing,10.847610722610723,1992,Arcade,Sega AM2
+426,Super Castlevania IV,10.842142910000053,1991,SNES,Konami
+427,Fable,10.832026561316557,2004,"Mac, PC, Xbox","Big Blue Box Studios, Lionhead Studios, Robosoft Technologies"
+428,Vanquish,10.779320556242496,2010,"PS3, Xbox 360",PlatinumGames
+429,King's Quest I,10.778714615890008,1984,"Apple II, PC",Sierra On-Line
+430,Eternal Darkness: Sanity's Requiem,10.752749389083496,2002,GameCube,"Silicon Knights
 "
-430,Neverwinter Nights,10.75041094171529,2002,"Mac, PC",BioWare
-431,NBA 2K11,10.74925758494588,2010,"PS3, Xbox 360",Visual Concepts
-432,Resident Evil: Code Veronica,10.725595750593511,2000,Dreamcast,Capcom
-433,Crysis,10.691666666666666,,,
-434,Donkey Kong (Game Boy),10.687962725900597,1994,Game Boy,"Nintendo EAD, Pax"
-435,Forza Horizon 3,10.660695729935167,2016,"PC, Xbox One",Playground Games
-436,Virtua Fighter 2,10.656552376325603,1994,"Arcade, Sega Saturn",Sega AM2
-437,Ultima Underworld: The Stygian Abyss,10.65351961926962,1992,PC,Blue Sky Productions
-438,FIFA International Soccer,10.652021670419225,,,
-439,The Legend of Zelda: Skyward Sword,10.628293807641635,2011,Wii,Nintendo EAD
-440,Counter-Strike: Source,10.553514186691643,2004,"Linux, Mac, PC","Turtle Rock Studios, Valve"
-441,"Papers, Please",10.530105431580733,2013,"iOS, Linux, Mac, PC, PS Vita",3909 LLC
-442,Assassin's Creed: Brotherhood,10.520886911595866,2010,"PC, PS3, Xbox 360",Ubisoft Montreal
-443,PaRappa the Rapper,10.465701128936423,,,
-444,John Madden Football,10.425645428233665,,,
-445,Bully,10.413268415172663,2006,"PC, PS2, Wii, Xbox 360",Rockstar Vancouver
-446,Madden NFL 2005,10.397337457978685,2004,"GameCube, PC, PS2, Xbox","Budcat Creations, EA Tiburon"
-447,Ghost of Tsushima,10.340686123911931,2020,PS4,Sucker Punch Productions
+431,Neverwinter Nights,10.75041094171529,2002,"Mac, PC",BioWare
+432,NBA 2K11,10.74925758494588,2010,"PS3, Xbox 360",Visual Concepts
+433,Resident Evil: Code Veronica,10.725595750593511,2000,Dreamcast,Capcom
+434,Crysis,10.691666666666666,,,
+435,Donkey Kong (Game Boy),10.687962725900597,1994,Game Boy,"Nintendo EAD, Pax"
+436,Forza Horizon 3,10.660695729935167,2016,"PC, Xbox One",Playground Games
+437,Virtua Fighter 2,10.656552376325603,1994,"Arcade, Sega Saturn",Sega AM2
+438,Ultima Underworld: The Stygian Abyss,10.65351961926962,1992,PC,Blue Sky Productions
+439,FIFA International Soccer,10.652021670419225,,,
+440,The Legend of Zelda: Skyward Sword,10.628293807641635,2011,Wii,Nintendo EAD
+441,Counter-Strike: Source,10.553514186691643,2004,"Linux, Mac, PC","Turtle Rock Studios, Valve"
+442,"Papers, Please",10.530105431580733,2013,"iOS, Linux, Mac, PC, PS Vita",3909 LLC
+443,Assassin's Creed: Brotherhood,10.520886911595866,2010,"PC, PS3, Xbox 360",Ubisoft Montreal
+444,PaRappa the Rapper,10.465701128936423,,,
+445,John Madden Football,10.425645428233665,,,
+446,Bully,10.413268415172663,2006,"PC, PS2, Wii, Xbox 360",Rockstar Vancouver
+447,Madden NFL 2005,10.397337457978685,2004,"GameCube, PC, PS2, Xbox","Budcat Creations, EA Tiburon"
 448,To the Moon,10.3398579357707,2011,"Android, iOS, Linux, Mac, PC, Switch",Freebird Games
 449,Super Smash Bros. for Wii U,10.337294685990338,2014,Wii U,"Bandi Namco Studios, Sora Ltd"
 450,Harvest Moon,10.330640714004355,1996,SNES,Amccus
@@ -463,42 +463,42 @@ rank,name,totalscore,releasedate,platforms,developers
 457,Hellblade: Senua's Sacrifice,10.160567531417195,,,
 458,Conker's Bad Fur Day,10.140316273825114,2001,N64,Rare
 459,Chrono Cross,10.123386613386614,1999,PS1,Square
-460,Halo 4,10.052069757727653,2012,Xbox 360,343 Industries
-461,Crash Bandicoot,10.039760270254776,1996,PS1,Naughty Dog
-462,Mario Kart 7,10.022273327770824,2011,3DS,"Nintendo EAD, Retro Studios"
-463,Infamous,10.014361779096523,2009,PS3,Sucker Punch Productions
-464,Tekken 2,10.011269826476909,1995,"Arcade, PS1",Namco
-465,The Beatles: Rock Band,9.981767362490254,2009,"PS3, Wii, Xbox 360","Harmonix, Pi Studios"
-466,Gravity Rush,9.968126481361775,2012,"PS4, PS Vita",Japan Studio
-467,Pokemon Go,9.938269778030733,2016,"Android, iOS",Niantic
-468,Ultimate Marvel vs. Capcom 3,9.877519138112358,2011,"PC, PS3, PS4, Xbox 360, Xbox One","8ing, Capcom"
-469,Yakuza 0,9.845072576995655,2015,"PC, PS3, PS4, Xbox One",Ryu Ga Gotoku Studio
-470,Diablo 3,9.839033450864864,2012,"Mac, PC, PS3, PS4, Switch, Xbox 360, Xbox One",Blizzard Entertainment
-471,Ratchet & Clank,9.750117924528302,,,
-472,Guild Wars 2,9.670128446115289,,,
-473,Command and Conquer: Red Alert 2,9.65452958234925,,,
-474,Spacewar!,9.61762661333492,1962,PDP-1,Steve Russell
-475,Super Hexagon,9.605782726045884,2012,"Android, iOS, Linux, Mac, PC",Terry Cavanagh 
-476,Rayman Legends,9.593041150010308,2013,"PC, PS3, PS4, PS Vita, Wii U, Xbox 360, Xbox One",Ubisoft Montpellier
-477,Mirror's Edge,9.57154761904762,,,
-478,Batman: Arkham Knight,9.570697158921957,2015,"PC, PS4, Xbox One",Rocksteady Studios
-479,Pro Evolution Soccer 4,9.55468697968698,,,
-480,Monster Hunter 4,9.548496240601505,2013,3DS,Capcom
-481,Geometry Wars Retro Evolved,9.514046553049111,2005,"DS, PC, Wii, Xbox 360",Bizarre Creations
-482,Oddworld: Abe's Oddysee,9.445774817445479,,,
-483,Dark Souls III,9.442539682539682,2016,"PC, PS4, Xbox One",FromSoftware
-484,Shinobi,9.338461538461539,,,
-485,Fatal Frame 2: Crimson Butterfly,9.313401256198897,2003,"PS2, Xbox",Tecmo
-486,Celeste,9.256666666666666,,,
-487,Indiana Jones and the Fate of Atlantis,9.251871500147361,,,
-488,Dreamfall: The Longest Journey,9.248160173160173,,,
-489,The Binding of Isaac,9.242157176868478,,,
-490,S.T.A.L.K.E.R.: Shadow of Chernobyl,9.233252688172042,2007,PC,GSC Game World
-491,R-Type Final,9.224902385196502,,,
-492,Tetris Effect,9.211437908496732,2018,"PC, PS4, Xbox One, Xbox Series X/S","Monstars, Resonair, Stage Games"
-493,Battlefield 3,9.186293868473037,2011,"PC, PS3, Xbox 360",DICE
-494,Spider-Man: Miles Morales,9.185757575757577,2020,"PS4, PS5",Insomniac Games
-495,Final Fantasy VII (2020),9.171587301587303,2020,PS4,Square Enix
+460,Final Fantasy VII (2020),10.071587301587304,2020,PS4,Square Enix
+461,Halo 4,10.052069757727653,2012,Xbox 360,343 Industries
+462,Crash Bandicoot,10.039760270254776,1996,PS1,Naughty Dog
+463,Mario Kart 7,10.022273327770824,2011,3DS,"Nintendo EAD, Retro Studios"
+464,Infamous,10.014361779096523,2009,PS3,Sucker Punch Productions
+465,Tekken 2,10.011269826476909,1995,"Arcade, PS1",Namco
+466,The Beatles: Rock Band,9.981767362490254,2009,"PS3, Wii, Xbox 360","Harmonix, Pi Studios"
+467,Gravity Rush,9.968126481361775,2012,"PS4, PS Vita",Japan Studio
+468,Pokemon Go,9.938269778030733,2016,"Android, iOS",Niantic
+469,Ultimate Marvel vs. Capcom 3,9.877519138112358,2011,"PC, PS3, PS4, Xbox 360, Xbox One","8ing, Capcom"
+470,Yakuza 0,9.845072576995655,2015,"PC, PS3, PS4, Xbox One",Ryu Ga Gotoku Studio
+471,Diablo 3,9.839033450864864,2012,"Mac, PC, PS3, PS4, Switch, Xbox 360, Xbox One",Blizzard Entertainment
+472,Ratchet & Clank,9.750117924528302,,,
+473,Guild Wars 2,9.670128446115289,,,
+474,Command and Conquer: Red Alert 2,9.65452958234925,,,
+475,Spacewar!,9.61762661333492,1962,PDP-1,Steve Russell
+476,Super Hexagon,9.605782726045884,2012,"Android, iOS, Linux, Mac, PC",Terry Cavanagh 
+477,Rayman Legends,9.593041150010308,2013,"PC, PS3, PS4, PS Vita, Wii U, Xbox 360, Xbox One",Ubisoft Montpellier
+478,Mirror's Edge,9.57154761904762,,,
+479,Batman: Arkham Knight,9.570697158921957,2015,"PC, PS4, Xbox One",Rocksteady Studios
+480,Pro Evolution Soccer 4,9.55468697968698,,,
+481,Monster Hunter 4,9.548496240601505,2013,3DS,Capcom
+482,Geometry Wars Retro Evolved,9.514046553049111,2005,"DS, PC, Wii, Xbox 360",Bizarre Creations
+483,Oddworld: Abe's Oddysee,9.445774817445479,,,
+484,Dark Souls III,9.442539682539682,2016,"PC, PS4, Xbox One",FromSoftware
+485,Shinobi,9.338461538461539,,,
+486,Fatal Frame 2: Crimson Butterfly,9.313401256198897,2003,"PS2, Xbox",Tecmo
+487,Celeste,9.256666666666666,,,
+488,Indiana Jones and the Fate of Atlantis,9.251871500147361,,,
+489,Dreamfall: The Longest Journey,9.248160173160173,,,
+490,The Binding of Isaac,9.242157176868478,,,
+491,S.T.A.L.K.E.R.: Shadow of Chernobyl,9.233252688172042,2007,PC,GSC Game World
+492,R-Type Final,9.224902385196502,,,
+493,Tetris Effect,9.211437908496732,2018,"PC, PS4, Xbox One, Xbox Series X/S","Monstars, Resonair, Stage Games"
+494,Battlefield 3,9.186293868473037,2011,"PC, PS3, Xbox 360",DICE
+495,Spider-Man: Miles Morales,9.185757575757577,2020,"PS4, PS5",Insomniac Games
 496,Star Wars: Battlefront II (2005),9.161581524787504,2005,"PC, PS2, Xbox",Pandemic Studios
 497,Resident Evil 7,9.144963924963927,2017,"PC, PS4, Xbox One",Capcom
 498,Power Stone 2,9.131500695393173,2000,"Arcade, Dreamcast",Capcom
@@ -568,98 +568,98 @@ rank,name,totalscore,releasedate,platforms,developers
 562,Madden NFL 2004,7.653166421207658,2003,"GameCube, PC, PS2, Xbox",EA Tiburon
 563,Aladdin (Genesis),7.6435387624109925,,,
 564,Star Wars Rogue Squadron II: Rogue Leader,7.631279003961517,2001,GameCube,"Factor 5, LucasArts"
-565,Twisted Metal 2,7.617805011862224,1996,"PC, PS1","SingleTrac, Sony Interactive Studios America "
-566,Baseball Stars,7.5543147775542145,1989,NES,SNK
-567,Resident Evil (2002),7.546842193209971,2002,GameCube,Capcom
-568,Grandia II,7.522005772005771,2000,"Dreamcast, PC, PS2","Game Arts, Rocket Studio"
-569,Frogger,7.512935558354325,,,
-570,Dungeon Keeper,7.506696428571429,1997,"Mac, PC",Bullfrog Productions
-571,Heroes of Might and Magic III,7.504548336747634,1999,"Mac, PC",New World Computing
-572,The Outer Worlds,7.439841269841271,2019,"PC, PS4, Switch, Xbox One",Obsedian Entertainment
-573,Vampire The Masquerade: Bloodlines,7.411111111111111,2004,PC,Troika Games
-574,Pokemon Diamond and Pearl,7.400784929356358,2006,DS,Game Freak
-575,Ori and the Will of the Wisps,7.306666666666667,,,
-576,Florence,7.305952380952382,2018,"Android, iOS, Mac, PC, Switch",Mountains
-577,Guardian Heroes,7.300000000000001,,,
-578,Wolfenstein 2: The New Colossus,7.298571428571429,2017,"PC, PS4, Switch, Xbox One",MachineGames
-579,Mario + Rabbids: Kingdom Battle,7.267579175210755,2017,Switch,Ubisoft Milan
-580,Dead Cells,7.264894688644689,,,
-581,NHLPA Hockey '93,7.253948551448551,,,
-582,Call of Duty: Black Ops,7.253620689655173,2010,"PC, PS3, Xbox 360",Treyarch
-583,Pokemon Crystal,7.241958041958043,,,
-584,Drop7,7.239464221503058,,,
-585,Ghouls'n Ghosts,7.239207807118254,1988,Arcade,Capcom
-586,Pyre,7.223741032303314,2017,"Linux, Mac, PC, PS4",Supergiant Games
-587,Return to Castle Wolfenstein,7.222063630420571,,,
-588,Amplitude,7.217871132001568,2003,PS2,Harmonix
-589,Wipeout HD,7.155555555555557,,,
-590,Gran Turismo 2,7.145991561181434,1999,PS1,Polyphony Digital
-591,Resistance 2,7.144824016563148,,,
-592,Professor Layton and the Curious Village,7.1433333333333335,,,
-593,Wonder Boy III: The Dragon's Trap,7.138461538461538,,,
-594,Mortal Kombat (2011),7.137411934470758,,,
-595,Forza 4,7.130463350068661,2011,Xbox,Turn 10 Studios
-596,Freespace 2,7.123853398853399,1999,PC,Volition
-597,Dragon's Dogma,7.123222798078263,2012,"PC, PS3, Xbox 360",Capcom
-598,SingStar,7.1140459153249855,,,
-599,Animal Crossing: Wild World,7.107089787722318,2005,DS,Nintendo EAD
-600,Far Cry,7.105202307980085,2004,PC,Crytek
-601,Dragon Quest V,7.1039682539682545,1992,"DS, Super Famicom",Enix/Square Enix
-602,Virtua Fighter 4,7.102800453514739,2001,"Arcade, PS2",Sega AM2
-603,Final Fantasy V,7.101893939393939,1992,SNES,Square
-604,Sonic & Knuckles,7.054747252747252,1994,Mega Drive/Genesis,Sega Technical Institute
-605,FIFA 98,7.050518925518926,,,
-606,Sonic the Hedgehog 3,7.041543789543789,,,
-607,Fire Emblem Fates,7.039118534973799,2015,3DS,Intelligent Systems
-608,Valkyrie Profile,7.027646674718931,1999,PS1,Tri-Ace
-609,Kirby's Adventure,7.020782693242586,1993,NES,HAL Laboratory
-610,Karate Champ,7.01796651391793,,,
-611,Spider-Man 2,7.015378323108385,,,
-612,Phoenix,7.010557413600892,,,
-613,Titanfall,6.937531746031746,,,
-614,Alien: Isolation,6.934795574795575,2014,"Linux, Mac, PC, PS4, Switch, Xbox One",Creative Assembly
-615,NHL 09,6.916870232443802,2008,"PS3, Xbox 360",EA Canada
-616,Maniac Mansion,6.9163139329806,1987,"Apple II, Commodore 64, PC",Licasfilm Games
-617,Medieval II: Total War,6.908524277141299,2006,PC,Creative Assembly
-618,ActRaiser,6.905791157649797,,,
-619,Star Control 2,6.902911219215568,,,
-620,Manic Miner,6.901218369259606,1983,"Amiga, PC, ZX Spectrum","Amsoft, Bug-Byte, Software Projects"
-621,Boulder Dash,6.840659340659341,,,
-622,Puzzle Bobble,6.8123778998779,,,
-623,The Sentinel,6.810855727082142,1986,"Amiga, Amstrad CPC, Atari ST, BBC Micro, Commodore 64, PC, ZX Spectrum",Geoff Crammond
-624,Snake,6.804625244792595,1976,"TRS-80, Web","Atari, Gremlin"
-625,Stunt Car Racer,6.803815902407452,,,
-626,International Karate +,6.803559665823192,1987,"Amstrad CPC, Commodore 64, ZX Spectrum",System 3
-627,BioShock 2,6.8032585869249775,2010,"Mac, PC, PS3, Xbox 360",2K Marin
-628,Archon: The Light and the Dark,6.802916928886091,,,
-629,Qix,6.802762106479253,,,
-630,WWF No Mercy,6.723452943181265,2000,N64,"AKI Corporation, Asmik Ace Entertainment"
-631,Planet Puzzle League,6.721507863089731,2007,DS,Intelligent Systems
-632,Half-Life 2: Episode One,6.712121212121213,2006,PC,Valve
-633,Half-Life 2: Episode Two,6.706818181818182,2007,PC,Valve
-634,Shining Force II,6.706658738548274,,,
-635,Mario's Picross,6.705678199842037,1995,Game Boy,"Ape, Jupiter"
-636,Gears of War 3,6.6985256410256415,2011,Xbox 360,Epic Games
-637,Ant Attack,6.69444904793742,,,
-638,World in Conflict,6.68010101010101,2007,PC,Massive Entertainment
-639,Command & Conquer: Red Alert,6.672727272727273,,,
-640,Impossible Mission,6.643134917811144,,,
-641,Halo Reach,6.640598290598291,2010,Xbox 360,Bungie
-642,Pro Evolution Soccer 6,6.635244983774395,,,
-643,Lumines: Electronic Symphony,6.630612244897959,2012,PS Vita,"Q Entertainment, Rocket Studio"
-644,Half-Life: Alyx,6.621785714285714,2020,PC,Valve
-645,Wing Commander IV: The Price of Freedom,6.611608566871725,1996,"Mac, PC",Origin Systems
-646,Warioware: Twisted!,6.608475783475784,2004,GBA,"Intelligent Systems, Nintendo SPD"
-647,Xenogears,6.535401002506266,1998,PS1,Square
-648,The Talos Principle,6.5222961320522295,,,
-649,Battlefield 1,6.496609169983783,2016,"PC, PS4, Xbox One",DICE
-650,NHL Hockey,6.451448551448552,,,
-651,FIFA 09,6.419639804639805,,,
-652,Donkey Kong Country 2,6.418951048951049,1995,SNES,Rare
-653,Apex Legends,6.412777777777778,2019,"PC, PS4, Xbox One",Respawn Entertainment
-654,Fall Guys,6.385326797385622,2020,"Android, iOS, PC, PS4",Mediatonic
-655,L.A. Noire,6.3840569561157805,,,
-656,Yakuza: Like a Dragon,6.381547619047619,2020,"PC, PS4, Xbox One, Xbox Series X/S",Ryu Ga Gotoku Studio
+565,Half-Life: Alyx,7.621785714285714,2020,PC,Valve
+566,Twisted Metal 2,7.617805011862224,1996,"PC, PS1","SingleTrac, Sony Interactive Studios America "
+567,Baseball Stars,7.5543147775542145,1989,NES,SNK
+568,Resident Evil (2002),7.546842193209971,2002,GameCube,Capcom
+569,Grandia II,7.522005772005771,2000,"Dreamcast, PC, PS2","Game Arts, Rocket Studio"
+570,Frogger,7.512935558354325,,,
+571,Dungeon Keeper,7.506696428571429,1997,"Mac, PC",Bullfrog Productions
+572,Heroes of Might and Magic III,7.504548336747634,1999,"Mac, PC",New World Computing
+573,The Outer Worlds,7.439841269841271,2019,"PC, PS4, Switch, Xbox One",Obsedian Entertainment
+574,Vampire The Masquerade: Bloodlines,7.411111111111111,2004,PC,Troika Games
+575,Pokemon Diamond and Pearl,7.400784929356358,2006,DS,Game Freak
+576,Ori and the Will of the Wisps,7.306666666666667,,,
+577,Florence,7.305952380952382,2018,"Android, iOS, Mac, PC, Switch",Mountains
+578,Guardian Heroes,7.300000000000001,,,
+579,Wolfenstein 2: The New Colossus,7.298571428571429,2017,"PC, PS4, Switch, Xbox One",MachineGames
+580,Yakuza: Like a Dragon,7.281547619047619,2020,"PC, PS4, Xbox One, Xbox Series X/S",Ryu Ga Gotoku Studio
+581,Mario + Rabbids: Kingdom Battle,7.267579175210755,2017,Switch,Ubisoft Milan
+582,Dead Cells,7.264894688644689,,,
+583,NHLPA Hockey '93,7.253948551448551,,,
+584,Call of Duty: Black Ops,7.253620689655173,2010,"PC, PS3, Xbox 360",Treyarch
+585,Pokemon Crystal,7.241958041958043,,,
+586,Drop7,7.239464221503058,,,
+587,Ghouls'n Ghosts,7.239207807118254,1988,Arcade,Capcom
+588,Pyre,7.223741032303314,2017,"Linux, Mac, PC, PS4",Supergiant Games
+589,Return to Castle Wolfenstein,7.222063630420571,,,
+590,Amplitude,7.217871132001568,2003,PS2,Harmonix
+591,Wipeout HD,7.155555555555557,,,
+592,Gran Turismo 2,7.145991561181434,1999,PS1,Polyphony Digital
+593,Resistance 2,7.144824016563148,,,
+594,Professor Layton and the Curious Village,7.1433333333333335,,,
+595,Wonder Boy III: The Dragon's Trap,7.138461538461538,,,
+596,Mortal Kombat (2011),7.137411934470758,,,
+597,Forza 4,7.130463350068661,2011,Xbox,Turn 10 Studios
+598,Freespace 2,7.123853398853399,1999,PC,Volition
+599,Dragon's Dogma,7.123222798078263,2012,"PC, PS3, Xbox 360",Capcom
+600,SingStar,7.1140459153249855,,,
+601,Animal Crossing: Wild World,7.107089787722318,2005,DS,Nintendo EAD
+602,Far Cry,7.105202307980085,2004,PC,Crytek
+603,Dragon Quest V,7.1039682539682545,1992,"DS, Super Famicom",Enix/Square Enix
+604,Virtua Fighter 4,7.102800453514739,2001,"Arcade, PS2",Sega AM2
+605,Final Fantasy V,7.101893939393939,1992,SNES,Square
+606,Sonic & Knuckles,7.054747252747252,1994,Mega Drive/Genesis,Sega Technical Institute
+607,FIFA 98,7.050518925518926,,,
+608,Sonic the Hedgehog 3,7.041543789543789,,,
+609,Fire Emblem Fates,7.039118534973799,2015,3DS,Intelligent Systems
+610,Valkyrie Profile,7.027646674718931,1999,PS1,Tri-Ace
+611,Kirby's Adventure,7.020782693242586,1993,NES,HAL Laboratory
+612,Karate Champ,7.01796651391793,,,
+613,Spider-Man 2,7.015378323108385,,,
+614,Phoenix,7.010557413600892,,,
+615,Titanfall,6.937531746031746,,,
+616,Alien: Isolation,6.934795574795575,2014,"Linux, Mac, PC, PS4, Switch, Xbox One",Creative Assembly
+617,NHL 09,6.916870232443802,2008,"PS3, Xbox 360",EA Canada
+618,Maniac Mansion,6.9163139329806,1987,"Apple II, Commodore 64, PC",Licasfilm Games
+619,Medieval II: Total War,6.908524277141299,2006,PC,Creative Assembly
+620,ActRaiser,6.905791157649797,,,
+621,Star Control 2,6.902911219215568,,,
+622,Manic Miner,6.901218369259606,1983,"Amiga, PC, ZX Spectrum","Amsoft, Bug-Byte, Software Projects"
+623,Boulder Dash,6.840659340659341,,,
+624,Puzzle Bobble,6.8123778998779,,,
+625,The Sentinel,6.810855727082142,1986,"Amiga, Amstrad CPC, Atari ST, BBC Micro, Commodore 64, PC, ZX Spectrum",Geoff Crammond
+626,Snake,6.804625244792595,1976,"TRS-80, Web","Atari, Gremlin"
+627,Stunt Car Racer,6.803815902407452,,,
+628,International Karate +,6.803559665823192,1987,"Amstrad CPC, Commodore 64, ZX Spectrum",System 3
+629,BioShock 2,6.8032585869249775,2010,"Mac, PC, PS3, Xbox 360",2K Marin
+630,Archon: The Light and the Dark,6.802916928886091,,,
+631,Qix,6.802762106479253,,,
+632,WWF No Mercy,6.723452943181265,2000,N64,"AKI Corporation, Asmik Ace Entertainment"
+633,Planet Puzzle League,6.721507863089731,2007,DS,Intelligent Systems
+634,Half-Life 2: Episode One,6.712121212121213,2006,PC,Valve
+635,Half-Life 2: Episode Two,6.706818181818182,2007,PC,Valve
+636,Shining Force II,6.706658738548274,,,
+637,Mario's Picross,6.705678199842037,1995,Game Boy,"Ape, Jupiter"
+638,Gears of War 3,6.6985256410256415,2011,Xbox 360,Epic Games
+639,Ant Attack,6.69444904793742,,,
+640,World in Conflict,6.68010101010101,2007,PC,Massive Entertainment
+641,Command & Conquer: Red Alert,6.672727272727273,,,
+642,Impossible Mission,6.643134917811144,,,
+643,Halo Reach,6.640598290598291,2010,Xbox 360,Bungie
+644,Pro Evolution Soccer 6,6.635244983774395,,,
+645,Lumines: Electronic Symphony,6.630612244897959,2012,PS Vita,"Q Entertainment, Rocket Studio"
+646,Wing Commander IV: The Price of Freedom,6.611608566871725,1996,"Mac, PC",Origin Systems
+647,Warioware: Twisted!,6.608475783475784,2004,GBA,"Intelligent Systems, Nintendo SPD"
+648,Xenogears,6.535401002506266,1998,PS1,Square
+649,The Talos Principle,6.5222961320522295,,,
+650,Battlefield 1,6.496609169983783,2016,"PC, PS4, Xbox One",DICE
+651,NHL Hockey,6.451448551448552,,,
+652,FIFA 09,6.419639804639805,,,
+653,Donkey Kong Country 2,6.418951048951049,1995,SNES,Rare
+654,Apex Legends,6.412777777777778,2019,"PC, PS4, Xbox One",Respawn Entertainment
+655,Fall Guys,6.385326797385622,2020,"Android, iOS, PC, PS4",Mediatonic
+656,L.A. Noire,6.3840569561157805,,,
 657,Mega Man,6.380128205128205,1987,"Famicon, NES",Capcom
 658,Life is Strange,6.3782763975155286,,,
 659,SimCity 3000,6.372171945701358,1999,"Linux, Mac, PC",Maxis
@@ -851,158 +851,158 @@ Nintendo R&D2 (NES)"
 843,Call of Duty: Modern Warfare 3,4.563574660633484,,,
 844,Until Dawn,4.556868686868687,,,
 845,Sayonara Wild Hearts,4.556417559049138,,,
-846,Madden Football '95,4.553400809716599,1994,"Mega Drive/Genesis, SNES","High Score Productions, Visual Concepts"
-847,Saints Row IV,4.546230158730158,,,
-848,Assassin's Creed: Origins,4.54268115942029,2017,"PC, PS4, Xbox One",Ubisoft Montreal
-849,Subnautica,4.542655677655677,,,
-850,Tetris 99,4.53381941587824,,,
-851,DmC: Devil May Cry,4.533531746031746,,,
-852,Uncharted: The Lost Legacy,4.533278453225262,2017,PS4,Naughty Dog
-853,Telling Lies,4.532037037037037,,,
-854,Night in the Woods,4.529033597831552,2017,"Linux, Mac, PC, PS4, Switch, Xbox One",Infinite Fall
-855,Call of Duty: Black Ops 4,4.52671586059744,,,
-856,Bomberman Live,4.525015634771732,2007,Xbox 360,Backbone Entertainment
-857,Astro's Playroom,4.52125,,,
-858,"Pokemon Let's Go, Eevee and Pikachu",4.519908216783217,,,
-859,Axiom Verge,4.517954545454546,2015,"Linux, Mac, PC, PS4, PS Vita, Switch, Xbox One",Thomas Happ Games
-860,Rainbow Six Siege,4.515644257703082,,,
-861,Mortal Kombat X,4.51518115942029,2015,"PC, PS4, Xbox One",NetherRealm Studios
-862,Splinter Cell: Blacklist,4.513206542779714,2013,"PC, PS3, Wii U, Xbox 360",Ubisoft Toronto
-863,Danganronpa: Trigger Happy Havoc,4.49,,,
-864,Deus Ex: Invisible War,4.464939024390244,2003,"PC, Xbox",Ion Storm
-865,Zuma,4.44,,,
-866,Threes,4.436300692383779,,,
-867,Brothers: A Tale of Two Sons,4.433036093418259,2013,"Android, iOS, Mac, PC, PS3, PS4, Switch, Windows Phone, Xbox 360, Xbox One",Starbreeze Studios
-868,Monument Valley,4.42195097448262,,,
-869,Catherine,4.420286488579172,,,
-870,Final Fantasy XIV,4.4185091926458835,2013,"PC, PS4",Square Enix
-871,80 Days,4.413076923076924,2014,"Android, iOS, Mac, PC, Switch",Inkle
-872,King's Quest II: Romancing the Throne,4.411144626986264,,,
-873,Oddworld: Abe's Exoddus,4.410869565217391,,,
-874,Oddworld: Stranger's Wrath,4.410869565217391,,,
-875,X-COM: Apocalypse,4.410204081632653,,,
-876,Zero Escape: Virtue's Last Reward,4.4093701996927805,,,
-877,Blast Corps,4.4,,,
-878,Pokemon Ruby and Sapphire,4.4,,,
-879,Dragon Quest IX: Sentinels of the Starry Skies,4.320752688172043,2009,DS,Level-5
-880,Championship Manager,4.31348497438028,,,
-881,Micro Machines 2: Turbo Tournament,4.290909090909091,,,
-882,Paperboy,4.290909090909091,,,
-883,Skool Daze,4.290909090909091,,,
-884,Vib Ribbon,4.290909090909091,,,
-885,Wizball,4.290909090909091,,,
-886,The Witcher,4.276923076923078,,,
-887,Mike Tyson's Punch-Out,4.264331501831502,,,
-888,Choplifter,4.2384615384615385,,,
-889,Frontier: Elite 2,4.2384615384615385,,,
-890,Speedball 2: Brutal Deluxe,4.2384615384615385,,,
-891,Super Hang-On,4.2384615384615385,,,
-892,Super Mario Bros.: The Lost Levels,4.2384615384615385,,,
-893,The Hobbit,4.2384615384615385,,,
-894,Wonder Boy in Monster Land,4.2384615384615385,,,
-895,Wipeout 3,4.2192949160340465,,,
-896,NHL 99,4.214123376623377,,,
-897,Rayman 2: The Great Escape,4.212769693492586,,,
-898,Planetside,4.21123595505618,2003,PC,Sony Online Entertainment
-899,The Beast Within: A Gabriel Knight Mystery,4.210309278350516,1995,"Mac, PC",Sierra On-Line
-900,The Lost Vikings,4.204385964912281,1993,SNES,Silicon & Synapse
-901,Tekken,4.203787878787879,,,
-902,Canabalt,4.202688172043011,2009,"Flash, iOS",Semi-Secret Software
-903,Noby Noby Boy,4.202604166666667,2009,"iOS, PS3",Namco Bandai Games
-904,Jet Set Radio Future,4.20189393939394,2002,Xbox,Smilebit
-905,The 7th Guest,4.201672240802676,,,
-906,Jet Set Willy,4.201602564102565,,,
-907,Defender of the Crown,4.201508295625943,,,
-908,Skate 2,4.201157407407408,2009,"PS3, Xbox 360",EA Blackbox
-909,Frequency,4.201141552511416,,,
-910,Jak and Daxter: The Precursor Legacy,4.201108647450111,2001,PS2,Naughty Dog
-911,Henry Hatsworth in the Puzzling Adventure,4.201054852320675,,,
-912,Spy vs. Spy,4.200986193293886,,,
-913,Grand Prix Legends,4.2009671179883945,,,
-914,Jade Empire,4.2009671179883945,2005,"PC, Xbox",BioWare
-915,Alex Kidd in Miracle World,4.200957854406131,,,
-916,Fantasy World Dizzy,4.20094696969697,1989,"Amiga, Amstrad CPC, Atari ST, Commodore 64, PC, ZX Spectrum",Oliver Twins
-917,Rolling Thunder,4.2009302325581395,,,
-918,Medal of Honor: Allied Assault,4.200905797101449,2002,"Linux, Mac, PC","2015, Inc."
-919,Space Giraffe,4.200886524822695,2007,"PC, Xbox 360, Xbox One",Llamasoft
-920,Rainbow Islands,4.200874125874126,,,
-921,Mercenary,4.200777000777001,,,
-922,Super Sprint,4.200677966101695,,,
-923,Ikari Warriors,4.200655737704919,,,
-924,Pilotwings,4.2006361323155215,1990,SNES,Nintendo EAD
-925,Hyper Sports,4.20051282051282,,,
-926,International Track & Field,4.20051282051282,,,
-927,Ape Escape,4.2005,1999,PS1,Japan Studio
-928,Crystal Castles,4.200404858299596,,,
-929,Trinity,4.2004,,,
-930,Sanitarium,4.132217782217783,,,
-931,Hot Shots Golf: Open Tee 2,4.122352647352647,2007,PSP,Clap Hanz
-932,System Shock,4.1184767759562835,,,
-933,Excitebike,4.114123376623377,1984,"Famicom, NES",Nintendo R&D1
-934,Shining Force,4.112013733393043,,,
-935,Monster Hunter,4.111904761904762,2004,PS2,Capcom
-936,Doom 3,4.109090909090909,2004,"PC, Xbox",id Software
-937,Head Over Heels,4.091962831688859,,,
-938,Psi-Ops: The Mindgate Conspiracy,4.053225806451613,,,
-939,Castlevania: Bloodlines,4.041794871794872,1993,Mega Drive/Genesis,Konami
-940,Comanche: Maximum Overkill,4.0405982905982905,,,
-941,Metroid Prime 2: Echoes,4.04,2004,"GameCube, Wii","Nintendo, Retro Studios"
-942,Super Star Wars,4.04,,,
-943,Thunderhawk,4.03988603988604,,,
-944,John Madden Football '92,4.0397948717948715,,,
-945,John Madden Football '93,4.0397948717948715,,,
-946,John Madden Football (1990),4.0397948717948715,,,
-947,John Madden Football II,4.0397948717948715,,,
-948,Madden NFL '94,4.0397948717948715,,,
-949,Madden NFL '95,4.0397948717948715,,,
-950,Super Contra,4.039453601953602,1988,"Arcade, Famicom, NES",Konami
-951,Lethal Enforcers,4.039355992844365,,,
-952,Links 386 Pro,4.039041248606466,,,
-953,Phantasy Star III: Generations of Doom,4.039017094017094,,,
-954,Falcon Gold,4.038905982905982,,,
-955,Desert Strike,4.038882591093117,,,
-956,Urban Strike,4.038882591093117,,,
-957,Ecco the Dolphin,4.038846153846153,,,
-958,Dance Central 2,4.0373887617594715,2011,Xbox 360,Harmonix
-959,Marvel vs. Capcom 3,4.034363799283154,,,
-960,"Warhammer 40,000: Dawn of War II",4.023611111111111,,,
-961,Forza Motorsport 3,4.014285714285714,,,
-962,Dragon Warrior III,4.012619047619047,1988,"Famicom, NES",Chunsoft
-963,Grand Theft Auto: Chinatown Wars,4.0125,,,
-964,The Legend of Zelda: Oracle of Ages,4.0125,2001,GBC,"Capcom, Flagship"
-965,Wii Sports Resort,4.011111111111111,,,
-966,Super Mario Land,4.009114827201784,1989,Game Boy,Nintendo R&D1
-967,God of War: Chains of Olympus,4.007692307692308,,,
-968,Mega Bomberman,4.005582264957265,,,
-969,Nintendogs,4.004761904761905,,,
-970,Tomb Raider: Underworld,4.003333333333334,,,
-971,Virtua Tennis,4.003197802197802,1999,"Arcade, Dreamcast",Sega AM-3
-972,Puzzle Quest: Challenge of the Warlords,4.0025,,,
-973,The Warriors,4.002325581395349,,,
-974,Grand Prix 2,4.002306346826587,1996,PC,MicroProse
-975,Bionic Commando,4.001509455456825,1988,"Famicom, NES",Capcom
-976,Virtua Cop,4.001461514712519,1994,"Arcade, Sega Saturn",Sega AM2
-977,Space Dungeon,4.001211462148962,,,
-978,River Raid,4.000935913809477,,,
-979,Discs of Tron,4.000930358350237,,,
-980,Crash Bandicoot 2: Cortex Strikes Back,3.9,1997,PS1,Naughty Dog
-981,Golden Sun: The Lost Age,3.9,2002,GBA,Camelot Software Planning
-982,Brain Age: Train Your Brain in Minutes a Day!,3.811627906976744,2005,DS,Nintendo SPD
-983,Twisted Metal,3.811494252873563,,,
-984,New Super Mario Bros.,3.8075537809647977,2006,DS,Nintendo EAD
-985,Dust: An Elysian Tail,3.807142857142857,,,
-986,Yakuza 4,3.80625,,,
-987,Metal Gear Rising: Revengeance,3.8055555555555554,,,
-988,New Super Mario Bros. Wii,3.783333333333333,2009,Wii,Nintendo EAD
-989,NBA 2K3,3.723157894736842,,,
-990,Mario Party,3.721111111111111,1998,N64,Hudson Soft
-991,Dragon Quest XI: Echoes of an Elusive Age,3.721025641025641,2017,"PC, PS4, Switch, Xbox One",Square Enix
-992,Thumper,3.716233766233766,,,
-993,Need for Speed Underground,3.7135135135135133,,,
-994,Sunset Overdrive,3.6750000000000007,,,
-995,Devil May Cry 5,3.6655555555555557,,,
-996,Super Mario Maker 2,3.6587813620071685,2019,Switch,Nintendo EPD
-997,Spiritfarer,3.6535256410256416,,,
+846,Spiritfarer,4.553525641025641,,,
+847,Madden Football '95,4.553400809716599,1994,"Mega Drive/Genesis, SNES","High Score Productions, Visual Concepts"
+848,Saints Row IV,4.546230158730158,,,
+849,Assassin's Creed: Origins,4.54268115942029,2017,"PC, PS4, Xbox One",Ubisoft Montreal
+850,Subnautica,4.542655677655677,,,
+851,Tetris 99,4.53381941587824,,,
+852,DmC: Devil May Cry,4.533531746031746,,,
+853,Uncharted: The Lost Legacy,4.533278453225262,2017,PS4,Naughty Dog
+854,Telling Lies,4.532037037037037,,,
+855,Night in the Woods,4.529033597831552,2017,"Linux, Mac, PC, PS4, Switch, Xbox One",Infinite Fall
+856,Call of Duty: Black Ops 4,4.52671586059744,,,
+857,Bomberman Live,4.525015634771732,2007,Xbox 360,Backbone Entertainment
+858,Astro's Playroom,4.52125,,,
+859,"Pokemon Let's Go, Eevee and Pikachu",4.519908216783217,,,
+860,Axiom Verge,4.517954545454546,2015,"Linux, Mac, PC, PS4, PS Vita, Switch, Xbox One",Thomas Happ Games
+861,Rainbow Six Siege,4.515644257703082,,,
+862,Mortal Kombat X,4.51518115942029,2015,"PC, PS4, Xbox One",NetherRealm Studios
+863,Splinter Cell: Blacklist,4.513206542779714,2013,"PC, PS3, Wii U, Xbox 360",Ubisoft Toronto
+864,Danganronpa: Trigger Happy Havoc,4.49,,,
+865,Deus Ex: Invisible War,4.464939024390244,2003,"PC, Xbox",Ion Storm
+866,Zuma,4.44,,,
+867,Threes,4.436300692383779,,,
+868,Brothers: A Tale of Two Sons,4.433036093418259,2013,"Android, iOS, Mac, PC, PS3, PS4, Switch, Windows Phone, Xbox 360, Xbox One",Starbreeze Studios
+869,Monument Valley,4.42195097448262,,,
+870,Catherine,4.420286488579172,,,
+871,Final Fantasy XIV,4.4185091926458835,2013,"PC, PS4",Square Enix
+872,80 Days,4.413076923076924,2014,"Android, iOS, Mac, PC, Switch",Inkle
+873,King's Quest II: Romancing the Throne,4.411144626986264,,,
+874,Oddworld: Abe's Exoddus,4.410869565217391,,,
+875,Oddworld: Stranger's Wrath,4.410869565217391,,,
+876,X-COM: Apocalypse,4.410204081632653,,,
+877,Zero Escape: Virtue's Last Reward,4.4093701996927805,,,
+878,Blast Corps,4.4,,,
+879,Pokemon Ruby and Sapphire,4.4,,,
+880,Dragon Quest IX: Sentinels of the Starry Skies,4.320752688172043,2009,DS,Level-5
+881,Championship Manager,4.31348497438028,,,
+882,Micro Machines 2: Turbo Tournament,4.290909090909091,,,
+883,Paperboy,4.290909090909091,,,
+884,Skool Daze,4.290909090909091,,,
+885,Vib Ribbon,4.290909090909091,,,
+886,Wizball,4.290909090909091,,,
+887,The Witcher,4.276923076923078,,,
+888,Mike Tyson's Punch-Out,4.264331501831502,,,
+889,Choplifter,4.2384615384615385,,,
+890,Frontier: Elite 2,4.2384615384615385,,,
+891,Speedball 2: Brutal Deluxe,4.2384615384615385,,,
+892,Super Hang-On,4.2384615384615385,,,
+893,Super Mario Bros.: The Lost Levels,4.2384615384615385,,,
+894,The Hobbit,4.2384615384615385,,,
+895,Wonder Boy in Monster Land,4.2384615384615385,,,
+896,Wipeout 3,4.2192949160340465,,,
+897,NHL 99,4.214123376623377,,,
+898,Rayman 2: The Great Escape,4.212769693492586,,,
+899,Planetside,4.21123595505618,2003,PC,Sony Online Entertainment
+900,The Beast Within: A Gabriel Knight Mystery,4.210309278350516,1995,"Mac, PC",Sierra On-Line
+901,The Lost Vikings,4.204385964912281,1993,SNES,Silicon & Synapse
+902,Tekken,4.203787878787879,,,
+903,Canabalt,4.202688172043011,2009,"Flash, iOS",Semi-Secret Software
+904,Noby Noby Boy,4.202604166666667,2009,"iOS, PS3",Namco Bandai Games
+905,Jet Set Radio Future,4.20189393939394,2002,Xbox,Smilebit
+906,The 7th Guest,4.201672240802676,,,
+907,Jet Set Willy,4.201602564102565,,,
+908,Defender of the Crown,4.201508295625943,,,
+909,Skate 2,4.201157407407408,2009,"PS3, Xbox 360",EA Blackbox
+910,Frequency,4.201141552511416,,,
+911,Jak and Daxter: The Precursor Legacy,4.201108647450111,2001,PS2,Naughty Dog
+912,Henry Hatsworth in the Puzzling Adventure,4.201054852320675,,,
+913,Spy vs. Spy,4.200986193293886,,,
+914,Grand Prix Legends,4.2009671179883945,,,
+915,Jade Empire,4.2009671179883945,2005,"PC, Xbox",BioWare
+916,Alex Kidd in Miracle World,4.200957854406131,,,
+917,Fantasy World Dizzy,4.20094696969697,1989,"Amiga, Amstrad CPC, Atari ST, Commodore 64, PC, ZX Spectrum",Oliver Twins
+918,Rolling Thunder,4.2009302325581395,,,
+919,Medal of Honor: Allied Assault,4.200905797101449,2002,"Linux, Mac, PC","2015, Inc."
+920,Space Giraffe,4.200886524822695,2007,"PC, Xbox 360, Xbox One",Llamasoft
+921,Rainbow Islands,4.200874125874126,,,
+922,Mercenary,4.200777000777001,,,
+923,Super Sprint,4.200677966101695,,,
+924,Ikari Warriors,4.200655737704919,,,
+925,Pilotwings,4.2006361323155215,1990,SNES,Nintendo EAD
+926,Hyper Sports,4.20051282051282,,,
+927,International Track & Field,4.20051282051282,,,
+928,Ape Escape,4.2005,1999,PS1,Japan Studio
+929,Crystal Castles,4.200404858299596,,,
+930,Trinity,4.2004,,,
+931,Sanitarium,4.132217782217783,,,
+932,Hot Shots Golf: Open Tee 2,4.122352647352647,2007,PSP,Clap Hanz
+933,System Shock,4.1184767759562835,,,
+934,Excitebike,4.114123376623377,1984,"Famicom, NES",Nintendo R&D1
+935,Shining Force,4.112013733393043,,,
+936,Monster Hunter,4.111904761904762,2004,PS2,Capcom
+937,Doom 3,4.109090909090909,2004,"PC, Xbox",id Software
+938,Head Over Heels,4.091962831688859,,,
+939,Psi-Ops: The Mindgate Conspiracy,4.053225806451613,,,
+940,Castlevania: Bloodlines,4.041794871794872,1993,Mega Drive/Genesis,Konami
+941,Comanche: Maximum Overkill,4.0405982905982905,,,
+942,Metroid Prime 2: Echoes,4.04,2004,"GameCube, Wii","Nintendo, Retro Studios"
+943,Super Star Wars,4.04,,,
+944,Thunderhawk,4.03988603988604,,,
+945,John Madden Football '92,4.0397948717948715,,,
+946,John Madden Football '93,4.0397948717948715,,,
+947,John Madden Football (1990),4.0397948717948715,,,
+948,John Madden Football II,4.0397948717948715,,,
+949,Madden NFL '94,4.0397948717948715,,,
+950,Madden NFL '95,4.0397948717948715,,,
+951,Super Contra,4.039453601953602,1988,"Arcade, Famicom, NES",Konami
+952,Lethal Enforcers,4.039355992844365,,,
+953,Links 386 Pro,4.039041248606466,,,
+954,Phantasy Star III: Generations of Doom,4.039017094017094,,,
+955,Falcon Gold,4.038905982905982,,,
+956,Desert Strike,4.038882591093117,,,
+957,Urban Strike,4.038882591093117,,,
+958,Ecco the Dolphin,4.038846153846153,,,
+959,Dance Central 2,4.0373887617594715,2011,Xbox 360,Harmonix
+960,Marvel vs. Capcom 3,4.034363799283154,,,
+961,"Warhammer 40,000: Dawn of War II",4.023611111111111,,,
+962,Forza Motorsport 3,4.014285714285714,,,
+963,Dragon Warrior III,4.012619047619047,1988,"Famicom, NES",Chunsoft
+964,Grand Theft Auto: Chinatown Wars,4.0125,,,
+965,The Legend of Zelda: Oracle of Ages,4.0125,2001,GBC,"Capcom, Flagship"
+966,Wii Sports Resort,4.011111111111111,,,
+967,Super Mario Land,4.009114827201784,1989,Game Boy,Nintendo R&D1
+968,God of War: Chains of Olympus,4.007692307692308,,,
+969,Mega Bomberman,4.005582264957265,,,
+970,Nintendogs,4.004761904761905,,,
+971,Tomb Raider: Underworld,4.003333333333334,,,
+972,Virtua Tennis,4.003197802197802,1999,"Arcade, Dreamcast",Sega AM-3
+973,Puzzle Quest: Challenge of the Warlords,4.0025,,,
+974,The Warriors,4.002325581395349,,,
+975,Grand Prix 2,4.002306346826587,1996,PC,MicroProse
+976,Bionic Commando,4.001509455456825,1988,"Famicom, NES",Capcom
+977,Virtua Cop,4.001461514712519,1994,"Arcade, Sega Saturn",Sega AM2
+978,Space Dungeon,4.001211462148962,,,
+979,River Raid,4.000935913809477,,,
+980,Discs of Tron,4.000930358350237,,,
+981,Crash Bandicoot 2: Cortex Strikes Back,3.9,1997,PS1,Naughty Dog
+982,Golden Sun: The Lost Age,3.9,2002,GBA,Camelot Software Planning
+983,Brain Age: Train Your Brain in Minutes a Day!,3.811627906976744,2005,DS,Nintendo SPD
+984,Twisted Metal,3.811494252873563,,,
+985,New Super Mario Bros.,3.8075537809647977,2006,DS,Nintendo EAD
+986,Dust: An Elysian Tail,3.807142857142857,,,
+987,Yakuza 4,3.80625,,,
+988,Metal Gear Rising: Revengeance,3.8055555555555554,,,
+989,New Super Mario Bros. Wii,3.783333333333333,2009,Wii,Nintendo EAD
+990,NBA 2K3,3.723157894736842,,,
+991,Mario Party,3.721111111111111,1998,N64,Hudson Soft
+992,Dragon Quest XI: Echoes of an Elusive Age,3.721025641025641,2017,"PC, PS4, Switch, Xbox One",Square Enix
+993,Thumper,3.716233766233766,,,
+994,Need for Speed Underground,3.7135135135135133,,,
+995,Sunset Overdrive,3.6750000000000007,,,
+996,Devil May Cry 5,3.6655555555555557,,,
+997,Super Mario Maker 2,3.6587813620071685,2019,Switch,Nintendo EPD
 998,XCOM 2: War of the Chosen,3.6497229326513216,2017,"PC, PS4, Switch, Xbox One",Firaxis Games
 999,Luigi's Mansion 3,3.646868686868687,,,
 1000,Sid Meier's Civilization VI,3.6450534188034185,2016,"Android, iOS, Linux, Mac, PC, PS4, Switch, Xbox One",Firaxis Games
@@ -2133,436 +2133,438 @@ Nintendo R&D2 (NES)"
 2124,Mafia II,1,2010,"PC, PS3, Xbox 360",2K Czech
 2125,MediEvil 2,1,2000,PS1,SCE Cambridge Studio
 2126,Monster Hunter Portable 3rd,1,2010,PSP,Capcom
-2127,Pokemon Stadium,1,2000,N64,"HAL Laboratory, Nintendo EAD"
-2128,Prune,1,,,
-2129,Q*bert,1,,,
-2130,Rememoried,1,,,
-2131,Rick Dangerous 2,1,,,
-2132,Rock & Roll Racing,1,,,
-2133,SMS Chess,1,2002,Mobile Phone,Purple Software
-2134,Sakura Wars,1,1996,Sega Saturn,"Red Company, Sega AM1"
-2135,Sonic Spinball,1,,,
-2136,Space Shuttle,1,,,
-2137,Speedball,1,,,
-2138,StarCraft Broodwar,1,,,
-2139,Superman (Atari 2600),1,,,
-2140,Taiko no Tatsujin,1,2001,Arcade,Namco
-2141,The Untouchables,1,,,
-2142,Tom Clancy's Ghost Recon Advanced Warfighter,1,2006,"PC, Xbox 360","Red Storm Entertainment, Tiwak, Ubisoft Paris"
-2143,Way of the Exploding Fist,1,,,
-2144,Star Wars 64: Shadows of the Empire,0.9500000000000001,,,
-2145,The Wicher 3: Wild Hunt,0.9500000000000001,,,
-2146,Velocity 2X,0.9500000000000001,,,
-2147,Devotion,0.9333333333333333,,,
-2148,El Shaddai: Ascension of the Metatron,0.9333333333333333,,,
-2149,NCAA Football 2003,0.9333333333333333,,,
-2150,Resdient Evil 2 (2019),0.9333333333333333,,,
-2151,Towerfall,0.9333333333333333,,,
-2152,Alien Isolation,0.925,,,
-2153,Metal of Honor: Allied Assault,0.925,,,
-2154,Monter Hunter: World,0.925,,,
-2155,Drak Souls,0.92,,,
-2156,Moon,0.92,,,
-2157,Tharsis,0.92,,,
-2158,"That Dragon, Cancer",0.92,,,
-2159,Twisted Metal: Black,0.92,,,
-2160,Burly Men at Sea,0.9166666666666667,,,
-2161,Call of Duty: Modern Warfare,0.9166666666666667,,,
-2162,Donkey Kong Country Returns,0.9166666666666667,,,
-2163,Drago Quest Builders,0.9166666666666667,,,
-2164,NBA Hangtime,0.9166666666666667,,,
-2165,Resistance 3,0.9166666666666667,,,
-2166,The Witcher 3: Blood & Wine,0.9166666666666667,2016,"PC, PS4, Switch, Xbox One",CD Projekt Red
-2167,Disgaea D2: A Brighter Darkness,0.9142857142857143,,,
-2168,Final Fantasy Type-0 HD,0.9142857142857143,,,
-2169,Oligarchy,0.9142857142857143,,,
-2170,Shattered Horizon,0.9142857142857143,,,
-2171,Super Mario Run,0.9142857142857143,,,
-2172,Total War: Shogun 2,0.9142857142857143,,,
-2173,Dance Central,0.9125,,,
-2174,Dead Island,0.9125,,,
-2175,Divekick,0.9125,,,
-2176,Dragon Quest Builders,0.9125,,,
-2177,Dyad,0.9125,,,
-2178,Forza Motorsport 5,0.9125,,,
-2179,Nex Machina,0.9125,,,
-2180,Orcs Must Die,0.9125,,,
-2181,SOCOM: U.S. Navy SEALs,0.9125,,,
-2182,Shadow of the Tomb Raider,0.9125,,,
-2183,The Legend of Heroes: Trails of Cold Steel III,0.9125,,,
-2184,Watch Dogs 2,0.9125,,,
-2185,Wattam,0.9125,,,
-2186,Castlevania: Harmony of Dissonance,0.9111111111111111,,,
-2187,Crashlands,0.9111111111111111,,,
-2188,Dandara,0.9111111111111111,,,
-2189,Graveyard Keeper,0.9111111111111111,,,
-2190,Hitman: Absolution,0.9111111111111111,,,
-2191,Indigo Prophecy,0.9111111111111111,,,
-2192,Nintendo Land,0.9111111111111111,,,
-2193,RAGE,0.9111111111111111,,,
-2194,Trials Rising,0.9111111111111111,,,
-2195,WarioWare: Do It Yourself,0.9111111111111111,,,
-2196,Watch Dogs: Legion,0.9111111111111111,,,
-2197,A Short Hike,0.91,,,
-2198,Castlevania: Order of Ecclesia,0.91,,,
-2199,City of Villains,0.91,,,
-2200,Enslaved: Odyssey to the West,0.91,,,
-2201,F1 2018,0.91,,,
-2202,GoldenEye 007 (Wii),0.91,,,
-2203,Immortals Fenyx Rising,0.91,,,
-2204,Katana Zero,0.91,,,
-2205,Neo Cab,0.91,,,
-2206,Octopath Traveller,0.91,,,
-2207,Paper's Please,0.91,,,
-2208,Saint's Row IV,0.91,,,
-2209,Street Fighter X Tekken,0.91,,,
-2210,Super Smash Bros. for 3DS,0.91,,,
-2211,Violet,0.91,,,
-2212,Virginia,0.91,,,
-2213,Butterfly Soup,0.9090909090909091,2017,"Linux, Mac, PC",Brianna Lei 
-2214,Carrion,0.9090909090909091,,,
-2215,Fade to Black,0.9090909090909091,,,
-2216,Heat Signature,0.9090909090909091,2017,PC,Suspicious Developments
-2217,Hypre Light Drifter,0.9090909090909091,,,
-2218,Scott Pilgrim vs. The World: The Game,0.9090909090909091,,,
-2219,The Division,0.9090909090909091,,,
-2220,The Walking Dead: Season Two,0.9090909090909091,,,
-2221,Vader Immortal,0.9090909090909091,,,
-2222,Astro Bot,0.9083333333333333,,,
-2223,Full Spectrum Warrior,0.9083333333333333,,,
-2224,Kingdom Hearts III,0.9083333333333333,2019,"PS4, Xbox One",Square Enix
-2225,Madden NFL 13,0.9083333333333333,,,
-2226,Metroid: Other M,0.9083333333333333,,,
-2227,Planet Coaster,0.9083333333333333,,,
-2228,South Park: The Fractured But Whole,0.9083333333333333,,,
-2229,Yakuza 3,0.9083333333333333,,,
-2230,Days Gone,0.9076923076923077,,,
-2231,Fidel,0.9076923076923077,2017,"Mac, PC","Daniel Benmergui, Hernán Rozenwasser, Jeremías Babini"
-2232,Observation,0.9076923076923077,,,
-2233,StarCraft II: Legacy of the Void,0.9076923076923077,,,
-2234,The Last of Us: Left Behind,0.9076923076923077,,,
-2235,Battletech,0.9071428571428571,,,
-2236,Canis Canem Edit,0.9071428571428571,,,
-2237,Dicey Dungeons,0.9071428571428571,,,
-2238,Judgment,0.9071428571428571,,,
-2239,Mario & Luigi: Lost in Time,0.9071428571428571,,,
-2240,Resident Evil 3 (2020),0.9071428571428571,2020,"PC, PS4, Xbox One",Capcom
-2241,Sonic 3D Blast,0.9071428571428571,,,
-2242,Sunless Skies,0.9071428571428571,,,
-2243,Teamfight Tactics,0.9071428571428571,,,
-2244,Uncharted: Golden Abyss,0.9071428571428571,,,
-2245,"Warhammer 40,000: Space Marine",0.9071428571428571,,,
-2246,DeathSpank,0.9066666666666667,,,
-2247,Detroit: Become Human,0.9066666666666667,,,
-2248,Dragon Ball FigherZ,0.9066666666666667,,,
-2249,Gears of War 4,0.9066666666666667,,,
-2250,Letterpress,0.9066666666666667,,,
-2251,Remember Me,0.9066666666666667,,,
-2252,Splinter Cell: Conviction,0.9066666666666667,,,
-2253,Torment: Tides of Numenera,0.9066666666666667,,,
-2254,Bravery Default,0.90625,,,
-2255,Costume Quest,0.90625,,,
-2256,Doki Doki Literature Club,0.90625,,,
-2257,Horace,0.90625,,,
-2258,Keep Talking and Nobody Explodes,0.90625,,,
-2259,Life Is Strange: Before the Storm,0.90625,,,
-2260,Manifold Garden,0.90625,,,
-2261,Osu! Tatakae! Ouendan,0.90625,,,
-2262,Payday: The Heist,0.90625,,,
-2263,Puzzle Series Vol. 5: Slitherlink,0.90625,,,
-2264,Space Funeral,0.90625,,,
-2265,West of Loathing,0.90625,,,
-2266,Bravely Default,0.9058823529411765,,,
-2267,Call of Duty: World At War,0.9058823529411765,,,
-2268,Dead Rising 4,0.9058823529411765,,,
-2269,Fuser,0.9058823529411765,,,
-2270,Injustice: Gods Among Us,0.9058823529411765,,,
-2271,Just Cause 4,0.9058823529411765,,,
-2272,Mordhau,0.9058823529411765,,,
-2273,Papo & Yo,0.9058823529411765,,,
-2274,Pokemon Let's Go Pikachu and Eevee,0.9058823529411765,,,
-2275,Sayonora Wild Hearts,0.9058823529411765,,,
-2276,Battle Kid: Fortress of Peril,0.9055555555555556,,,
-2277,Castlevania: Harmony of Despair,0.9055555555555556,,,
-2278,Really Bad Chess,0.9055555555555556,,,
-2279,Sage Solitaire,0.9055555555555556,,,
-2280,Skullgirls,0.9055555555555556,,,
-2281,TOCA Race Driver 3,0.9055555555555556,,,
-2282,Tales of Graces f,0.9055555555555556,,,
-2283,The Longing,0.9055555555555556,,,
-2284,Yakuza Kiwami 2,0.9055555555555556,,,
-2285,Yo-kai Watch,0.9055555555555556,,,
-2286,Atlas Reactor,0.9052631578947369,,,
-2287,Danganronpa V3: Killing Harmony,0.9052631578947369,2017,"Android, iOS, PS4, PS Vita, PC",Spike Chunsoft
-2288,Dragon Quest VIII: The Journey of the Cursed King,0.9052631578947369,,,
-2289,Final Fantasy: Theatrhythm,0.9052631578947369,,,
-2290,Gravity Rush 2,0.9052631578947369,,,
-2291,Jurassic World Evolution,0.9052631578947369,,,
-2292,Madden NFL 12,0.9052631578947369,,,
-2293,Pac-Man 256,0.9052631578947369,,,
-2294,Plants vs. Zombies 2,0.9052631578947369,,,
-2295,Prince of Persia: The Two Thrones,0.9052631578947369,,,
-2296,Resident Evil 6,0.9052631578947369,,,
-2297,"Small Radios, Big Televisions",0.9052631578947369,,,
-2298,Statik: Institute of Retention,0.9052631578947369,2017,PSVR,Tarsier Studios
-2299,Street Fighter V,0.9052631578947369,,,
-2300,Trials Evolution,0.9052631578947369,,,
-2301,Wilmot's Warehouse,0.9052631578947369,,,
-2302,A Bird Story,0.905,,,
-2303,Abzu,0.905,,,
-2304,BattleTech,0.905,,,
-2305,Borderlands: The Pre-Sequel,0.905,,,
-2306,Brothers in Arms: Earned in Blood,0.905,,,
-2307,Dota Auto Chess,0.905,,,
-2308,Dustforce,0.905,,,
-2309,Earth Defence Force 2017,0.905,,,
-2310,Fate of the World,0.905,,,
-2311,Fire Emblem: Heroes,0.905,2017,"Android, iOS",Intelligent Systems
-2312,N++,0.905,,,
-2313,Prey: Mooncrash,0.905,,,
-2314,Reigns,0.905,,,
-2315,Tekken Tag Tournament 2,0.905,,,
-2316,The Dark Pictures Anthology: Man of Medan,0.905,,,
-2317,The Evil Within,0.905,,,
-2318,The Jackbox Party Pack 7,0.905,,,
-2319,Total War: Warhammer,0.905,2016,"Linux, Mac, PC",Creative Assembly
-2320,Wipeout: Omega Collection,0.905,,,
-2321,Card of Darkness,0.9047619047619048,,,
-2322,Castles in the Sky,0.9047619047619048,,,
-2323,Defcon,0.9047619047619048,,,
-2324,Genshin Impact,0.9047619047619048,2020,"Android, iOS, PC, PS4, PS5",miHoYo
-2325,Gran Turismo Sport,0.9047619047619048,2017,PS4,Polyphony Digital
-2326,Headlander,0.9047619047619048,,,
-2327,Infamous 2,0.9047619047619048,,,
-2328,Kingdom Hearts 3,0.9047619047619048,,,
-2329,Project CARS,0.9047619047619048,,,
-2330,The Evil Within 2,0.9047619047619048,,,
-2331,Transformers: Fall of Cybertron,0.9047619047619048,,,
-2332,World of Warcraft: The Burning Crusade,0.9047619047619048,,,
-2333,Yoshi's Woolly World,0.9047619047619048,,,
-2334,Bit.Trip Presentrs Runner 2: Future Legend of Rhythm Alien,0.9045454545454545,,,
-2335,Borderlands 3,0.9045454545454545,2019,"Mac, PC, PS4, PS5, Xbox One, Xbox Series X/S",Gearbox Software
-2336,OlliOlli,0.9045454545454545,,,
-2337,Paper Mario: Color Splash,0.9045454545454545,,,
-2338,Persona 2: Innocent Sin,0.9045454545454545,,,
-2339,Prince of Persia (2008),0.9045454545454545,,,
-2340,Tacoma,0.9045454545454545,2017,"Linux, Mac, PC, PS4, Xbox One",Fullbright
-2341,Rallisport Challenge 2,0.9043478260869565,,,
-2342,Scribblenauts Unmasked: A DC Comics Adventure,0.9043478260869565,,,
-2343,Shin Megami Tensei IV,0.9043478260869565,,,
-2344,The Darkness II,0.9043478260869565,,,
-2345,The Missing,0.9043478260869565,,,
-2346,Tom Clancy's Ghost Recon Wildlands,0.9043478260869565,,,
-2347,Evolve,0.9041666666666667,,,
-2348,Puyo Puyo Tetris,0.9041666666666667,2014,"3DS, PC, PS3, PS4, PS Vita, Switch, Wii U, Xbox 360, Xbox One",Sonic Team
-2349,Resistence 3,0.9041666666666667,,,
-2350,Banner Saga 2,0.904,2016,"Android, iOS, PC, PS4, Switch, Xbox One",Stoic Studio
-2351,Blackwood Crossing,0.904,,,
-2352,Bladestorm,0.904,,,
-2353,Corpse Party,0.904,,,
-2354,For Honor,0.904,2017,"PC, PS4, Xbox One",Ubisoft Montreal
-2355,OlliOlli2: Welcome to Olliwood,0.904,,,
-2356,Sine Mora,0.904,,,
-2357,State of Decay 2,0.904,,,
-2358,The Secret World,0.904,,,
-2359,Two Point Hospital,0.904,,,
-2360,Emily Is Away Too,0.9038461538461539,,,
-2361,Mass Effect: Andromeda,0.9038461538461539,2017,"PC, PS4, Xbox One",BioWare
-2362,Table Tennis,0.9038461538461539,,,
-2363,Pillars of Eternity 2: Deadfire,0.9037037037037037,,,
-2364,Torchlight II,0.9037037037037037,,,
-2365,Destiny 2: Beyond Light,0.9035714285714286,2020,"PC, PS4, PS5, Xbox One, Xbox Series X/S",Bungie
-2366,Dirt 4,0.9035714285714286,,,
-2367,Football Manager 2005,0.9035714285714286,,,
-2368,Murder By Numbers,0.903448275862069,,,
-2369,Sundered,0.903448275862069,2017,"Linux, Mac, PC, PS4, Switch, Xbox One",Thunder Lotus Games
-2370,FIFA 18,0.9033333333333333,2017,"PS4, Xbox One","EA Romania, EA Vancouver"
-2371,Incredible Hulk: Ultimate Destruction,0.9033333333333333,,,
-2372,Lone Survivor,0.9033333333333333,,,
-2373,Lonely Mountains: Downhill,0.9033333333333333,,,
-2374,Metroid: Samus Returns,0.9033333333333333,2017,3DS,"Nintendo EPD, MercurySteam"
-2375,Phoenix Wright Ace Attorney: Justice for All,0.9033333333333333,,,
-2376,Tiger Wood PGA Tour 2005,0.9033333333333333,,,
-2377,The Red Strings Club,0.9032258064516129,,,
-2378,Warhammer Online: Age of Reckoning,0.9032258064516129,,,
-2379,YS 8,0.9032258064516129,,,
-2380,Boiling Point,0.9031250000000001,,,
-2381,Command and Conquer: Red Alert 3,0.9031250000000001,,,
-2382,Neverwinter Nights 2,0.9031250000000001,,,
-2383,Rakuen,0.9031250000000001,,,
-2384,The Solitaire Conspiracy,0.9031250000000001,2020,"Mac, PC",Bithell Games
-2385,Peter Jackson's King Kong,0.9030303030303031,,,
-2386,Tekken: Dark Resurrection,0.9030303030303031,,,
-2387,Another Lost Phone,0.9029411764705882,,,
-2388,Everybody's Golf,0.9029411764705882,,,
-2389,Sky: Children of the Light,0.9029411764705882,,,
-2390,A Case of Distrust,0.9028571428571429,,,
-2391,Dirt 5,0.9028571428571429,2020,"PC, PS4, PS5, Xbox One, Xbox Series X/S",Codemasters Cheshire
-2392,Lumines 2,0.9028571428571429,,,
-2393,Slay the Spire,0.9028571428571429,,,
-2394,SoulCalibur III,0.9028571428571429,,,
-2395,Tom Clancy's Endwar,0.9028571428571429,,,
-2396,Getting Over It,0.9027777777777778,,,
-2397,Paradise Killer,0.9027777777777778,2020,"PC, Switch",Kaizen Game Works
-2398,Rhythm Tengoku,0.9027777777777778,,,
-2399,Vampire The Masquerade:  Bloodlines,0.9027777777777778,,,
-2400,Viking: The Battle For Asgard,0.9027777777777778,,,
-2401,World of Warcraft: Battle for Azeroth,0.9027777777777778,,,
-2402,Desperados 3,0.9027027027027027,,,
-2403,SingStar (PS3),0.9027027027027027,,,
-2404,Universal Paperclips,0.9027027027027027,2017,"Android, iOS, Web",Frank Lantz
-2405,Arknights,0.9026315789473685,,,
-2406,Eastshade,0.9026315789473685,,,
-2407,Harvest Moon: A Wonderful Life,0.9026315789473685,,,
-2408,Lost Odyssey,0.9026315789473685,,,
-2409,Overlord,0.9026315789473685,,,
-2410,The Gardens Between,0.9026315789473685,,,
-2411,Tom Clancy's Ghost Recon: Advanced Warfare,0.9026315789473685,,,
-2412,Virtua Tennis World Tour,0.9026315789473685,,,
-2413,Condemned 2: Bloodshot,0.9025641025641026,,,
-2414,Lawbreakers,0.9025641025641026,2017,"PC, PS4",Boss Key Productions
-2415,Onimusha 3: Demon Siege,0.9025641025641026,,,
-2416,Please Knock on My Door,0.9025641025641026,,,
-2417,Ridge Racer (PSP),0.9025641025641026,,,
-2418,Super Paper Mario,0.9025641025641026,,,
-2419,Yakuza,0.9025641025641026,,,
-2420,Sniper Elite 4,0.9025,2017,"PC, PS4, Switch, Xbox One",Rebellion Developments
-2421,Trackmania Sunrise,0.9025,,,
-2422,"Wide Ocean, Big Jacket",0.9025,,,
-2423,Wreckfest,0.9025,,,
-2424,Hidden Folks,0.9024390243902439,,,
-2425,In Other Waters,0.9024390243902439,,,
-2426,Fallout 76,0.9023809523809524,,,
-2427,Harvest Moon: Magical Melody,0.9023809523809524,,,
-2428,Lego Batman,0.9023809523809524,,,
-2429,Star Trek: Bridge Crew,0.9023809523809524,,,
-2430,Steamworld Quest: Hand of Gilgamech,0.9023809523809524,,,
-2431,Catan,0.9023255813953489,,,
-2432,F-Zero: GP Legend,0.9023255813953489,,,
-2433,Pro Evolution Soccer 2018,0.9023255813953489,,,
-2434,Steambot Chronicles,0.9023255813953489,,,
-2435,Creaks,0.9022727272727273,,,
-2436,Daxter,0.9022727272727273,,,
-2437,Mario Tennis Aces,0.9022727272727273,,,
-2438,Polybius,0.9022727272727273,2017,"PC, PS4",Llamasoft
-2439,Tomb Raider Anniversary,0.9022727272727273,,,
-2440,Bloodstained: Ritual of the Night,0.9022222222222223,,,
-2441,Mario Kart Live: Home Circuit,0.9022222222222223,2020,Switch,Velan Studios
-2442,Metal of Honor: Pacific Assault,0.9022222222222223,,,
-2443,My Child Lebensborn,0.9022222222222223,,,
-2444,The Lord of the Rings Online: Shadows of Angmar,0.9022222222222223,,,
-2445,Wipeout Pure,0.9022222222222223,,,
-2446,Guild Wars: Nightfall,0.9021739130434783,,,
-2447,Super Mega Baseball 3,0.9021739130434783,,,
-2448,Guitar Hero 2,0.902127659574468,,,
-2449,SEGA Rally,0.902127659574468,,,
-2450,Sonic Chronicles: The Dark Brotherhood,0.902127659574468,,,
-2451,Space Rangers,0.902127659574468,,,
-2452,TOCA Race Driver 2,0.902127659574468,,,
-2453,Apollo Justic: Ace Attorney,0.9020833333333333,,,
-2454,Helltaker,0.9020833333333333,,,
-2455,Islanders,0.9020833333333333,,,
-2456,N3: Ninety-Nine Nights,0.9020833333333333,,,
-2457,SEGA SuperStars,0.9020833333333333,,,
-2458,Snipperclips,0.9020833333333333,,,
-2459,Stories Untold,0.9020833333333333,,,
-2460,Virtual Tennis 3,0.9020833333333333,,,
-2461,Madden NFL 18,0.9020408163265307,2017,"PS4, Xbox One",EA Tiburon
-2462,Scarface: The World Is Yours,0.9020408163265307,,,
-2463,SingStar 80s,0.9020408163265307,,,
-2464,Star Ocean 3: Till the End of Time,0.9020408163265307,,,
-2465,A Mortician's Tale,0.902,,,
-2466,Bugsnax,0.902,,,
-2467,Call of Cthulhu: Dark Corners of the Earth,0.902,,,
-2468,Ni No Kuni 2: Revenant Kingdom,0.902,,,
-2469,Pistol Whip,0.902,,,
-2470,Stuntman Ignition,0.902,,,
-2471,1001 Spikes,0.9,,,
-2472,868-HACK,0.9,,,
-2473,A Boy and His Blob (Wii),0.9,,,
-2474,A Monster's Expedition,0.9,,,
-2475,Call of Duty: Black Ops Cold War,0.9,,,
-2476,Clash Royale,0.9,,,
-2477,Cloudpunk,0.9,,,
-2478,Clubhouse Games,0.9,,,
-2479,Crash Bandicoot 4: It's About Time,0.9,,,
-2480,Dark Cloud 2,0.9,,,
-2481,Disc Room,0.9,,,
-2482,Dungelot,0.9,,,
-2483,ESPN NBA Basketball,0.9,,,
-2484,ESPN NFL Football,0.9,,,
-2485,Fantasy Life,0.9,,,
-2486,Far: Lone Sails,0.9,,,
-2487,Final Fantasy Tactics Advance,0.9,,,
-2488,Final Night Round 3,0.9,,,
-2489,Firewall Zero Hour,0.9,,,
-2490,Gang Beasts,0.9,,,
-2491,Ghostbusters: The Video Game,0.9,,,
-2492,Gladius,0.9,,,
-2493,Grand Prix 3,0.9,,,
-2494,Hero Academy,0.9,,,
-2495,Hoplite,0.9,,,
-2496,International Karate 2000,0.9,,,
-2497,Jackbox Party Pack 7,0.9,,,
-2498,Jak II,0.9,,,
-2499,Jazzpunk,0.9,,,
-2500,Jets 'N' Guns: Gold,0.9,,,
-2501,Job Simulator: The 2050 Archives,0.9,,,
-2502,Laser League,0.9,,,
-2503,Mario Kart: Double Dash!!,0.9,,,
-2504,Martian Gothic: Unification,0.9,,,
-2505,Mega Man 9,0.9,,,
-2506,Mercenaries: Playground of Destruction,0.9,,,
-2507,Metal Gear Soliv V: The Phantom Pain,0.9,,,
-2508,Midnight Club II,0.9,,,
-2509,Monster Boy and the Cursed Kingdom,0.9,,,
-2510,Orcs & Elves,0.9,,,
-2511,Project Gotham Racing 2,0.9,2003,Xbox,"Bizarre Creations
+2128,Pokemon Stadium,1,2000,N64,"HAL Laboratory, Nintendo EAD"
+2129,Prune,1,,,
+2130,Q*bert,1,,,
+2131,Rememoried,1,,,
+2132,Rick Dangerous 2,1,,,
+2133,Rock & Roll Racing,1,,,
+2134,SMS Chess,1,2002,Mobile Phone,Purple Software
+2135,Sakura Wars,1,1996,Sega Saturn,"Red Company, Sega AM1"
+2136,Sonic Spinball,1,,,
+2137,Space Shuttle,1,,,
+2138,Speedball,1,,,
+2139,StarCraft Broodwar,1,,,
+2140,Superman (Atari 2600),1,,,
+2141,Taiko no Tatsujin,1,2001,Arcade,Namco
+2142,The Untouchables,1,,,
+2143,Tom Clancy's Ghost Recon Advanced Warfighter,1,2006,"PC, Xbox 360","Red Storm Entertainment, Tiwak, Ubisoft Paris"
+2144,Way of the Exploding Fist,1,,,
+2145,Star Wars 64: Shadows of the Empire,0.9500000000000001,,,
+2146,The Wicher 3: Wild Hunt,0.9500000000000001,,,
+2147,Velocity 2X,0.9500000000000001,,,
+2148,Devotion,0.9333333333333333,,,
+2149,El Shaddai: Ascension of the Metatron,0.9333333333333333,,,
+2150,NCAA Football 2003,0.9333333333333333,,,
+2151,Resdient Evil 2 (2019),0.9333333333333333,,,
+2152,Towerfall,0.9333333333333333,,,
+2153,Alien Isolation,0.925,,,
+2154,Metal of Honor: Allied Assault,0.925,,,
+2155,Monter Hunter: World,0.925,,,
+2156,Drak Souls,0.92,,,
+2157,Moon,0.92,,,
+2158,Tharsis,0.92,,,
+2159,"That Dragon, Cancer",0.92,,,
+2160,Twisted Metal: Black,0.92,,,
+2161,Burly Men at Sea,0.9166666666666667,,,
+2162,Call of Duty: Modern Warfare,0.9166666666666667,,,
+2163,Donkey Kong Country Returns,0.9166666666666667,,,
+2164,Drago Quest Builders,0.9166666666666667,,,
+2165,NBA Hangtime,0.9166666666666667,,,
+2166,Resistance 3,0.9166666666666667,,,
+2167,The Witcher 3: Blood & Wine,0.9166666666666667,2016,"PC, PS4, Switch, Xbox One",CD Projekt Red
+2168,Disgaea D2: A Brighter Darkness,0.9142857142857143,,,
+2169,Final Fantasy Type-0 HD,0.9142857142857143,,,
+2170,Oligarchy,0.9142857142857143,,,
+2171,Shattered Horizon,0.9142857142857143,,,
+2172,Super Mario Run,0.9142857142857143,,,
+2173,Total War: Shogun 2,0.9142857142857143,,,
+2174,Dance Central,0.9125,,,
+2175,Dead Island,0.9125,,,
+2176,Divekick,0.9125,,,
+2177,Dragon Quest Builders,0.9125,,,
+2178,Dyad,0.9125,,,
+2179,Forza Motorsport 5,0.9125,,,
+2180,Nex Machina,0.9125,,,
+2181,Orcs Must Die,0.9125,,,
+2182,SOCOM: U.S. Navy SEALs,0.9125,,,
+2183,Shadow of the Tomb Raider,0.9125,,,
+2184,The Legend of Heroes: Trails of Cold Steel III,0.9125,,,
+2185,Watch Dogs 2,0.9125,,,
+2186,Wattam,0.9125,,,
+2187,Castlevania: Harmony of Dissonance,0.9111111111111111,,,
+2188,Crashlands,0.9111111111111111,,,
+2189,Dandara,0.9111111111111111,,,
+2190,Graveyard Keeper,0.9111111111111111,,,
+2191,Hitman: Absolution,0.9111111111111111,,,
+2192,Indigo Prophecy,0.9111111111111111,,,
+2193,Nintendo Land,0.9111111111111111,,,
+2194,RAGE,0.9111111111111111,,,
+2195,Trials Rising,0.9111111111111111,,,
+2196,WarioWare: Do It Yourself,0.9111111111111111,,,
+2197,Watch Dogs: Legion,0.9111111111111111,,,
+2198,A Short Hike,0.91,,,
+2199,Castlevania: Order of Ecclesia,0.91,,,
+2200,City of Villains,0.91,,,
+2201,Enslaved: Odyssey to the West,0.91,,,
+2202,F1 2018,0.91,,,
+2203,GoldenEye 007 (Wii),0.91,,,
+2204,Immortals Fenyx Rising,0.91,,,
+2205,Katana Zero,0.91,,,
+2206,Neo Cab,0.91,,,
+2207,Octopath Traveller,0.91,,,
+2208,Paper's Please,0.91,,,
+2209,Saint's Row IV,0.91,,,
+2210,Street Fighter X Tekken,0.91,,,
+2211,Super Smash Bros. for 3DS,0.91,,,
+2212,Violet,0.91,,,
+2213,Virginia,0.91,,,
+2214,Butterfly Soup,0.9090909090909091,2017,"Linux, Mac, PC",Brianna Lei 
+2215,Carrion,0.9090909090909091,,,
+2216,Fade to Black,0.9090909090909091,,,
+2217,Heat Signature,0.9090909090909091,2017,PC,Suspicious Developments
+2218,Hypre Light Drifter,0.9090909090909091,,,
+2219,Scott Pilgrim vs. The World: The Game,0.9090909090909091,,,
+2220,The Division,0.9090909090909091,,,
+2221,The Walking Dead: Season Two,0.9090909090909091,,,
+2222,Vader Immortal,0.9090909090909091,,,
+2223,Astro Bot,0.9083333333333333,,,
+2224,Full Spectrum Warrior,0.9083333333333333,,,
+2225,Kingdom Hearts III,0.9083333333333333,2019,"PS4, Xbox One",Square Enix
+2226,Madden NFL 13,0.9083333333333333,,,
+2227,Metroid: Other M,0.9083333333333333,,,
+2228,Planet Coaster,0.9083333333333333,,,
+2229,South Park: The Fractured But Whole,0.9083333333333333,,,
+2230,Yakuza 3,0.9083333333333333,,,
+2231,Days Gone,0.9076923076923077,,,
+2232,Fidel,0.9076923076923077,2017,"Mac, PC","Daniel Benmergui, Hernán Rozenwasser, Jeremías Babini"
+2233,Observation,0.9076923076923077,,,
+2234,StarCraft II: Legacy of the Void,0.9076923076923077,,,
+2235,The Last of Us: Left Behind,0.9076923076923077,,,
+2236,Battletech,0.9071428571428571,,,
+2237,Canis Canem Edit,0.9071428571428571,,,
+2238,Dicey Dungeons,0.9071428571428571,,,
+2239,Judgment,0.9071428571428571,,,
+2240,Mario & Luigi: Lost in Time,0.9071428571428571,,,
+2241,Resident Evil 3 (2020),0.9071428571428571,2020,"PC, PS4, Xbox One",Capcom
+2242,Sonic 3D Blast,0.9071428571428571,,,
+2243,Sunless Skies,0.9071428571428571,,,
+2244,Teamfight Tactics,0.9071428571428571,,,
+2245,Uncharted: Golden Abyss,0.9071428571428571,,,
+2246,"Warhammer 40,000: Space Marine",0.9071428571428571,,,
+2247,DeathSpank,0.9066666666666667,,,
+2248,Detroit: Become Human,0.9066666666666667,,,
+2249,Dragon Ball FigherZ,0.9066666666666667,,,
+2250,Gears of War 4,0.9066666666666667,,,
+2251,Letterpress,0.9066666666666667,,,
+2252,Remember Me,0.9066666666666667,,,
+2253,Splinter Cell: Conviction,0.9066666666666667,,,
+2254,Torment: Tides of Numenera,0.9066666666666667,,,
+2255,Bravery Default,0.90625,,,
+2256,Costume Quest,0.90625,,,
+2257,Doki Doki Literature Club,0.90625,,,
+2258,Horace,0.90625,,,
+2259,Keep Talking and Nobody Explodes,0.90625,,,
+2260,Life Is Strange: Before the Storm,0.90625,,,
+2261,Manifold Garden,0.90625,,,
+2262,Osu! Tatakae! Ouendan,0.90625,,,
+2263,Payday: The Heist,0.90625,,,
+2264,Puzzle Series Vol. 5: Slitherlink,0.90625,,,
+2265,Space Funeral,0.90625,,,
+2266,West of Loathing,0.90625,,,
+2267,Bravely Default,0.9058823529411765,,,
+2268,Call of Duty: World At War,0.9058823529411765,,,
+2269,Dead Rising 4,0.9058823529411765,,,
+2270,Fuser,0.9058823529411765,,,
+2271,Injustice: Gods Among Us,0.9058823529411765,,,
+2272,Just Cause 4,0.9058823529411765,,,
+2273,Mordhau,0.9058823529411765,,,
+2274,Papo & Yo,0.9058823529411765,,,
+2275,Pokemon Let's Go Pikachu and Eevee,0.9058823529411765,,,
+2276,Sayonora Wild Hearts,0.9058823529411765,,,
+2277,Battle Kid: Fortress of Peril,0.9055555555555556,,,
+2278,Castlevania: Harmony of Despair,0.9055555555555556,,,
+2279,Really Bad Chess,0.9055555555555556,,,
+2280,Sage Solitaire,0.9055555555555556,,,
+2281,Skullgirls,0.9055555555555556,,,
+2282,TOCA Race Driver 3,0.9055555555555556,,,
+2283,Tales of Graces f,0.9055555555555556,,,
+2284,The Longing,0.9055555555555556,,,
+2285,Yakuza Kiwami 2,0.9055555555555556,,,
+2286,Yo-kai Watch,0.9055555555555556,,,
+2287,Atlas Reactor,0.9052631578947369,,,
+2288,Danganronpa V3: Killing Harmony,0.9052631578947369,2017,"Android, iOS, PS4, PS Vita, PC",Spike Chunsoft
+2289,Dragon Quest VIII: The Journey of the Cursed King,0.9052631578947369,,,
+2290,Final Fantasy: Theatrhythm,0.9052631578947369,,,
+2291,Gravity Rush 2,0.9052631578947369,,,
+2292,Jurassic World Evolution,0.9052631578947369,,,
+2293,Madden NFL 12,0.9052631578947369,,,
+2294,Pac-Man 256,0.9052631578947369,,,
+2295,Plants vs. Zombies 2,0.9052631578947369,,,
+2296,Prince of Persia: The Two Thrones,0.9052631578947369,,,
+2297,Resident Evil 6,0.9052631578947369,,,
+2298,"Small Radios, Big Televisions",0.9052631578947369,,,
+2299,Statik: Institute of Retention,0.9052631578947369,2017,PSVR,Tarsier Studios
+2300,Street Fighter V,0.9052631578947369,,,
+2301,Trials Evolution,0.9052631578947369,,,
+2302,Wilmot's Warehouse,0.9052631578947369,,,
+2303,A Bird Story,0.905,,,
+2304,Abzu,0.905,,,
+2305,BattleTech,0.905,,,
+2306,Borderlands: The Pre-Sequel,0.905,,,
+2307,Brothers in Arms: Earned in Blood,0.905,,,
+2308,Dota Auto Chess,0.905,,,
+2309,Dustforce,0.905,,,
+2310,Earth Defence Force 2017,0.905,,,
+2311,Fate of the World,0.905,,,
+2312,Fire Emblem: Heroes,0.905,2017,"Android, iOS",Intelligent Systems
+2313,N++,0.905,,,
+2314,Prey: Mooncrash,0.905,,,
+2315,Reigns,0.905,,,
+2316,Tekken Tag Tournament 2,0.905,,,
+2317,The Dark Pictures Anthology: Man of Medan,0.905,,,
+2318,The Evil Within,0.905,,,
+2319,The Jackbox Party Pack 7,0.905,,,
+2320,Total War: Warhammer,0.905,2016,"Linux, Mac, PC",Creative Assembly
+2321,Wipeout: Omega Collection,0.905,,,
+2322,Card of Darkness,0.9047619047619048,,,
+2323,Castles in the Sky,0.9047619047619048,,,
+2324,Defcon,0.9047619047619048,,,
+2325,Genshin Impact,0.9047619047619048,2020,"Android, iOS, PC, PS4, PS5",miHoYo
+2326,Gran Turismo Sport,0.9047619047619048,2017,PS4,Polyphony Digital
+2327,Headlander,0.9047619047619048,,,
+2328,Infamous 2,0.9047619047619048,,,
+2329,Kingdom Hearts 3,0.9047619047619048,,,
+2330,Project CARS,0.9047619047619048,,,
+2331,The Evil Within 2,0.9047619047619048,,,
+2332,Transformers: Fall of Cybertron,0.9047619047619048,,,
+2333,World of Warcraft: The Burning Crusade,0.9047619047619048,,,
+2334,Yoshi's Woolly World,0.9047619047619048,,,
+2335,Bit.Trip Presentrs Runner 2: Future Legend of Rhythm Alien,0.9045454545454545,,,
+2336,Borderlands 3,0.9045454545454545,2019,"Mac, PC, PS4, PS5, Xbox One, Xbox Series X/S",Gearbox Software
+2337,OlliOlli,0.9045454545454545,,,
+2338,Paper Mario: Color Splash,0.9045454545454545,,,
+2339,Persona 2: Innocent Sin,0.9045454545454545,,,
+2340,Prince of Persia (2008),0.9045454545454545,,,
+2341,Tacoma,0.9045454545454545,2017,"Linux, Mac, PC, PS4, Xbox One",Fullbright
+2342,Rallisport Challenge 2,0.9043478260869565,,,
+2343,Scribblenauts Unmasked: A DC Comics Adventure,0.9043478260869565,,,
+2344,Shin Megami Tensei IV,0.9043478260869565,,,
+2345,The Darkness II,0.9043478260869565,,,
+2346,The Missing,0.9043478260869565,,,
+2347,Tom Clancy's Ghost Recon Wildlands,0.9043478260869565,,,
+2348,Evolve,0.9041666666666667,,,
+2349,Puyo Puyo Tetris,0.9041666666666667,2014,"3DS, PC, PS3, PS4, PS Vita, Switch, Wii U, Xbox 360, Xbox One",Sonic Team
+2350,Resistence 3,0.9041666666666667,,,
+2351,Banner Saga 2,0.904,2016,"Android, iOS, PC, PS4, Switch, Xbox One",Stoic Studio
+2352,Blackwood Crossing,0.904,,,
+2353,Bladestorm,0.904,,,
+2354,Corpse Party,0.904,,,
+2355,For Honor,0.904,2017,"PC, PS4, Xbox One",Ubisoft Montreal
+2356,OlliOlli2: Welcome to Olliwood,0.904,,,
+2357,Sine Mora,0.904,,,
+2358,State of Decay 2,0.904,,,
+2359,The Secret World,0.904,,,
+2360,Two Point Hospital,0.904,,,
+2361,Emily Is Away Too,0.9038461538461539,,,
+2362,Mass Effect: Andromeda,0.9038461538461539,2017,"PC, PS4, Xbox One",BioWare
+2363,Table Tennis,0.9038461538461539,,,
+2364,Pillars of Eternity 2: Deadfire,0.9037037037037037,,,
+2365,Torchlight II,0.9037037037037037,,,
+2366,Destiny 2: Beyond Light,0.9035714285714286,2020,"PC, PS4, PS5, Xbox One, Xbox Series X/S",Bungie
+2367,Dirt 4,0.9035714285714286,,,
+2368,Football Manager 2005,0.9035714285714286,,,
+2369,Murder By Numbers,0.903448275862069,,,
+2370,Sundered,0.903448275862069,2017,"Linux, Mac, PC, PS4, Switch, Xbox One",Thunder Lotus Games
+2371,FIFA 18,0.9033333333333333,2017,"PS4, Xbox One","EA Romania, EA Vancouver"
+2372,Incredible Hulk: Ultimate Destruction,0.9033333333333333,,,
+2373,Lone Survivor,0.9033333333333333,,,
+2374,Lonely Mountains: Downhill,0.9033333333333333,,,
+2375,Metroid: Samus Returns,0.9033333333333333,2017,3DS,"Nintendo EPD, MercurySteam"
+2376,Phoenix Wright Ace Attorney: Justice for All,0.9033333333333333,,,
+2377,Tiger Wood PGA Tour 2005,0.9033333333333333,,,
+2378,The Red Strings Club,0.9032258064516129,,,
+2379,Warhammer Online: Age of Reckoning,0.9032258064516129,,,
+2380,YS 8,0.9032258064516129,,,
+2381,Boiling Point,0.9031250000000001,,,
+2382,Command and Conquer: Red Alert 3,0.9031250000000001,,,
+2383,Neverwinter Nights 2,0.9031250000000001,,,
+2384,Rakuen,0.9031250000000001,,,
+2385,The Solitaire Conspiracy,0.9031250000000001,2020,"Mac, PC",Bithell Games
+2386,Peter Jackson's King Kong,0.9030303030303031,,,
+2387,Tekken: Dark Resurrection,0.9030303030303031,,,
+2388,Another Lost Phone,0.9029411764705882,,,
+2389,Everybody's Golf,0.9029411764705882,,,
+2390,Sky: Children of the Light,0.9029411764705882,,,
+2391,A Case of Distrust,0.9028571428571429,,,
+2392,Dirt 5,0.9028571428571429,2020,"PC, PS4, PS5, Xbox One, Xbox Series X/S",Codemasters Cheshire
+2393,Lumines 2,0.9028571428571429,,,
+2394,Slay the Spire,0.9028571428571429,,,
+2395,SoulCalibur III,0.9028571428571429,,,
+2396,Tom Clancy's Endwar,0.9028571428571429,,,
+2397,Getting Over It,0.9027777777777778,,,
+2398,Paradise Killer,0.9027777777777778,2020,"PC, Switch",Kaizen Game Works
+2399,Rhythm Tengoku,0.9027777777777778,,,
+2400,Vampire The Masquerade:  Bloodlines,0.9027777777777778,,,
+2401,Viking: The Battle For Asgard,0.9027777777777778,,,
+2402,World of Warcraft: Battle for Azeroth,0.9027777777777778,,,
+2403,Desperados 3,0.9027027027027027,,,
+2404,SingStar (PS3),0.9027027027027027,,,
+2405,Universal Paperclips,0.9027027027027027,2017,"Android, iOS, Web",Frank Lantz
+2406,Arknights,0.9026315789473685,,,
+2407,Eastshade,0.9026315789473685,,,
+2408,Harvest Moon: A Wonderful Life,0.9026315789473685,,,
+2409,Lost Odyssey,0.9026315789473685,,,
+2410,Overlord,0.9026315789473685,,,
+2411,The Gardens Between,0.9026315789473685,,,
+2412,Tom Clancy's Ghost Recon: Advanced Warfare,0.9026315789473685,,,
+2413,Virtua Tennis World Tour,0.9026315789473685,,,
+2414,Condemned 2: Bloodshot,0.9025641025641026,,,
+2415,Lawbreakers,0.9025641025641026,2017,"PC, PS4",Boss Key Productions
+2416,Onimusha 3: Demon Siege,0.9025641025641026,,,
+2417,Please Knock on My Door,0.9025641025641026,,,
+2418,Ridge Racer (PSP),0.9025641025641026,,,
+2419,Super Paper Mario,0.9025641025641026,,,
+2420,Yakuza,0.9025641025641026,,,
+2421,Sniper Elite 4,0.9025,2017,"PC, PS4, Switch, Xbox One",Rebellion Developments
+2422,Trackmania Sunrise,0.9025,,,
+2423,"Wide Ocean, Big Jacket",0.9025,,,
+2424,Wreckfest,0.9025,,,
+2425,Hidden Folks,0.9024390243902439,,,
+2426,In Other Waters,0.9024390243902439,,,
+2427,Fallout 76,0.9023809523809524,,,
+2428,Harvest Moon: Magical Melody,0.9023809523809524,,,
+2429,Lego Batman,0.9023809523809524,,,
+2430,Star Trek: Bridge Crew,0.9023809523809524,,,
+2431,Steamworld Quest: Hand of Gilgamech,0.9023809523809524,,,
+2432,Catan,0.9023255813953489,,,
+2433,F-Zero: GP Legend,0.9023255813953489,,,
+2434,Pro Evolution Soccer 2018,0.9023255813953489,,,
+2435,Steambot Chronicles,0.9023255813953489,,,
+2436,Creaks,0.9022727272727273,,,
+2437,Daxter,0.9022727272727273,,,
+2438,Mario Tennis Aces,0.9022727272727273,,,
+2439,Polybius,0.9022727272727273,2017,"PC, PS4",Llamasoft
+2440,Tomb Raider Anniversary,0.9022727272727273,,,
+2441,Bloodstained: Ritual of the Night,0.9022222222222223,,,
+2442,Mario Kart Live: Home Circuit,0.9022222222222223,2020,Switch,Velan Studios
+2443,Metal of Honor: Pacific Assault,0.9022222222222223,,,
+2444,My Child Lebensborn,0.9022222222222223,,,
+2445,The Lord of the Rings Online: Shadows of Angmar,0.9022222222222223,,,
+2446,Wipeout Pure,0.9022222222222223,,,
+2447,Guild Wars: Nightfall,0.9021739130434783,,,
+2448,Super Mega Baseball 3,0.9021739130434783,,,
+2449,Guitar Hero 2,0.902127659574468,,,
+2450,SEGA Rally,0.902127659574468,,,
+2451,Sonic Chronicles: The Dark Brotherhood,0.902127659574468,,,
+2452,Space Rangers,0.902127659574468,,,
+2453,TOCA Race Driver 2,0.902127659574468,,,
+2454,Apollo Justic: Ace Attorney,0.9020833333333333,,,
+2455,Helltaker,0.9020833333333333,,,
+2456,Islanders,0.9020833333333333,,,
+2457,N3: Ninety-Nine Nights,0.9020833333333333,,,
+2458,SEGA SuperStars,0.9020833333333333,,,
+2459,Snipperclips,0.9020833333333333,,,
+2460,Stories Untold,0.9020833333333333,,,
+2461,Virtual Tennis 3,0.9020833333333333,,,
+2462,Madden NFL 18,0.9020408163265307,2017,"PS4, Xbox One",EA Tiburon
+2463,Scarface: The World Is Yours,0.9020408163265307,,,
+2464,SingStar 80s,0.9020408163265307,,,
+2465,Star Ocean 3: Till the End of Time,0.9020408163265307,,,
+2466,A Mortician's Tale,0.902,,,
+2467,Bugsnax,0.902,,,
+2468,Call of Cthulhu: Dark Corners of the Earth,0.902,,,
+2469,Ni No Kuni 2: Revenant Kingdom,0.902,,,
+2470,Pistol Whip,0.902,,,
+2471,Stuntman Ignition,0.902,,,
+2472,1001 Spikes,0.9,,,
+2473,868-HACK,0.9,,,
+2474,A Boy and His Blob (Wii),0.9,,,
+2475,A Monster's Expedition,0.9,,,
+2476,Call of Duty: Black Ops Cold War,0.9,,,
+2477,Clash Royale,0.9,,,
+2478,Cloudpunk,0.9,,,
+2479,Clubhouse Games,0.9,,,
+2480,Crash Bandicoot 4: It's About Time,0.9,,,
+2481,Dark Cloud 2,0.9,,,
+2482,Disc Room,0.9,,,
+2483,Dungelot,0.9,,,
+2484,ESPN NBA Basketball,0.9,,,
+2485,ESPN NFL Football,0.9,,,
+2486,Fantasy Life,0.9,,,
+2487,Far: Lone Sails,0.9,,,
+2488,Final Fantasy Tactics Advance,0.9,,,
+2489,Final Night Round 3,0.9,,,
+2490,Firewall Zero Hour,0.9,,,
+2491,Gang Beasts,0.9,,,
+2492,Ghostbusters: The Video Game,0.9,,,
+2493,Gladius,0.9,,,
+2494,Grand Prix 3,0.9,,,
+2495,Hero Academy,0.9,,,
+2496,Hoplite,0.9,,,
+2497,International Karate 2000,0.9,,,
+2498,Jackbox Party Pack 7,0.9,,,
+2499,Jak II,0.9,,,
+2500,Jazzpunk,0.9,,,
+2501,Jets 'N' Guns: Gold,0.9,,,
+2502,Job Simulator: The 2050 Archives,0.9,,,
+2503,Laser League,0.9,,,
+2504,Mario Kart: Double Dash!!,0.9,,,
+2505,Martian Gothic: Unification,0.9,,,
+2506,Mega Man 9,0.9,,,
+2507,Mercenaries: Playground of Destruction,0.9,,,
+2508,Metal Gear Soliv V: The Phantom Pain,0.9,,,
+2509,Midnight Club II,0.9,,,
+2510,Monster Boy and the Cursed Kingdom,0.9,,,
+2511,Orcs & Elves,0.9,,,
+2512,Project Gotham Racing 2,0.9,2003,Xbox,"Bizarre Creations
 "
-2512,Rainbow Six 3,0.9,,,
-2513,Return to Castle Wolfenstein: Tides of War,0.9,,,
-2514,Ridiculous Fishing,0.9,,,
-2515,Rust,0.9,,,
-2516,SSX,0.9,,,
-2517,Samurai Gunn,0.9,,,
-2518,Skate 3,0.9,,,
-2519,Skipping Stone,0.9,,,
-2520,SpeedRunners,0.9,,,
-2521,Spider-Man,0.9,,,
-2522,Splashdown: Rides Gone Wild,0.9,,,
-2523,Star Wars: The Force Unleashed,0.9,,,
-2524,Startopia,0.9,,,
-2525,Steamworld Dig,0.9,,,
-2526,Superbrothers: Sword & Sworcery EP,0.9,,,
-2527,The Long Dark,0.9,,,
-2528,The Simpsons: Hit & Run,0.9,,,
-2529,The Sims: Bustin' Out,0.9,,,
-2530,Thronebreaker: The Witcher Tales,0.9,,,
-2531,Through the Darkest of Times,0.9,,,
-2532,Tiger Woods PGA Tour 2004,0.9,,,
-2533,Top Spin,0.9,,,
-2534,Tron 2.0,0.9,,,
-2535,Typing of the Dead: Overkill,0.9,,,
-2536,Ultra Business Tycoon III,0.9,,,
-2537,Warcraft III: Frozen Throne,0.9,,,
-2538,"Warrio Ware, Inc.: Mega Microgames!",0.9,,,
-2539,Westerado,0.9,,,
-900000,Monster Hunter 4 Ultimate,8.548496240601505,2015,3DS,Capcom
-900000,Pac-Man: Championship Edition DX,7.72403736614263,2010,"PC, PS3, Xbox 360","Mine Loader Software, Namco Bandai Games"
-900000,Rez Infinite,7.693240284619595,2016,"HTC Vive, Oculus Rift, PSVR","Enhance Games, Monstars, Resonair"
-900000,Demon's Souls (2020),7.330492514731645,2020,PS5,Bluepoint Games
-900000,Outrun 2,7.325504961587709,2003,"Arcade, Xbox","Sega AM2, Sumo Digital"
+2513,Rainbow Six 3,0.9,,,
+2514,Return to Castle Wolfenstein: Tides of War,0.9,,,
+2515,Ridiculous Fishing,0.9,,,
+2516,Rust,0.9,,,
+2517,SSX,0.9,,,
+2518,Samurai Gunn,0.9,,,
+2519,Skate 3,0.9,,,
+2520,Skipping Stone,0.9,,,
+2521,SpeedRunners,0.9,,,
+2522,Spider-Man,0.9,,,
+2523,Splashdown: Rides Gone Wild,0.9,,,
+2524,Star Wars: The Force Unleashed,0.9,,,
+2525,Startopia,0.9,,,
+2526,Steamworld Dig,0.9,,,
+2527,Superbrothers: Sword & Sworcery EP,0.9,,,
+2528,The Long Dark,0.9,,,
+2529,The Simpsons: Hit & Run,0.9,,,
+2530,The Sims: Bustin' Out,0.9,,,
+2531,Thronebreaker: The Witcher Tales,0.9,,,
+2532,Through the Darkest of Times,0.9,,,
+2533,Tiger Woods PGA Tour 2004,0.9,,,
+2534,Top Spin,0.9,,,
+2535,Tron 2.0,0.9,,,
+2536,Typing of the Dead: Overkill,0.9,,,
+2537,Ultra Business Tycoon III,0.9,,,
+2538,Warcraft III: Frozen Throne,0.9,,,
+2539,"Warrio Ware, Inc.: Mega Microgames!",0.9,,,
+2540,Westerado,0.9,,,
+900000,Persona 4 Golden,17.08274428954514,2011,PS Vita,Atlus
+900000,Street Fighter III: Third Strike,12.426830135039092,1999,"Arcade, Dreamcast",Capcom
+900000,Super Street Fighter II: Turbo,4.904761904761905,1994,Arcade,Capcom
+900000,Virtua Fighter 5: Final Showdown,4.523959827833572,2010,"Arcade, PS3, Xbox 360",Sega AM2
 900000,Ninja Gaiden Black,7.100892857142858,2005,Xbox,Team Ninja
 900000,Mario Kart 8 Deluxe,6.387324929971989,2017,Switch,Nintendo EAD
 900000,Street Fighter II: Turbo,6.114925373134328,1992,Arcade,Capcom
-900000,Super Street Fighter II: Turbo,4.904761904761905,1994,Arcade,Capcom
-900000,Virtua Fighter 5: Final Showdown,4.523959827833572,2010,"Arcade, PS3, Xbox 360",Sega AM2
 900000,Shin Megami Tensei: Persona 4,5.2331071913161455,2008,"PC, PS2, PS Vita",Atlus
 900000,Ultra Street Fighter IV,5.087037037037037,2014,"Arcade, PC, PS3, Xbox 360","Capcom, Dimps"
+900000,Virtua Fighter 4: Evolution,2.9011337868480727,2003,PS2,Sega AM2
 900000,Rez HD,4.2017006802721095,,,
 900000,NBA Jam: Tournament Edition,4.002449676332358,1995,Arcade,Torus Games
 900000,Tony Hawk's Pro Skater 1 + 2,3.620084033613445,2020,"PC, PS4, Xbox One",Vicarious Visions
-900000,Virtua Fighter 4: Evolution,2.9011337868480727,2003,PS2,Sega AM2
+900000,Monster Hunter 4 Ultimate,8.548496240601505,2015,3DS,Capcom
+900000,Demon's Souls (2020),8.230492514731646,2020,PS5,Bluepoint Games
+900000,Pac-Man: Championship Edition DX,7.72403736614263,2010,"PC, PS3, Xbox 360","Mine Loader Software, Namco Bandai Games"
+900000,Rez Infinite,7.693240284619595,2016,"HTC Vive, Oculus Rift, PSVR","Enhance Games, Monstars, Resonair"
+900000,Outrun 2,7.325504961587709,2003,"Arcade, Xbox","Sega AM2, Sumo Digital"
 900000,Shin Megami Tensei: Persona 3,2.70390625,,,
 900000,FTL: Advanced Edition,2.615873015873016,2013,"iOS, Linux, Mac, PC",Subset Games
 900000,Halo: Combat Evolved Anniversary,2.4833333333333334,2011,Xbox 360,"343 Industries, Saber Interactive"
@@ -2572,8 +2574,8 @@ Nintendo R&D2 (NES)"
 900000,Disgaea: Afternoon of Darkness,2.0018115942028984,,,
 900000,NFL 2K5,2.000455373406193,2004,"PS2, Xbox",Visual Concepts
 900000,Shadow of the Colossus (Remaster),1.8367816091954023,2018,PS4,Bluepoint Games
+900000,Persona 5 Royal,1.8250000000000002,,,
 900000,Monster Hunter Tri G,1,2011,"3DS, Wii U",Capcom
-900000,Persona 5 Royal,0.925,,,
 900000,Dark Souls (Remastered),0.92,2018,"PC, PS4, Switch, Xbox One",FromSoftware
 900000,Planescape Torment Enhanced Edition,0.9055555555555556,,,
 900000,The Elder Scrolls V: Skyrim - Special Edition,0.9052631578947369,2016,"PC, PS4, Switch, Xbox One",Bethesda Game Studios
@@ -2581,5 +2583,3 @@ Nintendo R&D2 (NES)"
 900000,The Legend of Zelda: Twilight Princess HD,0.9041666666666667,2016,Wii U,"Nintendo EPD, Tantalus"
 900000,Super Mario Advance 4: Super Mario Bros. 3,0.9,,,
 900000,The Legend of Zelda: The Wind Waker HD,0.9,,,
-900000,Street Fighter III: Third Strike,12.426830135039092,1999,"Arcade, Dreamcast",Capcom
-900000,Persona 4 Golden,17.08274428954514,2011,PS Vita,Atlus
