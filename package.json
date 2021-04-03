@@ -19,6 +19,6 @@
     "express": "^4.17.1",
     "sqlite3": "^5.0.0",
     "vue": "^2.6.12",
-    "vue-good-table": "^2.21.8",
+    "vue-good-table": "^2.21.8"
   }
 }
