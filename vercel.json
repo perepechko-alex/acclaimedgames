@@ -7,6 +7,10 @@
       "config": {
         "serverFiles": ["api/**"]
       }
+    },
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [

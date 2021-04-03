@@ -15,6 +15,7 @@
   "type": "module",
   "dependencies": {
     "@nuxtjs/vercel-builder": "^0.21.2",
+    "@vercel/node": "^1.9.1",
     "csv-parse": "^4.14.2",
     "csv-stringify": "^5.5.3",
     "express": "^4.17.1",
