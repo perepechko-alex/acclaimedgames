@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e03efdb-9eeb-48fc-83e6-0eb0b1cb3113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +31,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1617421533" />
+                    <option name="branchName" value="frontendDesign" />
+                    <option name="lastUsedInstant" value="1617422710" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="frontendDesign" />
-                    <option name="lastUsedInstant" value="1615922340" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1617421533" />
                   </RecentBranch>
                 </list>
               </option>
@@ -213,7 +211,8 @@
       <workItem from="1615923470444" duration="5259000" />
       <workItem from="1617382507065" duration="3510000" />
       <workItem from="1617407488673" duration="3523000" />
-      <workItem from="1617420737918" duration="1780000" />
+      <workItem from="1617420737918" duration="2147000" />
+      <workItem from="1617422917554" duration="134000" />
     </task>
     <servers />
   </component>

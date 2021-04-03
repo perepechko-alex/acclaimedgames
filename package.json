@@ -6,7 +6,9 @@
   "scripts": {
     "export": "node ./utils/export.js",
     "import": "node ./utils/import.js",
-    "start": "node ./utils/runUtils.js"
+    "start-utils": "node ./utils/runUtils.js",
+    "start": "nuxt start",
+    "dev": "nuxt dev"
   },
   "author": "Alexander Perepechko",
   "license": "GNU AGPLv3",
