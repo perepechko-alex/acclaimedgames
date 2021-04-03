@@ -180,6 +180,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# workspace
+.idea/workspace.xml
+
 # Editor-based Rest Client
 .idea/httpRequests
 
