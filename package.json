@@ -2,7 +2,7 @@
   "name": "acclaimedgames",
   "version": "1.0.0",
   "description": "Listing and determining the greatest video games of all time",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "export": "node ./utils/export.js",
     "import": "node ./utils/import.js",
