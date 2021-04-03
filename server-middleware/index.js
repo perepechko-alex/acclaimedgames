@@ -13,7 +13,7 @@ module.exports = {
   handler: app,
 };
 
-export default {
-  path: "/api",
-  handler: app,
-};
+// export default {
+//   path: "/api",
+//   handler: app,
+// };
