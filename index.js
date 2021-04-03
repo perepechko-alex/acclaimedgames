@@ -1,9 +1,10 @@
-const express = require("express");
-const { Nuxt, Builder } = require("nuxt");
+import express from "express";
+import Nuxt from "nuxt";
+import Builder from "nuxt";
 const app = express();
 
 // Import and Set Nuxt.js options
-let config = require("./nuxt.config.js");
+import * as config from "./nuxt.config.js";
 config.dev = !(process.env.NODE_ENV === "production");
 
 (async function () {

@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 
 // Require API routes
-const apiRoutes = require("../routes/routes.js");
+import * as apiRoutes from "../routes/routes.js";
 
 // Import API Routes
 app.use(apiRoutes);

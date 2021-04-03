@@ -64,7 +64,7 @@ export default {
   },
   async fetch() {
     this.games = await fetch(
-        'http://localhost:3000/api/results'
+        process.env.URL ? `https://${process.env.URL}/api/results` :'http://localhost:3000/api/results'
     ).then(res => res.json())
   },
   fetchOnServer: false

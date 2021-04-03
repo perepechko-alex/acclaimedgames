@@ -1,7 +1,6 @@
 import express from "express";
 import { db } from "../lib/db/db.js";
-
-const { Router } = require("express");
+import { Router } from "express";
 
 const router = Router();
 
