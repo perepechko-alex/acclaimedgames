@@ -182,6 +182,7 @@ fabric.properties
 
 # workspace
 .idea/workspace.xml
+.idea/misc.xml
 
 # Editor-based Rest Client
 .idea/httpRequests
