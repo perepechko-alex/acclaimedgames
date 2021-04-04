@@ -16,13 +16,19 @@ import { importCsvGoatData, importCsvGotyData } from "./import.js";
 (async () => {
   createTables();
   createViews();
+  createFinalResultsTable();
   await importCsvGoatData();
   await importCsvGotyData();
-  writeGameMetadata();
-  createFinalResultsTable();
-  const otherGamesArr = await getOtherGameVersions();
-  const gamesArr = await getGoat();
-  const consolidatedGamesArr = getConsolidatedGames(otherGamesArr, gamesArr);
-  await writeFinalResults(consolidatedGamesArr);
-  writeToCsv();
+  setTimeout(async() => {
+    const otherGamesArr = await getOtherGameVersions();
+    const gamesArr = await getGoat();
+    const consolidatedGamesArr = getConsolidatedGames(otherGamesArr, gamesArr);
+    await writeFinalResults(consolidatedGamesArr);
+    writeGameMetadata();
+    writeToCsv();
+
+  }, 750);
 })();
+
+
+
