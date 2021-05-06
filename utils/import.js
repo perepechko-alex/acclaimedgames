@@ -18,7 +18,7 @@ export async function importCsvGoatData() {
   let batch = [];
   fs.readdir(dataFolderGoat, async (err, files) => {
     await Promise.all(
-      files.map((file, index) => {
+      files.map((file) => {
         fs.createReadStream(`${dataFolderGoat}/${file}`)
           .pipe(parse({ delimiter: ",", from_line: 2 }))
           .on("data", function (csvrow) {

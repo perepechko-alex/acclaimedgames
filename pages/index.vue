@@ -15,6 +15,13 @@
           mode: 'records',
           perPage: 100,
         }">
+      <template slot="table-row" slot-scope="props">
+        <span v-if="props.column.field == 'name'">
+          <NuxtLink :to="'/game/' + props.row[props.column.field]">
+            {{props.row[props.column.field]}}
+          </NuxtLink>
+        </span>
+      </template>
     </vue-good-table>
     <button @click="$fetch">Refresh</button>
   </div>
@@ -63,9 +70,7 @@ export default {
     }
   },
   async fetch() {
-    this.games = await fetch(
-        process.env.URL ? `https://${process.env.URL}/api/results` :'http://localhost:3000/api/results'
-    ).then(res => res.json())
+    this.games = await fetch(`${process.env.baseUrl}/api/results`).then(res => res.json())
   },
   fetchOnServer: false
 }
