@@ -66,7 +66,7 @@ export default {
   },
   async asyncData({ params, $http }) {
     const gameName = params.game // When calling /abc the game name will be "abc"
-    const gameResults = await $http.$get(`${process.env.baseUrl}/api/${encodeURIComponent(gameName.replace(/'/g, '\'\''))}`)
+    const gameResults = await $http.$get(`/api/${encodeURIComponent(gameName.replace(/'/g, '\'\''))}`)
     return { gameResults }
   },
 }

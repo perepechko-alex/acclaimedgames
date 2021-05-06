@@ -70,7 +70,7 @@ export default {
     }
   },
   async fetch() {
-    this.games = await fetch(`${process.env.baseUrl}/api/results`).then(res => res.json())
+    this.games = await fetch(`/api/results`).then(res => res.json())
   },
   fetchOnServer: false
 }
