@@ -17,7 +17,7 @@
         }"
         :pagination-options="{
           enabled: true,
-          mode: 'pages',
+          mode: 'records',
           perPage: 100,
         }">
       <template slot="table-row" slot-scope="props">
