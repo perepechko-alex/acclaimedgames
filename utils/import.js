@@ -153,10 +153,3 @@ export async function importCsvGotyData() {
     );
   });
 }
-
-// (async () => {
-//   createTables();
-//   createViews();
-//   await importCsvGoatData();
-//   await importCsvGotyData();
-// })();
