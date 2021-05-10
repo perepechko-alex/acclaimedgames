@@ -2,7 +2,7 @@ module.exports = {
   target: "server",
   telemetry: false,
   serverMiddleware: ["~/server-middleware/index.js"],
-  plugins: [{ src: "~/plugins/vue-good-table.js", ssr: false }],
+  plugins: [{ src: "~/plugins/vue-good-table.js", ssr: true }],
   modules: [
     '@nuxt/http',
   ],
