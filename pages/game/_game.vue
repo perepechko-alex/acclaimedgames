@@ -2,6 +2,7 @@
 <!--  <p v-if="$fetchState.pending">Fetching games...</p>-->
 <!--  <p v-else-if="$fetchState.error">An error occurred :(</p>-->
   <div>
+    <NuxtLink to="/">Home page</NuxtLink>
     <h1>{{ gameResults[0].name }}</h1>
     <vue-good-table
         :columns="headers"

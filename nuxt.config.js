@@ -7,6 +7,6 @@ module.exports = {
     '@nuxt/http',
   ],
   env: {
-    baseUrl: process.env.BASE_URL
+    baseUrl: process.env.BASE_URL || `http://localhost:${process.env.PORT || 3000}`
   }
 };
