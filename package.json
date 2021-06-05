@@ -5,8 +5,9 @@
   "main": "api/index.js",
   "scripts": {
     "export": "node ./utils/export.js",
-    "import": "node ./utils/import.js",
-    "start-utils": "node ./utils/runUtils.js",
+    "import": "node ./utils/runImport.js",
+    "generation": "node ./utils/runGeneration.js",
+    "start-utils": "node ./utils/runImport.js && node ./utils/runGeneration.js",
     "start": "nuxt start",
     "dev": "nuxt dev"
   },
