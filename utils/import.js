@@ -101,7 +101,13 @@ export async function importCsvGotyData() {
               : null;
             if (csvrow[0].toLowerCase() === "unranked" && rank === null)
               rank = "Unranked";
-            publication = rank === null ? csvrow[0] : pubre.exec(`${file}`);
+            if (rank === null) {
+              publication = csvrow[0]
+            }
+            else{
+              const pubRegex = pubre.exec(`${file}`)
+              publication = pubRegex[1]
+            }
             name = csvrow[1];
             notes = csvrow[2];
             if (name) {
