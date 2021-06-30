@@ -51,6 +51,12 @@ export default {
           filterable: true,
         },
         {
+          label: 'Number of Lists',
+          field: 'numoflists',
+          type: 'number',
+          filterable: true,
+        },
+        {
           label: 'Release Date',
           field: 'releasedate',
           filterable: true,
