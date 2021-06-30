@@ -54,7 +54,8 @@ export default {
         },
         {
           label: 'Publication',
-          field: 'filename', // TODO: Change to publication later
+          field: 'publication',
+          filterable: true,
         },
         {
           label: 'List Year',
