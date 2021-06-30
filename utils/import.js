@@ -6,6 +6,7 @@ import { db, createTables, createViews } from "../lib/db/db.js";
 const dataFolderGoat = "./data/in/goat";
 const dataFolderGoty = "./data/in/goty";
 const re = /[0-9]{4}/;
+const pubre = /.*-(.*).csv/;
 let listDate = "";
 let rank = 0;
 let name = "";
@@ -35,9 +36,11 @@ export async function importCsvGoatData() {
               else notes = csvrow[1];
 
               listDate = re.exec(`${file}`);
+              publication = pubre.exec(`${file}`)
               params = [
                 file,
                 listDate[0],
+                publication[1],
                 rank,
                 name,
                 goatCalc(listDate[0], rank, !!rank, 2),
@@ -47,10 +50,10 @@ export async function importCsvGoatData() {
               batch.push(params);
               if (batch.length === 100) {
                 const placeholders = batch
-                  .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
+                  .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
                   .join(",");
                 const query = db.prepare(
-                  `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
+                  `INSERT INTO goat(filename, listyear, publication, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
                 );
                 const flatBatch = batch.flat();
                 db.serialize(() => {
@@ -67,10 +70,10 @@ export async function importCsvGoatData() {
           .on("finish", function () {
             if (batch.length > 0) {
               const placeholders = batch
-                .map((param) => "(?, ?, ?, ?, ?, ?, ?)")
+                .map((param) => "(?, ?, ?, ?, ?, ?, ?, ?)")
                 .join(",");
               const query = db.prepare(
-                `INSERT INTO goat(filename, listyear, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
+                `INSERT INTO goat(filename, listyear, publication, rank, name, weightedpoints, isranked, notes) VALUES ${placeholders}`
               );
               const flatBatch = batch.flat();
               db.serialize(() => {
@@ -98,7 +101,7 @@ export async function importCsvGotyData() {
               : null;
             if (csvrow[0].toLowerCase() === "unranked" && rank === null)
               rank = "Unranked";
-            publication = rank === null ? csvrow[0] : null;
+            publication = rank === null ? csvrow[0] : pubre.exec(`${file}`);
             name = csvrow[1];
             notes = csvrow[2];
             if (name) {
