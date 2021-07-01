@@ -2,6 +2,7 @@
   <p v-if="$fetchState.pending">Fetching games...</p>
   <p v-else-if="$fetchState.error">An error occurred :(</p>
   <div v-else>
+    <last-updated />
     <h1>Games</h1>
     <vue-good-table
         :columns="headers"
@@ -28,7 +29,10 @@
 </template>
 
 <script>
+import LastUpdated from "../components/lastUpdated";
+
 export default {
+  components: {LastUpdated},
   data() {
     return {
       headers: [
