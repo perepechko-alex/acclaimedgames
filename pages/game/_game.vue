@@ -1,33 +1,32 @@
 <template>
-<!--  <p v-if="$fetchState.pending">Fetching games...</p>-->
-<!--  <p v-else-if="$fetchState.error">An error occurred :(</p>-->
+  <!--  <p v-if="$fetchState.pending">Fetching games...</p>-->
+  <!--  <p v-else-if="$fetchState.error">An error occurred :(</p>-->
   <div>
     <last-updated />
     <NuxtLink to="/">Home page</NuxtLink>
     <h1>{{ gameResults[0].name }}</h1>
     <vue-good-table
-        :columns="headers"
-        :rows="gameResults"
-        :sort-options="{
-          enabled: true,
-          initialSortBy: {field: 'rank', type: 'asc'},
-        }"
-        :search-options="{
-          enabled: true,
-          skipDiacritics: true,
-        }"
-        :pagination-options="{
-          enabled: true,
-          mode: 'records',
-          perPage: 100,
-        }">
+      :columns="headers"
+      :rows="gameResults"
+      :sort-options="{
+        enabled: true,
+        initialSortBy: { field: 'rank', type: 'asc' },
+      }"
+      :search-options="{
+        enabled: true,
+        skipDiacritics: true,
+      }"
+      :pagination-options="{
+        enabled: true,
+        mode: 'records',
+        perPage: 100,
+      }"
+    >
       <template slot="table-row" slot-scope="props">
         <span v-if="props.column.field == 'rank'">
-          <span v-if="props.row.rank == null">
-            Unranked
-          </span>
+          <span v-if="props.row.rank == null"> Unranked </span>
           <span v-else>
-            {{props.row[props.column.field]}}
+            {{ props.row[props.column.field] }}
           </span>
         </span>
       </template>
@@ -39,41 +38,43 @@
 import LastUpdated from "../../components/lastUpdated";
 
 export default {
-  components: {LastUpdated},
+  components: { LastUpdated },
   data() {
     return {
       headers: [
         {
-          label: 'Rank',
-          field: 'rank',
-          type: 'number',
+          label: "Rank",
+          field: "rank",
+          type: "number",
           html: false,
           filterable: true,
         },
         {
-          label: 'Weighted Points',
-          field: 'weightedpoints',
-          type: 'decimal',
+          label: "Weighted Points",
+          field: "weightedpoints",
+          type: "decimal",
           filterable: true,
         },
         {
-          label: 'Publication',
-          field: 'publication',
+          label: "Publication",
+          field: "publication",
           filterable: true,
         },
         {
-          label: 'List Year',
-          field: 'listyear',
+          label: "List Year",
+          field: "listyear",
           filterable: true,
         },
       ],
-      gameResults: []
-    }
+      gameResults: [],
+    };
   },
   async asyncData({ params, $http }) {
-    const gameName = params.game // When calling /abc the game name will be "abc"
-    const gameResults = await $http.$get(`/api/${encodeURIComponent(gameName.replace(/'/g, '\'\''))}`)
-    return { gameResults }
+    const gameName = params.game; // When calling /abc the game name will be "abc"
+    const gameResults = await $http.$get(
+      `/api/${encodeURIComponent(gameName.replace(/'/g, "''"))}`
+    );
+    return { gameResults };
   },
-}
+};
 </script>

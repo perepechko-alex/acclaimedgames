@@ -9,8 +9,5 @@ import { importCsvGoatData, importCsvGotyData } from "./import.js";
   createTables();
   createViews();
   createFinalResultsTable();
-  await Promise.allSettled([importCsvGoatData(), importCsvGotyData()])
+  await Promise.allSettled([importCsvGoatData(), importCsvGotyData()]);
 })();
-
-
-

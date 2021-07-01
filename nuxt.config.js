@@ -3,10 +3,9 @@ module.exports = {
   telemetry: false,
   serverMiddleware: ["~/server-middleware/index.js"],
   plugins: [{ src: "~/plugins/vue-good-table.js", ssr: true }],
-  modules: [
-    '@nuxt/http',
-  ],
+  modules: ["@nuxt/http"],
   env: {
-    baseUrl: process.env.BASE_URL || `http://localhost:${process.env.PORT || 3000}`
-  }
+    baseUrl:
+      process.env.BASE_URL || `http://localhost:${process.env.PORT || 3000}`,
+  },
 };

@@ -36,7 +36,7 @@ export async function importCsvGoatData() {
               else notes = csvrow[1];
 
               listDate = re.exec(`${file}`);
-              publication = pubre.exec(`${file}`)
+              publication = pubre.exec(`${file}`);
               params = [
                 file,
                 listDate[0],
@@ -102,11 +102,10 @@ export async function importCsvGotyData() {
             if (csvrow[0].toLowerCase() === "unranked" && rank === null)
               rank = "Unranked";
             if (rank === null) {
-              publication = csvrow[0]
-            }
-            else{
-              const pubRegex = pubre.exec(`${file}`)
-              publication = pubRegex[1]
+              publication = csvrow[0];
+            } else {
+              const pubRegex = pubre.exec(`${file}`);
+              publication = pubRegex[1];
             }
             name = csvrow[1];
             notes = csvrow[2];
