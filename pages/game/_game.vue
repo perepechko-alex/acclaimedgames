@@ -65,6 +65,11 @@ export default {
           field: "listyear",
           filterable: true,
         },
+        {
+          label: "List Type",
+          field: "listtype",
+          filterable: true,
+        },
       ],
       gameResults: [],
     };

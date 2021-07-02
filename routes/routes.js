@@ -14,7 +14,7 @@ router.get("/results", function (req, res, next) {
 });
 
 router.get("/:game", function (req, res, next) {
-  const sql = `SELECT * FROM "main"."goat" WHERE name='${req.params.game}';`;
+  const sql = `SELECT name, rank, weightedpoints, publication, listyear, listtype FROM "main"."goat" WHERE name='${req.params.game}';`;
   db.all(sql, function (err, row) {
     res.json(row);
   });
