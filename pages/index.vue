@@ -16,6 +16,7 @@
         mode: 'pages',
         perPage: 100,
       }"
+      compactMode
     >
       <template slot="table-row" slot-scope="props">
         <span v-if="props.column.field == 'name'">
