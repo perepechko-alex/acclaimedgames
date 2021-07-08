@@ -1,14 +1,51 @@
-RANK,GAME,WEIGHTED_POINTS
-10,Metal Gear Solid,0.1
-9,Ico,0.111111111
-8,GoldenEye 007,0.125
-7,Gran Turismo 4,0.142857143
-6,Halo 2,0.166666667
-5,Grand Theft Auto: San Andreas,0.2
-4,Super Mario 64,0.25
-3,Half-Life 2,0.333333333
-2,The Legend of Zelda: Ocarina of Time,0.5
-1,The Sims 2,1
-,,
-LIST_YEAR,,
-2005,,
+RANK,GAME,NOTES
+50,Counter-Strike,
+49,Pikmin 2,
+48,Rome: Total War,
+47,Tony Hawk's Pro Skater 2,
+46,Deus Ex,
+45,Star Wars: TIE Fighter,
+44,Sonic the Hedgehog 3,
+43,Tomb Raider,
+42,Oddworld: Stranger's Wrath,
+41,WarioWare Touched,
+40,Tetris,
+39,Fable,
+38,Grim Fandango,
+37,Battlefield 2,
+36,PaRappa the Rapper,
+35,Prince of Persia: Sands of Time,
+34,Animal Crossing,
+33,Wipeout 2097,
+32,Doom 2,
+31,V8 Supercars 2,
+30,Rez,
+29,Sam and Max Hit the Road,
+28,World of Warcraft,
+27,Super Monkey Ball 2,*Listed as Super Monkey Ball 2/Deluxe
+26,Splinter Cell: Chaos Theory,
+25,Tekken 5,
+24,Project Gotham Racing 2,
+23,The Legend of Zelda: Wind Waker,
+22,Age of Empires II,
+21,Burnout Revenge,
+20,Metroid Prime,
+19,Super Mario Kart,
+18,Grand Theft Auto: Vice City,
+17,Civilization II,
+16,Pokemon Fire Red and Leaf Green,
+15,SimCity 2000,
+14,Final Fantasy VII,
+13,Super Mario Bros. 3,
+12,Resident Evil 4,
+11,Pro Evolution Soccer 4,
+10,Metal Gear Solid,
+9,Ico,
+8,GoldenEye 007,
+7,Gran Turismo 4,
+6,Halo 2,
+5,Grand Theft Auto: San Andreas,
+4,Super Mario 64,
+3,Half-Life 2,
+2,The Legend of Zelda: Ocarina of Time,
+1,The Sims 2,
