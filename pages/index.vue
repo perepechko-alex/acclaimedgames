@@ -1,7 +1,5 @@
 <template>
-  <p v-if="$fetchState.pending">Fetching games...</p>
-  <p v-else-if="$fetchState.error">An error occurred :(</p>
-  <div v-else>
+  <div>
     <last-updated />
     <h1>Games</h1>
     <vue-good-table
@@ -26,7 +24,6 @@
         </span>
       </template>
     </vue-good-table>
-    <button @click="$fetch">Refresh</button>
   </div>
 </template>
 
@@ -81,9 +78,9 @@ export default {
       games: [],
     };
   },
-  async fetch() {
-    this.games = await fetch(`/api/results`).then((res) => res.json());
+  async asyncData({ $http }) {
+    const games = await $http.$get(`/api/results`);
+    return {games};
   },
-  fetchOnServer: false,
 };
 </script>

@@ -6,6 +6,7 @@
     <NuxtLink to="/">Home page</NuxtLink>
     <h1>{{ gameResults[0].name }}</h1>
     <vue-good-table
+      mode="remote"
       :columns="headers"
       :rows="gameResults"
       :sort-options="{
