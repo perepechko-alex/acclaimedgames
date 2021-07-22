@@ -6,9 +6,6 @@ module.exports = {
   serverMiddleware: ["~/server-middleware/index.js"],
   plugins: [{ src: "~/plugins/vue-good-table.js", ssr: true }],
   modules: ["@nuxt/http"],
-  router: {
-    trailingSlash: false
-  },
   generate: {
     async routes() {
       const gamesArr = await getGameRoutes();
