@@ -17,10 +17,10 @@
       compactMode
     >
       <template slot="table-row" slot-scope="props">
-        <span v-if="props.column.field == 'name'">
-          <NuxtLink :to="'/game/' + props.row[props.column.field]">
+        <span v-if="props.column.field === 'name'">
+          <a v-bind:href="`/game/${props.row[props.column.field]}`">
             {{ props.row[props.column.field] }}
-          </NuxtLink>
+          </a>
         </span>
       </template>
     </vue-good-table>
