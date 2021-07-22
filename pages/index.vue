@@ -21,6 +21,9 @@
           <a v-bind:href="`/game/${props.row[props.column.field]}`">
             {{ props.row[props.column.field] }}
           </a>
+<!--          <NuxtLink :to="`/game/${props.row[props.column.field]}`">-->
+<!--            {{ props.row[props.column.field] }}-->
+<!--          </NuxtLink>-->
         </span>
       </template>
     </vue-good-table>

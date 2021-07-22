@@ -1,5 +1,4 @@
 import { getGameRoutes } from "./lib/getGameRoutes";
-import {getIndividualGameGoat} from "./lib/goat";
 module.exports = {
   target: "static",
   telemetry: false,
