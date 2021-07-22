@@ -7,7 +7,7 @@ module.exports = {
   plugins: [{ src: "~/plugins/vue-good-table.js", ssr: true }],
   modules: ["@nuxt/http"],
   router: {
-    trailingSlash: true
+    trailingSlash: false
   },
   generate: {
     async routes() {

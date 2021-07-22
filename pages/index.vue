@@ -18,7 +18,7 @@
     >
       <template slot="table-row" slot-scope="props">
         <span v-if="props.column.field === 'name'">
-          <NuxtLink :to="`/game/${props.row[props.column.field]}/`">
+          <NuxtLink :to="`/game/${props.row[props.column.field]}`">
             {{ props.row[props.column.field] }}
           </NuxtLink>
         </span>
