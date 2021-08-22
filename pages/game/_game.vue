@@ -14,7 +14,7 @@
         ]
       }"
       :pagination-options="{
-        enabled: true,
+        enabled: false,
         mode: 'records'
       }"
     >
