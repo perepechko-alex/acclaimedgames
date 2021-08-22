@@ -7,11 +7,15 @@
       :columns="headers"
       :rows="gameResults"
       :sort-options="{
-        enabled: true
+        enabled: true,
+        initialSortBy: [
+          { field: 'listtype', type: 'asc' },
+          { field: 'rank', type: 'asc' }
+        ]
       }"
       :pagination-options="{
-        mode: 'records',
-        perPageDropdownEnabled: false
+        enabled: true,
+        mode: 'records'
       }"
     >
       <template slot="table-row" slot-scope="props">
