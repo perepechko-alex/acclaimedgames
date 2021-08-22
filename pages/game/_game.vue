@@ -1,16 +1,16 @@
 <template>
   <!--  <p v-if="$fetchState.pending">Fetching games...</p>-->
   <!--  <p v-else-if="$fetchState.error">An error occurred :(</p>-->
+  <!--      mode="remote"-->
   <div>
     <last-updated />
     <NuxtLink to="/">Home page</NuxtLink>
     <h1>{{ gameResults[0].name }}</h1>
     <vue-good-table
-      mode="remote"
       :columns="headers"
       :rows="gameResults"
       :sort-options="{
-        enabled: false,
+        enabled: true,
         initialSortBy: { field: 'rank', type: 'asc' },
       }"
       :search-options="{
@@ -18,9 +18,8 @@
         skipDiacritics: true,
       }"
       :pagination-options="{
-        enabled: true,
         mode: 'records',
-        perPage: 100,
+        perPageDropdownEnabled: false,
       }"
     >
       <template slot="table-row" slot-scope="props">
