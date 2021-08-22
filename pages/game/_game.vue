@@ -2,20 +2,16 @@
   <div>
     <last-updated />
     <NuxtLink to="/">Home page</NuxtLink>
-    <h1>{{ gameResults[0].name }}</h1>
+    <h1 v-if="gameName">{{ gameName }}</h1>
     <vue-good-table
       :columns="headers"
       :rows="gameResults"
-      :sort-options="{
-        enabled: true,
-        initialSortBy: [
-          { field: 'listtype', type: 'asc' },
-          { field: 'rank', type: 'asc' }
-        ]
-      }"
       :pagination-options="{
         enabled: false,
         mode: 'records'
+      }"
+      :sort-options="{
+        enabled: false,
       }"
     >
       <template slot="table-row" slot-scope="props">
@@ -74,7 +70,7 @@ export default {
     const gameResults = await $http.$get(
       `/api/${encodeURIComponent(gameName.replace(/'/g, "''"))}`
     );
-    return { gameResults };
+    return { gameResults, gameName };
   },
 };
 </script>
