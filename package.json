@@ -4,33 +4,39 @@
   "description": "Listing and determining the greatest video games of all time",
   "main": "api/index.js",
   "scripts": {
-    "export": "node ./utils/export.js",
-    "import": "node ./utils/runImport.js",
-    "generation": "node ./utils/runGeneration.js",
-    "start-utils": "node ./utils/runImport.js && node ./utils/runGeneration.js",
-    "start": "nuxt start",
-    "dev": "nuxt dev"
+    "export": "node utils/export.mjs",
+    "import": "node utils/runImport.mjs",
+    "generation": "node utils/runGeneration.mjs",
+    "start-utils": "node utils/runImport.mjs && node utils/runGeneration.mjs",
+    "start-server": "node server.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "Alexander Perepechko",
   "license": "GNU AGPLv3",
-  "type": "module",
   "dependencies": {
-    "@nuxt/http": "^0.6.4",
+    "@babel/core": "^7.0.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "csv-parse": "^4.14.2",
     "csv-stringify": "^5.5.3",
     "express": "^4.17.1",
-    "nuxt": "^2.15.7",
-    "sqlite3": "^5.0.0",
-    "vue": "^2.6.14",
-    "vue-good-table": "^2.21.8"
+    "next": "^11.1.0",
+    "postcss": "^8.2.15",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.3",
-    "eslint": "^7.16.0",
+    "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
   }
 }

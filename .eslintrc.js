@@ -3,10 +3,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["standard"],
+  extends: ["next"],
+  rules: {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+  },
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  rules: {},
 };
