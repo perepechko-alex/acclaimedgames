@@ -1,9 +1,4 @@
 <template>
-  <!--      mode="remote"-->
-  <!--      @on-page-change="onPageChange"-->
-  <!--      @on-sort-change="onSortChange"-->
-  <!--      @on-column-filter="onColumnFilter"-->
-  <!--  :totalRows="totalRecords"-->
   <div>
     <last-updated />
     <h1>Games</h1>
@@ -17,8 +12,7 @@
       :pagination-options="{
         enabled: true,
         mode: 'pages',
-        perPageDropdownEnabled: false,
-        perPage: 100,
+        perPage: 100
       }"
       compactMode
     >
@@ -27,9 +21,6 @@
           <a v-bind:href="`/game/${props.row[props.column.field]}`">
             {{ props.row[props.column.field] }}
           </a>
-<!--          <NuxtLink :to="`/game/${props.row[props.column.field]}`">-->
-<!--            {{ props.row[props.column.field] }}-->
-<!--          </NuxtLink>-->
         </span>
       </template>
     </vue-good-table>
@@ -40,42 +31,6 @@
 import LastUpdated from "../components/lastUpdated";
 export default {
   components: { LastUpdated },
-  methods: {
-    updateParams(newProps) {
-      this.serverParams = Object.assign({}, this.serverParams, newProps);
-    },
-
-    onPageChange(params) {
-      this.updateParams({page: params.currentPage});
-      this.loadItems();
-    },
-
-    onSortChange(params) {
-      for (let column of this.headers) {
-        if (column.field === params[0].field) {
-          this.updateParams({
-            sort: [{
-              type: params.sortType,
-              field: column.field,
-            }],
-          });
-        }
-      }
-      this.loadItems();
-    },
-
-    onColumnFilter(params) {
-      this.updateParams(params);
-      this.loadItems();
-    },
-
-    // load items is what brings back the rows from server
-    loadItems() {
-      let startingGameIndex = 0;
-      startingGameIndex = (this.serverParams.page - 1) * this.serverParams.perPage
-      this.games = this.allGames.slice(startingGameIndex, this.serverParams.perPage * this.serverParams.page).map((game) => game);
-    }
-  },
   data() {
     return {
       headers: [
@@ -120,23 +75,11 @@ export default {
         },
       ],
       games: [],
-      // totalRecords: 101,
-      // serverParams: {
-      //   columnFilters: {
-      //   },
-      //   sort: {
-      //     field: '',
-      //     type: '',
-      //   },
-      //   page: 1,
-      //   perPage: 100
-      // }
     };
   },
   async asyncData({ $http }) {
     const games = await $http.$get(`/api/results`);
-    const allGames = games;
-    return {games, allGames};
+    return {games};
   },
 };
 </script>
