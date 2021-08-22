@@ -11,7 +11,7 @@
         mode: 'records'
       }"
       :sort-options="{
-        enabled: false,
+        enabled: false
       }"
     >
       <template slot="table-row" slot-scope="props">
