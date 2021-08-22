@@ -6,7 +6,7 @@ const router = Router();
 
 router.use(express.json());
 
-router.get("/api/results", function (req, res, next) {
+router.get(["/api/results", "/", "/api"], function (req, res, next) {
   const sql = `SELECT * FROM "main"."results_with_metadata_1000";`;
   db.all(sql, function (err, row) {
     res.json(row);

@@ -2,7 +2,7 @@ import express from "express";
 import next from "next";
 // const bodyParser = require('body-parser')
 
-const dev = process.env.NODE_ENV !== "production";
+const dev = true;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 import router  from "./routes/routes.mjs";

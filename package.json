@@ -8,9 +8,9 @@
     "import": "node utils/runImport.mjs",
     "generation": "node utils/runGeneration.mjs",
     "start-utils": "node utils/runImport.mjs && node utils/runGeneration.mjs",
-    "start-server": "node server.mjs",
+    "start-server": "node server.mjs &",
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run start-server && next build ",
     "start": "next start",
     "lint": "next lint"
   },
