@@ -7,8 +7,7 @@
       :columns="headers"
       :rows="gameResults"
       :sort-options="{
-        enabled: true,
-        initialSortBy: { field: 'rank', type: 'asc' }
+        enabled: true
       }"
       :pagination-options="{
         mode: 'records',
