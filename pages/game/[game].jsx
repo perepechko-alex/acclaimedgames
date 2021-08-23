@@ -63,9 +63,11 @@ export default function Game({ data }) {
 export const getStaticPaths = async () => {
   const res = await fetch(`http://localhost:5000/api/results`);
   const data = await res.json();
-  const paths = data.map((game) => ({
-    params: { game: game.name },
-  }));
+  const paths = data.map((game) => {
+    let gameName = game.name.replace(/:/g, "%3a");
+    gameName = gameName.replace(/ /g, "_");
+    return { params: { game: gameName } };
+  });
   return {
     paths,
     fallback: false,
@@ -75,7 +77,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const res = await fetch(
     `http://localhost:5000/api/${encodeURIComponent(
-      params.game.replace(/'/g, "''")
+      params.game.replace(/_/g, " ").replace(/%3a/g, ":").replace(/'/g, "''")
     )}`
   );
   const data = await res.json();
