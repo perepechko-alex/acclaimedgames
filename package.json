@@ -13,8 +13,10 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "trim-extension": "for file in ./out/game/*.html; do mv \"$file\" \"${file%%.html}\"; done",
-    "export-static": "next export"
+    "clean": "rm -rf out; rm -rf .next ",
+    "export-static": "next export",
+    "deploy": "npm run clean && npm run build && npm run export-static",
+    "trim-extension": "for file in ./out/game/*.html; do mv \"$file\" \"${file%%.html}\"; done"
   },
   "author": "Alexander Perepechko",
   "license": "GNU AGPLv3",

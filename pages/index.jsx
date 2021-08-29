@@ -8,7 +8,6 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
 import IconButton from "@material-ui/core/IconButton";
 import FirstPageIcon from "@material-ui/icons/FirstPage";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
@@ -116,7 +115,7 @@ export default function DataTable({ data }) {
     setPage(0);
   };
   return (
-    <TableContainer component={Paper}>
+    <TableContainer>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -139,7 +138,9 @@ export default function DataTable({ data }) {
                 {row.rank}
               </TableCell>
               {/*<TableCell align="right">{row.rank}</TableCell>*/}
-              <TableCell align="right">{row.name}</TableCell>
+              <TableCell align="right">
+                <a href={`/game/${encodeURIComponent(row.name)}.html`}>{row.name}</a>
+              </TableCell>
               <TableCell align="right">{row.totalscore}</TableCell>
               <TableCell align="right">{row.numoflists}</TableCell>
               <TableCell align="right">{row.releasedate}</TableCell>

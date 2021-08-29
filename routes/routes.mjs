@@ -15,7 +15,8 @@ router.get(["/api/results"], function (req, res, next) {
 
 router.get("/api/:game", function (req, res, next) {
   const gameName = req.params.game;
-  const sql = `SELECT name, rank, weightedpoints, publication, listyear, listtype FROM "main"."goat" WHERE name='${gameName}';`;
+  const sql = `SELECT name, rank, weightedpoints, publication, listyear, listtype FROM "main"."goat" WHERE name='${gameName}'
+    ORDER BY listtype, rank NULLS LAST;`;
   db.all(sql, function (err, row) {
     res.json(row);
   });

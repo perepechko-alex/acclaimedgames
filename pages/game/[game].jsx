@@ -1,6 +1,5 @@
 import * as React from "react";
 import TableContainer from "@material-ui/core/TableContainer";
-import Paper from "@material-ui/core/Paper";
 import Table from "@material-ui/core/Table";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
@@ -30,7 +29,7 @@ export default function Game({ data }) {
     setPage(0);
   };
   return (
-    <TableContainer component={Paper}>
+    <TableContainer>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -43,9 +42,9 @@ export default function Game({ data }) {
         </TableHead>
         <TableBody>
           {data.map((row) => (
-            <TableRow key={row.name}>
+            <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
               <TableCell component="th" scope="row">
-                {row.rank}
+                {getRank(row.rank, row.weightedpoints)}
               </TableCell>
               {/*<TableCell align="right">{row.rank}</TableCell>*/}
               <TableCell align="right">{row.weightedpoints}</TableCell>
@@ -71,6 +70,15 @@ export const getStaticPaths = async () => {
     fallback: false,
   };
 };
+
+const getRank = (rank, gameWeight) => {
+  if (!rank && gameWeight === 1)
+    return 1
+  else if (!rank && gameWeight !== 1)
+    return "Unranked"
+  else
+    return rank;
+}
 
 export const getStaticProps = async ({ params }) => {
   const res = await fetch(
