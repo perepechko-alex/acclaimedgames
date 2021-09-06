@@ -1,11 +1,11 @@
-RANK,GAME
-10,Hades
-9,Spider-Man: Miles Morales
-8,Hyrule Warriors: Age of Calamity
-7,Doom Eternal
-6,Final Fantasy VII Remake
-5,Ori and the Will of the Wisps
-4,Animal Crossing: New Horizons
-3,Demon's Souls (2020)
-2,The Last of Us Part II
-1,Ghost of Tsushima
+RANK,GAME,
+10,Hades,
+9,Spider-Man: Miles Morales,
+8,Hyrule Warriors: Age of Calamity,
+7,Doom Eternal,
+6,Final Fantasy VII Remake,
+5,Ori and the Will of the Wisps,
+4,Animal Crossing: New Horizons,
+3,Demon's Souls,*Listed as Demon's Souls (2020)
+2,The Last of Us Part II,
+1,Ghost of Tsushima,

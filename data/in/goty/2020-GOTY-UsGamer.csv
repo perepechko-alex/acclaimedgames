@@ -1,21 +1,22 @@
-RANK,GAME
-20,Paper Mario: The Origami King
-19,Star Wars Squadrons
-18,Ghost of Tsushima
-17,Fuser
-16,Call of Duty: Warzone
-15,Blaseball
-14,Tony Hawk's Pro Skater 1 + 2
-13,If Found
-12,Final Fantasy VII Remake
-11,The Last of Us Part II
-10,Astro's Playroom
-9,Spider-Man: Miles Morales
-8,Microsoft Flight Simulator (2020)
-7,13 Sentinels: Aegis Rim
-6,Yakuza: Like a Dragon
-5,Animal Crossing: New Horizons
-4,Half-Life: Alyx
-3,Umurangi Generation
-2,Kentucky Route Zero
-1,Hades
+RANK,GAME,
+20,Paper Mario: The Origami King,
+19,Star Wars Squadrons,
+18,Ghost of Tsushima,
+17,Fuser,
+16,Call of Duty: Warzone,
+15,Blaseball,
+14,Tony Hawk's Pro Skater,*Listed as Tony Hawk's Pro Skater 1 + 2
+14,Tony Hawk's Pro Skater 2,*Listed as Tony Hawk's Pro Skater 1 + 2
+13,If Found,
+12,Final Fantasy VII Remake,
+11,The Last of Us Part II,
+10,Astro's Playroom,
+9,Spider-Man: Miles Morales,
+8,Microsoft Flight Simulator (2020),
+7,13 Sentinels: Aegis Rim,
+6,Yakuza: Like a Dragon,
+5,Animal Crossing: New Horizons,
+4,Half-Life: Alyx,
+3,Umurangi Generation,
+2,Kentucky Route Zero,
+1,Hades,

@@ -1,21 +1,21 @@
-RANK,GAME
-20,Astro's Playroom
-19,The Last of Us Part II
-18,The Longing
-17,Streets of Rage 4
-16,Spelunky 2
-15,Cyberpunk 2077
-14,Final Fantasy VII Remake
-13,Demon's Souls (2020)
-12,Ori and the Will of the Wisps
-11,Carrion
-10,Microsoft Flight Simulator (2020)
-9,Spider-Man: Miles Morales
-8,Yakuza: Like a Dragon
-7,Valorant
-6,Doom Eternal
-5,Ghost of Tsushima
-4,Animal Crossing: New Horizons
-3,Fall Guys
-2,Half-Life: Alyx
-1,Hades
+RANK,GAME,
+20,Astro's Playroom,
+19,The Last of Us Part II,
+18,The Longing,
+17,Streets of Rage 4,
+16,Spelunky 2,
+15,Cyberpunk 2077,
+14,Final Fantasy VII Remake,
+13,Demon's Souls,*Listed as Demon's Souls (2020)
+12,Ori and the Will of the Wisps,
+11,Carrion,
+10,Microsoft Flight Simulator (2020),
+9,Spider-Man: Miles Morales,
+8,Yakuza: Like a Dragon,
+7,Valorant,
+6,Doom Eternal,
+5,Ghost of Tsushima,
+4,Animal Crossing: New Horizons,
+3,Fall Guys,
+2,Half-Life: Alyx,
+1,Hades,

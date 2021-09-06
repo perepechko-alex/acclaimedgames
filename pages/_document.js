@@ -7,7 +7,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <title>acclaimedgames</title>
         </Head>
         <body>
         <Main />

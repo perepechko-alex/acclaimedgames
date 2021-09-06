@@ -1,16 +1,16 @@
-RANK,GAME
-15,Cyberpunk 2077
-14,Resident Evil 3 (2020)
-13,Animal Crossing: New Horizons
-12,Ori and the Will of the Wisps
-11,Doom Eternal
-10,Assassin's Creed: Valhalla
-9,Star Wars Squadrons
-8,Crusader Kings III
-7,Ghost of Tsushima
-6,Final Fantasy VII Remake
-5,Half-Life: Alyx
-4,Persona 5 Royal
-3,Demon's Souls (2020)
-2,Spider-Man: Miles Morales
-1,The Last of Us Part II
+RANK,GAME,
+15,Cyberpunk 2077,
+14,Resident Evil 3 (2020),
+13,Animal Crossing: New Horizons,
+12,Ori and the Will of the Wisps,
+11,Doom Eternal,
+10,Assassin's Creed: Valhalla,
+9,Star Wars Squadrons,
+8,Crusader Kings III,
+7,Ghost of Tsushima,
+6,Final Fantasy VII Remake,
+5,Half-Life: Alyx,
+4,Persona 5 Royal,
+3,Demon's Souls,*Listed as Demon's Souls (2020)
+2,Spider-Man: Miles Morales,
+1,The Last of Us Part II,

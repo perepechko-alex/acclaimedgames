@@ -6,6 +6,7 @@ import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import { makeStyles } from "@material-ui/core/styles";
+import HeaderNavigation from "../../components/headerNav"
 
 const useStyles = makeStyles({
   table: {
@@ -29,33 +30,37 @@ export default function Game({ data }) {
     setPage(0);
   };
   return (
-    <TableContainer>
-      <Table className={classes.table} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell align="right">Rank</TableCell>
-            <TableCell align="right">Weighted Points&nbsp;</TableCell>
-            <TableCell align="right">Publication&nbsp;</TableCell>
-            <TableCell align="right">List Year&nbsp;</TableCell>
-            <TableCell align="right">List Type&nbsp;</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {data.map((row) => (
-            <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
-              <TableCell component="th" scope="row">
-                {getRank(row.rank, row.weightedpoints)}
-              </TableCell>
-              {/*<TableCell align="right">{row.rank}</TableCell>*/}
-              <TableCell align="right">{row.weightedpoints}</TableCell>
-              <TableCell align="right">{row.publication}</TableCell>
-              <TableCell align="right">{row.listyear}</TableCell>
-              <TableCell align="right">{row.listtype}</TableCell>
+    <>
+      <HeaderNavigation />
+      <h1><center>{data[0].name}</center></h1>
+      <TableContainer>
+        <Table className={classes.table} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell align="right">Rank</TableCell>
+              <TableCell align="right">Weighted Points&nbsp;</TableCell>
+              <TableCell align="right">Publication&nbsp;</TableCell>
+              <TableCell align="right">List Year&nbsp;</TableCell>
+              <TableCell align="right">List Type&nbsp;</TableCell>
             </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+          </TableHead>
+          <TableBody>
+            {data.map((row) => (
+              <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
+                <TableCell component="th" scope="row">
+                  {getRank(row.rank, row.weightedpoints)}
+                </TableCell>
+                {/*<TableCell align="right">{row.rank}</TableCell>*/}
+                <TableCell align="right">{row.weightedpoints}</TableCell>
+                <TableCell align="right">{row.publication}</TableCell>
+                <TableCell align="right">{row.listyear}</TableCell>
+                <TableCell align="right">{row.listtype}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </>
   );
 }
 
