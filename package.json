@@ -15,7 +15,7 @@
     "lint": "next lint",
     "clean": "rm -rf out; rm -rf .next ",
     "export-static": "next export",
-    "deploy": "npm run clean && npm run build && npm run export-static",
+    "deploy": "npm run clean && npm run build && npm run export-static && aws s3 cp out s3://greatestgamesofalltime --recursive",
     "trim-extension": "for file in ./out/game/*.html; do mv \"$file\" \"${file%%.html}\"; done"
   },
   "author": "Alexander Perepechko",

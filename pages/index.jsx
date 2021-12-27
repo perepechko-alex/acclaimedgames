@@ -14,6 +14,7 @@ import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import LastPageIcon from "@material-ui/icons/LastPage";
 import { TableFooter } from "@material-ui/core";
+import HeaderNavigation from "../components/headerNav";
 
 const useStyles = makeStyles({
   table: {
@@ -101,7 +102,7 @@ TablePaginationActions.propTypes = {
 export default function DataTable({ data }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(100);
+  const [rowsPerPage, setRowsPerPage] = React.useState(-1);
 
   const emptyRows =
     rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
@@ -115,71 +116,74 @@ export default function DataTable({ data }) {
     setPage(0);
   };
   return (
-    <TableContainer>
-      <Table className={classes.table} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell align="right">Rank</TableCell>
-            <TableCell align="right">Name&nbsp;</TableCell>
-            <TableCell align="right">Total Score&nbsp;</TableCell>
-            <TableCell align="right">Number of Lists&nbsp;</TableCell>
-            <TableCell align="right">Release Date&nbsp;</TableCell>
-            <TableCell align="right">Developers&nbsp;</TableCell>
-            <TableCell align="right">Platforms&nbsp;</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {(rowsPerPage > 0
-            ? data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-            : data
-          ).map((row) => (
-            <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
-                {row.rank}
-              </TableCell>
-              {/*<TableCell align="right">{row.rank}</TableCell>*/}
-              <TableCell align="right">
-                <a href={`/game/${encodeURIComponent(row.name)}.html`}>{row.name}</a>
-              </TableCell>
-              <TableCell align="right">{row.totalscore}</TableCell>
-              <TableCell align="right">{row.numoflists}</TableCell>
-              <TableCell align="right">{row.releasedate}</TableCell>
-              <TableCell align="right">{row.developers}</TableCell>
-              <TableCell align="right">{row.platforms}</TableCell>
+    <>
+      <HeaderNavigation />
+      <TableContainer>
+        <Table className={classes.table} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell align="right">Rank</TableCell>
+              <TableCell align="right">Name&nbsp;</TableCell>
+              <TableCell align="right">Total Score&nbsp;</TableCell>
+              <TableCell align="right">Number of Lists&nbsp;</TableCell>
+              <TableCell align="right">Release Date&nbsp;</TableCell>
+              <TableCell align="right">Developers&nbsp;</TableCell>
+              <TableCell align="right">Platforms&nbsp;</TableCell>
             </TableRow>
-          ))}
-          {emptyRows > 0 && (
-            <TableRow style={{ height: 53 * emptyRows }}>
-              <TableCell colSpan={7} />
+          </TableHead>
+          <TableBody>
+            {(rowsPerPage > 0
+              ? data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+              : data
+            ).map((row) => (
+              <TableRow key={row.name}>
+                <TableCell component="th" scope="row">
+                  {row.rank}
+                </TableCell>
+                {/*<TableCell align="right">{row.rank}</TableCell>*/}
+                <TableCell align="right">
+                  <a href={`/game/${encodeURIComponent(row.name)}.html`}>{row.name}</a>
+                </TableCell>
+                <TableCell align="right">{row.totalscore}</TableCell>
+                <TableCell align="right">{row.numoflists}</TableCell>
+                <TableCell align="right">{row.releasedate}</TableCell>
+                <TableCell align="right">{row.developers}</TableCell>
+                <TableCell align="right">{row.platforms}</TableCell>
+              </TableRow>
+            ))}
+            {emptyRows > 0 && (
+              <TableRow style={{ height: 53 * emptyRows }}>
+                <TableCell colSpan={7} />
+              </TableRow>
+            )}
+          </TableBody>
+          <TableFooter>
+            <TableRow>
+              <TablePagination
+                rowsPerPageOptions={[
+                  10,
+                  25,
+                  50,
+                  100,
+                  { label: "All", value: -1 },
+                ]}
+                colSpan={7}
+                count={data.length}
+                rowsPerPage={rowsPerPage}
+                page={page}
+                SelectProps={{
+                  inputProps: { "aria-label": "rows per page" },
+                  native: true,
+                }}
+                onPageChange={handleChangePage}
+                onRowsPerPageChange={handleChangeRowsPerPage}
+                ActionsComponent={TablePaginationActions}
+              />
             </TableRow>
-          )}
-        </TableBody>
-        <TableFooter>
-          <TableRow>
-            <TablePagination
-              rowsPerPageOptions={[
-                10,
-                25,
-                50,
-                100,
-                { label: "All", value: -1 },
-              ]}
-              colSpan={7}
-              count={data.length}
-              rowsPerPage={rowsPerPage}
-              page={page}
-              SelectProps={{
-                inputProps: { "aria-label": "rows per page" },
-                native: true,
-              }}
-              onPageChange={handleChangePage}
-              onRowsPerPageChange={handleChangeRowsPerPage}
-              ActionsComponent={TablePaginationActions}
-            />
-          </TableRow>
-        </TableFooter>
-      </Table>
-    </TableContainer>
+          </TableFooter>
+        </Table>
+      </TableContainer>
+    </>
   );
 }
 
