@@ -144,7 +144,7 @@ export default function DataTable({ data }) {
                 <TableCell align="right">
                   <a href={`/game/${encodeURIComponent(row.name)}.html`}>{row.name}</a>
                 </TableCell>
-                <TableCell align="right">{row.totalscore}</TableCell>
+                <TableCell align="right">{row.totalscore.toFixed(5)}</TableCell>
                 <TableCell align="right">{row.numoflists}</TableCell>
                 <TableCell align="right">{row.releasedate}</TableCell>
                 <TableCell align="right">{row.developers}</TableCell>

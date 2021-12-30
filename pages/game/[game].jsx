@@ -51,7 +51,7 @@ export default function Game({ data }) {
                   {getRank(row.rank, row.weightedpoints)}
                 </TableCell>
                 {/*<TableCell align="right">{row.rank}</TableCell>*/}
-                <TableCell align="right">{row.weightedpoints}</TableCell>
+                <TableCell align="right">{row.weightedpoints.toFixed(5)}</TableCell>
                 <TableCell align="right">{row.publication}</TableCell>
                 <TableCell align="right">{row.listyear}</TableCell>
                 <TableCell align="right">{row.listtype}</TableCell>
