@@ -14,7 +14,7 @@ def goatCalc(listDate: int, listRank: Union[int, str], isRanked: bool, baseValue
   RANK_POINTS: Decimal = ONE_DEC / Decimal(str(listRank))
 
   pointCalc: Union[int, Decimal] = 0
-  
+
   if (isRanked):
     if (DATE_DIFF > 0 and DATE_DIFF <= DATE_CUTOFF):
       if (listRank != 1):
@@ -57,3 +57,4 @@ def gotyCalc(listRank):
     pointCalc = 1
   
   return pointCalc
+
