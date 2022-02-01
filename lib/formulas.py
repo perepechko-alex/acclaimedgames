@@ -2,58 +2,60 @@ from datetime import datetime
 from decimal import *
 from typing import Union
 
-def goatCalc(listDate: int, listRank: Union[int, str], isRanked: bool, baseValue: float):
-  CURRENT_DATE: int = datetime.now().year
-  DATE_DIFF: int = CURRENT_DATE - listDate
-  DATE_CUTOFF: int = 10
 
-  ONE_DEC: Decimal = Decimal(1)
-  BASE_VALUE_DEC: Decimal = Decimal(baseValue)
+def goat_calc(list_date: int, list_rank: Union[int, str], is_ranked: bool, base_value: float):
+    current_date: int = datetime.now().year
+    date_diff: int = current_date - list_date
+    date_cutoff: int = 10
 
-  DATE_POINTS: Decimal = Decimal(DATE_DIFF) / Decimal(DATE_CUTOFF)
-  RANK_POINTS: Decimal = ONE_DEC / Decimal(listRank)
+    one_dec: Decimal = Decimal(1)
+    base_value_dec: Decimal = Decimal(base_value)
 
-  pointCalc: Union[int, Decimal] = 0
+    date_points: Decimal = Decimal(date_diff) / Decimal(date_cutoff)
+    rank_points: Decimal = one_dec / Decimal(list_rank)
 
-  if (isRanked):
-    if (DATE_DIFF > 0 and DATE_DIFF <= DATE_CUTOFF):
-      if (listRank != 1):
-        pointCalc = BASE_VALUE_DEC + (ONE_DEC - DATE_POINTS) + RANK_POINTS
-      else:
-        pointCalc = BASE_VALUE_DEC + (Decimal(2) - DATE_POINTS)
+    point_calc: Union[int, Decimal] = 0
 
-    if (DATE_DIFF == 0):
-      if (listRank != 1):
-        pointCalc = BASE_VALUE_DEC + ONE_DEC + RANK_POINTS
-      else:
-        pointCalc = BASE_VALUE_DEC + Decimal(2)
-    
-    if (DATE_DIFF > DATE_CUTOFF):
-      if (listRank != 1):
-        pointCalc = BASE_VALUE_DEC + (RANK_POINTS) * (ONE_DEC / Decimal(DATE_DIFF))
-      else:
-        pointCalc = BASE_VALUE_DEC + (ONE_DEC / Decimal(DATE_DIFF))
+    if is_ranked:
+        if 0 < date_diff <= date_cutoff:
+            if list_rank != 1:
+                point_calc = base_value_dec + (one_dec - date_points) + rank_points
+            else:
+                point_calc = base_value_dec + (Decimal(2) - date_points)
 
-  else:
-    if (DATE_DIFF > 0 and DATE_DIFF <= DATE_CUTOFF):
-      pointCalc = BASE_VALUE_DEC + (ONE_DEC - DATE_POINTS)
-    if (DATE_DIFF == 0):
-      pointCalc = BASE_VALUE_DEC + ONE_DEC
-    if (DATE_DIFF > DATE_CUTOFF):
-      pointCalc = BASE_VALUE_DEC + (ONE_DEC / Decimal(DATE_DIFF))
+        if date_diff == 0:
+            if list_rank != 1:
+                point_calc = base_value_dec + one_dec + rank_points
+            else:
+                point_calc = base_value_dec + Decimal(2)
 
-  return pointCalc
+        if date_diff > date_cutoff:
+            if list_rank != 1:
+                point_calc = base_value_dec + rank_points * (one_dec / Decimal(date_diff))
+            else:
+                point_calc = base_value_dec + (one_dec / Decimal(date_diff))
 
-def gotyCalc(listRank):
-  BASE_VALUE: Decimal = Decimal(0.9)
-  pointCalc: Decimal = BASE_VALUE
+    else:
+        if 0 < date_diff <= date_cutoff:
+            point_calc = base_value_dec + (one_dec - date_points)
+        if date_diff == 0:
+            point_calc = base_value_dec + one_dec
+        if date_diff > date_cutoff:
+            point_calc = base_value_dec + (one_dec / Decimal(date_diff))
 
-  if (listRank != 1 and listRank != 'Unranked'):
-    points: Decimal = Decimal(1) / (Decimal(listRank) * Decimal(10))
-    pointCalc = BASE_VALUE + points
-  elif (listRank == 'Unranked'):
-    return pointCalc
-  else:
-    pointCalc = 1
-  
-  return pointCalc
+    return point_calc
+
+
+def goty_calc(list_rank):
+    base_value: Decimal = Decimal(0.9)
+    point_calc: Decimal = base_value
+
+    if list_rank != 1 and list_rank != 'Unranked':
+        points: Decimal = Decimal(1) / (Decimal(list_rank) * Decimal(10))
+        point_calc = base_value + points
+    elif list_rank == 'Unranked':
+        return point_calc
+    else:
+        point_calc = Decimal(1)
+
+    return point_calc
