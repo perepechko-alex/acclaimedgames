@@ -23,8 +23,12 @@ def import_csv_goat():
     # print(goat_files)
     for files in goat_files:
         with open(files, 'r') as file:
-            print(file)
-            filedata = file.read()
+            # filedata = file.read()
+            reader = csv.DictReader(file)
+            for rows in reader:
+                game_data = {k: v for k, v in rows.items() if v}
+                if len(game_data) > 0:
+                    print(game_data)
 
 
 import_csv_goat()

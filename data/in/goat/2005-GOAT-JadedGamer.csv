@@ -1,14 +1,11 @@
-RANK,GAME,WEIGHTED_POINTS
-10,Baldur's Gate,0.100000000
-9,Civilization II,0.111111111
-8,Sid Meier's Pirates!,0.125000000
-7,Castlevania: Symphony of the Night,0.142857143
-6,Super Mario Bros. 3,0.166666667
-5,Final Fantasy VI,0.200000000
-4,The Legend of Zelda: A Link to the Past,0.250000000
-3,Katamari Damacy,0.333333333
-2,Mega Man 2,0.500000000
-1,Super Metroid,1.000000000
-,,
-LIST_YEAR,,
-2005,,
+RANK,GAME,NOTES
+10,Baldur's Gate,
+9,Civilization II,
+8,Sid Meier's Pirates!,
+7,Castlevania: Symphony of the Night,
+6,Super Mario Bros. 3,
+5,Final Fantasy VI,
+4,The Legend of Zelda: A Link to the Past,
+3,Katamari Damacy,
+2,Mega Man 2,
+1,Super Metroid,
