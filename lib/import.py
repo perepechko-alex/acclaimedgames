@@ -1,8 +1,9 @@
 import csv
 import re
+import glob
 
-GOAT_DIR: str = "./data/in/goat"
-GOTY_DIR: str = "./data/in/goty"
+GOAT_FILES: str = "./data/in/goat/**/*.csv"
+GOTY_FILES: str = "./data/in/goty/**/*.csv"
 YEAR_RE = re.compile('/[0-9]{4}/')
 PUB_RE = re.compile('/.*-(.*).csv/')
 GOAT_RE = re.compile('/GOAT/')
@@ -18,9 +19,12 @@ OVERRIDE: bool = False
 
 
 def import_csv_goat():
-    with open(GOAT_DIR) as csv_file:
-        csv_read = csv.reader(csv_file, delimiter=',')
-        print(csv_read)
+    goat_files = glob.glob(GOAT_FILES, recursive=True)
+    # print(goat_files)
+    for files in goat_files:
+        with open(files, 'r') as file:
+            print(file)
+            filedata = file.read()
 
 
 import_csv_goat()
