@@ -1,4 +1,5 @@
-import csv, db, re
+import csv
+import re
 
 GOAT_DIR: str = "./data/in/goat"
 GOTY_DIR: str = "./data/in/goty"
@@ -15,6 +16,11 @@ notes: str = ""
 params = []
 OVERRIDE: bool = False
 
-def importCsvGoatData():
-  with open(GOAT_DIR) as csv_file:
-    csv_read=csv.reader(csv_file, delimiter=',')
+
+def import_csv_goat():
+    with open(GOAT_DIR) as csv_file:
+        csv_read = csv.reader(csv_file, delimiter=',')
+        print(csv_read)
+
+
+import_csv_goat()
