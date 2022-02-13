@@ -43,8 +43,13 @@ def create_tables():
         "listtype" TEXT NOT NULL,
         "rank"	INTEGER,
         "name"	TEXT NOT NULL,
-        "weightedpoints"	NUMERIC NOT NULL,
+        "weightedpoints"	TEXT NOT NULL,
         "isranked"	INTEGER NOT NULL,
         "notes" TEXT,
         PRIMARY KEY("filename","weightedpoints","name","publication", "listyear", "rank"),
         FOREIGN KEY("name") REFERENCES "game_metadata"("name"))''')
+
+
+create_tables()
+create_final_results_table()
+create_views()

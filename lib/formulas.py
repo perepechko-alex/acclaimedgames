@@ -3,7 +3,7 @@ from decimal import *
 from typing import Union
 
 
-def goat_calc(list_date: int, list_rank: Union[int, str], is_ranked: bool, base_value: float):
+def goat_calc(list_date: int, list_rank: Union[int, None], is_ranked: int, base_value: float):
     current_date: int = datetime.now().year
     date_diff: int = current_date - list_date
     date_cutoff: int = 10
@@ -12,11 +12,10 @@ def goat_calc(list_date: int, list_rank: Union[int, str], is_ranked: bool, base_
     base_value_dec: Decimal = Decimal(base_value)
 
     date_points: Decimal = Decimal(date_diff) / Decimal(date_cutoff)
-    rank_points: Decimal = one_dec / Decimal(list_rank)
-
     point_calc: Union[int, Decimal] = 0
 
-    if is_ranked:
+    if is_ranked == 1:
+        rank_points: Decimal = one_dec / Decimal(list_rank)
         if 0 < date_diff <= date_cutoff:
             if list_rank != 1:
                 point_calc = base_value_dec + (one_dec - date_points) + rank_points
