@@ -49,7 +49,7 @@ def goty_calc(list_rank):
     base_value: Decimal = Decimal(0.9)
     point_calc: Decimal = base_value
 
-    if list_rank != 1 and list_rank != 'Unranked':
+    if list_rank != 1 and list_rank != 'Unranked' and list_rank is not None:
         points: Decimal = Decimal(1) / (Decimal(list_rank) * Decimal(10))
         point_calc = base_value + points
     elif list_rank == 'Unranked':
