@@ -1,14 +1,11 @@
-RANK,GAME,WEIGHTED_POINTS
-10,Burnout 3: Takedown,0.100000000
-9,Half-Life 2,0.111111111
-8,Metal Gear Solid,0.125000000
-7,Tetris,0.142857143
-6,Grand Theft Auto: San Andreas,0.166666667
-5,Super Mario 64,0.200000000
-4,Resident Evil 4,0.250000000
-3,Final Fantasy VII,0.333333333
-2,GoldenEye 007,0.500000000
-1,The Legend of Zelda: Ocarina of Time,1.000000000
-,,
-LIST_YEAR,,
-2005,,
+RANK,GAME,
+10,Burnout 3: Takedown,
+9,Half-Life 2,
+8,Metal Gear Solid,
+7,Tetris,
+6,Grand Theft Auto: San Andreas,
+5,Super Mario 64,
+4,Resident Evil 4,
+3,Final Fantasy VII,
+2,GoldenEye 007,
+1,The Legend of Zelda: Ocarina of Time,

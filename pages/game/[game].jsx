@@ -6,7 +6,7 @@ import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import { makeStyles } from "@material-ui/core/styles";
-import HeaderNavigation from "../../components/headerNav"
+import HeaderNavigation from "../../components/headerNav";
 
 const useStyles = makeStyles({
   table: {
@@ -32,7 +32,9 @@ export default function Game({ data }) {
   return (
     <>
       <HeaderNavigation />
-      <h1><center>{data[0].name}</center></h1>
+      <h1>
+        <center>{data[0].name}</center>
+      </h1>
       <TableContainer>
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
@@ -51,7 +53,7 @@ export default function Game({ data }) {
                   {getRank(row.rank, row.weightedpoints)}
                 </TableCell>
                 {/*<TableCell align="right">{row.rank}</TableCell>*/}
-                <TableCell align="right">{row.weightedpoints.toFixed(5)}</TableCell>
+                <TableCell align="right">{row.weightedpoints}</TableCell>
                 <TableCell align="right">{row.publication}</TableCell>
                 <TableCell align="right">{row.listyear}</TableCell>
                 <TableCell align="right">{row.listtype}</TableCell>
@@ -77,13 +79,10 @@ export const getStaticPaths = async () => {
 };
 
 const getRank = (rank, gameWeight) => {
-  if (!rank && gameWeight === 1)
-    return 1
-  else if (!rank && gameWeight !== 1)
-    return "Unranked"
-  else
-    return rank;
-}
+  if (!rank && gameWeight === 1) return 1;
+  else if (!rank && gameWeight !== 1) return "Unranked";
+  else return rank;
+};
 
 export const getStaticProps = async ({ params }) => {
   const res = await fetch(
