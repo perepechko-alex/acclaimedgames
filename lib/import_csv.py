@@ -2,7 +2,7 @@ import csv
 import re
 import glob
 import os
-from db import conn
+from db import create_connection
 from formulas import goat_calc, goty_calc
 from typing import Union
 from decimal import Decimal
@@ -13,6 +13,7 @@ YEAR_RE = re.compile('[0-9]{4}')
 PUB_RE = re.compile('.*-(.*).csv')
 INSERT_LIST_INFO_QUERY = '''INSERT INTO goat(filename, listyear, publication, listtype, rank, name, weightedpoints, isranked, notes)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);'''
+conn = create_connection()
 
 
 def import_csv_goat():
@@ -89,7 +90,3 @@ def import_csv_goty():
         cursor.executemany(INSERT_LIST_INFO_QUERY, batch)
         conn.commit()
         cursor.close()
-
-
-import_csv_goat()
-import_csv_goty()

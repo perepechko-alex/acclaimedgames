@@ -51,6 +51,7 @@ def create_tables(conn):
         PRIMARY KEY("filename","weightedpoints","name","publication", "listyear", "rank"),
         FOREIGN KEY("name") REFERENCES "game_metadata"("name"))''')
 
-# create_tables()
-# create_final_results_table()
-# create_views()
+def create_all_tables(conn):
+    create_tables(conn)
+    create_views(conn)
+    create_final_results_table(conn)

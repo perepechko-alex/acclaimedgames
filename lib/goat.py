@@ -1,7 +1,7 @@
 from decimal import Decimal
 from db import create_connection
 from operator import itemgetter
-from pprint import pprint
+import csv
 
 
 def get_goat():
@@ -76,7 +76,8 @@ def write_final_results(game_list):
     batch = []
     for game in ranked_game_list:
         final_rank, name, total_score, num_of_lists, avg_list_year = itemgetter('final_rank', 'name',
-                                                                  'total_score', 'num_of_lists', 'avg_list_year')(game)
+                                                                                'total_score', 'num_of_lists',
+                                                                                'avg_list_year')(game)
         batch.append((final_rank, name, total_score, num_of_lists, avg_list_year))
 
         if len(batch) >= 100:
@@ -93,4 +94,25 @@ def write_final_results(game_list):
         conn.commit()
         cursor.close()
 
-write_final_results(get_goat())
+
+def write_to_csv():
+    out_file = './data/out/final_list.csv'
+    get_all_metadata = '''SELECT * FROM results_with_metadata'''
+    headers = [
+        "rank",
+        "name",
+        "totalscore",
+        "numoflists",
+        "releasedate",
+        "platforms",
+        "developers",
+    ]
+    conn = create_connection()
+    cursor = conn.cursor()
+    cursor.execute(get_all_metadata)
+    rows = cursor.fetchall()
+
+    with open(out_file, 'w') as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        writer.writerows(rows)
