@@ -13,12 +13,23 @@ import FirstPageIcon from "@material-ui/icons/FirstPage";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import LastPageIcon from "@material-ui/icons/LastPage";
-import { TableFooter } from "@material-ui/core";
+import { TableFooter, TableSortLabel } from "@material-ui/core";
 import HeaderNavigation from "../components/headerNav";
 
 const useStyles = makeStyles({
   table: {
     minWidth: 500,
+  },
+  visuallyHidden: {
+    border: 0,
+    clip: "rect(0 0 0 0)",
+    height: 1,
+    margin: -1,
+    overflow: "hidden",
+    padding: 0,
+    position: "absolute",
+    top: 20,
+    width: 1,
   },
 });
 
@@ -99,10 +110,121 @@ TablePaginationActions.propTypes = {
   rowsPerPage: PropTypes.number.isRequired,
 };
 
+function descendingComparator(a, b, orderBy) {
+  if (b[orderBy] < a[orderBy]) {
+    return -1;
+  }
+  if (b[orderBy] > a[orderBy]) {
+    return 1;
+  }
+  return 0;
+}
+
+function getComparator(order, orderBy) {
+  return order === "desc"
+    ? (a, b) => descendingComparator(a, b, orderBy)
+    : (a, b) => -descendingComparator(a, b, orderBy);
+}
+
+function stableSort(array, comparator) {
+  const stabilizedThis = array.map((el, index) => [el, index]);
+  stabilizedThis.sort((a, b) => {
+    const order = comparator(a[0], b[0]);
+    if (order !== 0) return order;
+    return a[1] - b[1];
+  });
+  return stabilizedThis.map((el) => el[0]);
+}
+
+const headCells = [
+  { id: "rank", numeric: false, disablePadding: true, label: "Rank" },
+  { id: "name", numeric: false, disablePadding: false, label: "Name" },
+  {
+    id: "totalscore",
+    numeric: false,
+    disablePadding: false,
+    label: "Total Score",
+  },
+  {
+    id: "numoflists",
+    numeric: true,
+    disablePadding: false,
+    label: "Number of Lists",
+  },
+  {
+    id: "releasedate",
+    numeric: true,
+    disablePadding: false,
+    label: "Release Date",
+  },
+  {
+    id: "developers",
+    numeric: false,
+    disablePadding: false,
+    label: "Developers",
+  },
+  {
+    id: "platforms",
+    numeric: false,
+    disablePadding: false,
+    label: "Platforms",
+  },
+];
+
+function EnhancedTableHead(props) {
+  const { classes, order, orderBy, onRequestSort } = props;
+  const createSortHandler = (property) => (event) => {
+    onRequestSort(event, property);
+  };
+
+  return (
+    <TableHead>
+      <TableRow>
+        {headCells.map((headCell) => (
+          <TableCell
+            key={headCell.id}
+            align={headCell.numeric ? "right" : "left"}
+            padding={headCell.disablePadding ? "none" : "normal"}
+            sortDirection={orderBy === headCell.id ? order : false}
+          >
+            <TableSortLabel
+              active={orderBy === headCell.id}
+              direction={orderBy === headCell.id ? order : "asc"}
+              onClick={createSortHandler(headCell.id)}
+            >
+              {headCell.label}
+              {orderBy === headCell.id ? (
+                <span className={classes.visuallyHidden}>
+                  {order === "desc" ? "sorted descending" : "sorted ascending"}
+                </span>
+              ) : null}
+            </TableSortLabel>
+          </TableCell>
+        ))}
+      </TableRow>
+    </TableHead>
+  );
+}
+
+EnhancedTableHead.propTypes = {
+  classes: PropTypes.object.isRequired,
+  onRequestSort: PropTypes.func.isRequired,
+  order: PropTypes.oneOf(["asc", "desc"]).isRequired,
+  orderBy: PropTypes.string.isRequired,
+};
+
 export default function DataTable({ data }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(-1);
+  const [order, setOrder] = React.useState("asc");
+  const [orderBy, setOrderBy] = React.useState("rank");
+
+  const handleRequestSort = (event, property) => {
+    const isAsc = orderBy === property && order === "asc";
+    setOrder(isAsc ? "desc" : "asc");
+    setOrderBy(property);
+  };
 
   const emptyRows =
     rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
@@ -120,37 +242,34 @@ export default function DataTable({ data }) {
       <HeaderNavigation />
       <TableContainer>
         <Table className={classes.table} aria-label="simple table">
-          <TableHead>
-            <TableRow>
-              <TableCell align="right">Rank</TableCell>
-              <TableCell align="right">Name&nbsp;</TableCell>
-              <TableCell align="right">Total Score&nbsp;</TableCell>
-              <TableCell align="right">Number of Lists&nbsp;</TableCell>
-              <TableCell align="right">Release Date&nbsp;</TableCell>
-              <TableCell align="right">Developers&nbsp;</TableCell>
-              <TableCell align="right">Platforms&nbsp;</TableCell>
-            </TableRow>
-          </TableHead>
+          <EnhancedTableHead
+            classes={classes}
+            order={order}
+            orderBy={orderBy}
+            onRequestSort={handleRequestSort}
+          />
           <TableBody>
-            {(rowsPerPage > 0
-              ? data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-              : data
-            ).map((row) => (
-              <TableRow key={row.name}>
-                <TableCell component="th" scope="row">
-                  {row.rank}
-                </TableCell>
-                {/*<TableCell align="right">{row.rank}</TableCell>*/}
-                <TableCell align="right">
-                  <a href={`/game/${encodeURIComponent(row.name)}.html`}>{row.name}</a>
-                </TableCell>
-                <TableCell align="right">{row.totalscore.toFixed(5)}</TableCell>
-                <TableCell align="right">{row.numoflists}</TableCell>
-                <TableCell align="right">{row.releasedate}</TableCell>
-                <TableCell align="right">{row.developers}</TableCell>
-                <TableCell align="right">{row.platforms}</TableCell>
-              </TableRow>
-            ))}
+            {stableSort(data, getComparator(order, orderBy))
+              .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+              .map((row) => (
+                <TableRow key={row.name}>
+                  <TableCell component="th" scope="row">
+                    {row.rank}
+                  </TableCell>
+                  <TableCell align="right">
+                    <a href={`/game/${encodeURIComponent(row.name)}.html`}>
+                      {row.name}
+                    </a>
+                  </TableCell>
+                  <TableCell align="right">
+                    {row.totalscore.toFixed(2)}
+                  </TableCell>
+                  <TableCell align="right">{row.numoflists}</TableCell>
+                  <TableCell align="right">{row.releasedate}</TableCell>
+                  <TableCell align="right">{row.developers}</TableCell>
+                  <TableCell align="right">{row.platforms}</TableCell>
+                </TableRow>
+              ))}
             {emptyRows > 0 && (
               <TableRow style={{ height: 53 * emptyRows }}>
                 <TableCell colSpan={7} />
