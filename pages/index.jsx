@@ -15,6 +15,7 @@ import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import LastPageIcon from "@material-ui/icons/LastPage";
 import { TableFooter, TableSortLabel } from "@material-ui/core";
 import HeaderNavigation from "../components/headerNav";
+import SearchBar from "material-ui-search-bar";
 
 const useStyles = makeStyles({
   table: {
@@ -137,7 +138,7 @@ function stableSort(array, comparator) {
 }
 
 const headCells = [
-  { id: "rank", numeric: false, disablePadding: true, label: "Rank" },
+  { id: "rank", numeric: false, disablePadding: false, label: "Rank" },
   { id: "name", numeric: false, disablePadding: false, label: "Name" },
   {
     id: "totalscore",
@@ -147,13 +148,13 @@ const headCells = [
   },
   {
     id: "numoflists",
-    numeric: true,
+    numeric: false,
     disablePadding: false,
     label: "Number of Lists",
   },
   {
     id: "releasedate",
-    numeric: true,
+    numeric: false,
     disablePadding: false,
     label: "Release Date",
   },
@@ -183,7 +184,7 @@ function EnhancedTableHead(props) {
         {headCells.map((headCell) => (
           <TableCell
             key={headCell.id}
-            align={headCell.numeric ? "right" : "left"}
+            align="left"
             padding={headCell.disablePadding ? "none" : "normal"}
             sortDirection={orderBy === headCell.id ? order : false}
           >
@@ -219,6 +220,29 @@ export default function DataTable({ data }) {
   const [rowsPerPage, setRowsPerPage] = React.useState(-1);
   const [order, setOrder] = React.useState("asc");
   const [orderBy, setOrderBy] = React.useState("rank");
+  const [rows, setRows] = React.useState(data);
+  const [searched, setSearched] = React.useState("");
+
+  const requestSearch = (searchedVal) => {
+    const filteredRows = data.filter((row) => {
+      return (
+        row.name.toLowerCase().includes(searchedVal.toLowerCase()) ||
+        JSON.stringify(row.releasedate).includes(searchedVal) ||
+        JSON.stringify(row.developers)
+          .toLowerCase()
+          .includes(searchedVal.toLowerCase()) ||
+        JSON.stringify(row.platforms)
+          .toLowerCase()
+          .includes(searchedVal.toLowerCase())
+      );
+    });
+    setRows(filteredRows);
+  };
+
+  const cancelSearch = () => {
+    setSearched("");
+    requestSearch(searched);
+  };
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === "asc";
@@ -240,6 +264,11 @@ export default function DataTable({ data }) {
   return (
     <>
       <HeaderNavigation />
+      <SearchBar
+        value={searched}
+        onChange={(searchVal) => requestSearch(searchVal)}
+        onCancelSearch={() => cancelSearch()}
+      />
       <TableContainer>
         <Table className={classes.table} aria-label="simple table">
           <EnhancedTableHead
@@ -249,25 +278,25 @@ export default function DataTable({ data }) {
             onRequestSort={handleRequestSort}
           />
           <TableBody>
-            {stableSort(data, getComparator(order, orderBy))
+            {stableSort(rows, getComparator(order, orderBy))
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row) => (
                 <TableRow key={row.name}>
                   <TableCell component="th" scope="row">
                     {row.rank}
                   </TableCell>
-                  <TableCell align="right">
+                  <TableCell align="left">
                     <a href={`/game/${encodeURIComponent(row.name)}.html`}>
                       {row.name}
                     </a>
                   </TableCell>
-                  <TableCell align="right">
+                  <TableCell align="left">
                     {row.totalscore.toFixed(2)}
                   </TableCell>
-                  <TableCell align="right">{row.numoflists}</TableCell>
-                  <TableCell align="right">{row.releasedate}</TableCell>
-                  <TableCell align="right">{row.developers}</TableCell>
-                  <TableCell align="right">{row.platforms}</TableCell>
+                  <TableCell align="left">{row.numoflists}</TableCell>
+                  <TableCell align="left">{row.releasedate}</TableCell>
+                  <TableCell align="left">{row.developers}</TableCell>
+                  <TableCell align="left">{row.platforms}</TableCell>
                 </TableRow>
               ))}
             {emptyRows > 0 && (
