@@ -264,6 +264,7 @@ export default function DataTable({ data }) {
   return (
     <>
       <HeaderNavigation />
+      <br />
       <SearchBar
         value={searched}
         onChange={(searchVal) => requestSearch(searchVal)}

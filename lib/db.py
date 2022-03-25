@@ -45,7 +45,7 @@ def create_tables(conn):
         "listtype" TEXT NOT NULL,
         "rank"	INTEGER,
         "name"	TEXT NOT NULL,
-        "weightedpoints"	TEXT NOT NULL,
+        "weightedpoints"	NUMERIC NOT NULL,
         "isranked"	INTEGER NOT NULL,
         "notes" TEXT,
         PRIMARY KEY("filename","weightedpoints","name","publication", "listyear", "rank"),

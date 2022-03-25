@@ -47,14 +47,11 @@ def goat_calc(list_date: int, list_rank: Union[int, None], is_ranked: int, base_
 
 def goty_calc(list_rank):
     base_value: Decimal = Decimal(0.9)
-    point_calc: Decimal = base_value
 
     if list_rank != 1 and list_rank != 'Unranked' and list_rank is not None:
         points: Decimal = Decimal(1) / (Decimal(list_rank) * Decimal(10))
-        point_calc = base_value + points
+        return base_value + points
     elif list_rank == 'Unranked':
-        return point_calc
+        return base_value
     else:
-        point_calc = Decimal(1)
-
-    return point_calc
+        return Decimal(1)
