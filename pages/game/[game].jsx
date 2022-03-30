@@ -15,20 +15,7 @@ const useStyles = makeStyles({
 });
 export default function Game({ data }) {
   const classes = useStyles();
-  const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(100);
 
-  const emptyRows =
-    rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
-
-  const handleChangePage = (event, newPage) => {
-    setPage(newPage);
-  };
-
-  const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(parseInt(event.target.value, 10));
-    setPage(0);
-  };
   return (
     <>
       <HeaderNavigation />
@@ -52,7 +39,6 @@ export default function Game({ data }) {
                 <TableCell component="th" scope="row">
                   {getRank(row.rank, row.weightedpoints)}
                 </TableCell>
-                {/*<TableCell align="right">{row.rank}</TableCell>*/}
                 <TableCell align="right">{row.weightedpoints}</TableCell>
                 <TableCell align="right">{row.publication}</TableCell>
                 <TableCell align="right">{row.listyear}</TableCell>
