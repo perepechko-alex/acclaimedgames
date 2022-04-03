@@ -3,33 +3,35 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
-    listStyleType: 'none',
+    listStyleType: "none",
     margin: 0,
     padding: 0,
-    overflow: 'hidden',
-    backgroundColor: '#333',
+    overflow: "hidden",
+    backgroundColor: "#333",
     "& li": {
-      float: 'left',
+      float: "left",
       "& a": {
-        display: 'block',
-        color: 'white',
-        textAlign: 'center',
-        padding: '14px 16px',
-        textDecoration: 'none',
+        display: "block",
+        color: "white",
+        textAlign: "center",
+        padding: "14px 16px",
+        textDecoration: "none",
+        fontFamily: ["Roboto", "Helvetica", "Arial", "sans-serif"],
       },
       "& a:hover": {
-        backgroundColor: '#111',
-      }
+        backgroundColor: "#111",
+      },
     },
-
   },
 });
 
 export default function HeaderNavigation() {
   const classes = useStyles();
-  return(
+  return (
     <ul className={classes.root}>
-      <li><a href="../">Home</a></li>
+      <li>
+        <a href="../">Home</a>
+      </li>
     </ul>
   );
 }

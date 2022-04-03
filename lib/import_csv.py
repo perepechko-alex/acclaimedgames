@@ -72,7 +72,7 @@ def import_csv_goty():
                 publication: str = PUB_RE.search(filename).group(1) if rank is not None \
                     else game_data.get('PUBLICATION')
                 is_list_ranked: int = 1 if rank != 'Unranked' else 0
-                points: Decimal = goty_calc(rank) if is_list_ranked != 0 else 1
+                points: Decimal = goty_calc(rank)
 
                 goty_tuple = (
                     filename, list_date, publication, list_type, rank, name, str(points), is_list_ranked, notes)
