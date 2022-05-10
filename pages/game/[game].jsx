@@ -7,15 +7,64 @@ import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import { makeStyles } from "@material-ui/core/styles";
 import HeaderNavigation from "../../components/headerNav";
+import { EnhancedTableHead } from "../../components/enhancedTableHead";
+import { stableSort, getComparator } from "../../components/sorting";
 
 const useStyles = makeStyles({
   table: {
     minWidth: 500,
   },
+  visuallyHidden: {
+    border: 0,
+    clip: "rect(0 0 0 0)",
+    height: 1,
+    margin: -1,
+    overflow: "hidden",
+    padding: 0,
+    position: "absolute",
+    top: 20,
+    width: 1,
+  },
 });
+
+const headCells = [
+  { id: "rank", numeric: false, disablePadding: false, label: "Rank" },
+  {
+    id: "weightedpoints",
+    numeric: true,
+    disablePadding: false,
+    label: "Weighted Points",
+  },
+  {
+    id: "publication",
+    numeric: false,
+    disablePadding: false,
+    label: "Publication",
+  },
+  {
+    id: "listyear",
+    numeric: false,
+    disablePadding: false,
+    label: "List Year",
+  },
+  {
+    id: "listtype",
+    numeric: false,
+    disablePadding: false,
+    label: "List Type",
+  },
+];
+
 export default function Game({ data }) {
   const classes = useStyles();
+  const [order, setOrder] = React.useState("asc");
+  const [orderBy, setOrderBy] = React.useState("rank");
 
+  const handleRequestSort = (event, property) => {
+    const isAsc = orderBy === property && order === "asc";
+    setOrder(isAsc ? "desc" : "asc");
+    setOrderBy(property);
+  };
   return (
     <>
       <HeaderNavigation />
@@ -24,17 +73,15 @@ export default function Game({ data }) {
       </h1>
       <TableContainer>
         <Table className={classes.table} aria-label="simple table">
-          <TableHead>
-            <TableRow>
-              <TableCell align="right">Rank</TableCell>
-              <TableCell align="right">Weighted Points&nbsp;</TableCell>
-              <TableCell align="right">Publication&nbsp;</TableCell>
-              <TableCell align="right">List Year&nbsp;</TableCell>
-              <TableCell align="right">List Type&nbsp;</TableCell>
-            </TableRow>
-          </TableHead>
+          <EnhancedTableHead
+            classes={classes}
+            headCells={headCells}
+            order={order}
+            orderBy={orderBy}
+            onRequestSort={handleRequestSort}
+          />
           <TableBody>
-            {data.map((row) => (
+            {stableSort(data, getComparator(order, orderBy)).map((row) => (
               <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
                 <TableCell component="th" scope="row">
                   {getRank(row.rank, row.weightedpoints)}
