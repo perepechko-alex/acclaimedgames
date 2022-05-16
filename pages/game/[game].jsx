@@ -1,7 +1,6 @@
 import * as React from "react";
 import TableContainer from "@material-ui/core/TableContainer";
 import Table from "@material-ui/core/Table";
-import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
@@ -86,10 +85,10 @@ export default function Game({ data }) {
                 <TableCell component="th" scope="row">
                   {getRank(row.rank, row.weightedpoints)}
                 </TableCell>
-                <TableCell align="right">{row.weightedpoints}</TableCell>
-                <TableCell align="right">{row.publication}</TableCell>
-                <TableCell align="right">{row.listyear}</TableCell>
-                <TableCell align="right">{row.listtype}</TableCell>
+                <TableCell align="left">{row.weightedpoints.toFixed(2)}</TableCell>
+                <TableCell align="left">{row.publication}</TableCell>
+                <TableCell align="left">{row.listyear}</TableCell>
+                <TableCell align="left">{row.listtype}</TableCell>
               </TableRow>
             ))}
           </TableBody>
@@ -118,11 +117,7 @@ const getRank = (rank, gameWeight) => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const res = await fetch(
-    `http://localhost:5000/api/${encodeURIComponent(
-      params.game.replace(/'/g, "''")
-    )}`
-  );
+  const res = await fetch(`http://localhost:5000/api/${encodeURIComponent(params.game.replace(/'/g, "''"))}`);
   const data = await res.json();
   return {
     props: { data }, // will be passed to the page component as props

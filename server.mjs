@@ -1,6 +1,5 @@
 import express from "express";
 import next from "next";
-// const bodyParser = require('body-parser')
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });

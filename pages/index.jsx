@@ -65,34 +65,18 @@ function TablePaginationActions(props) {
   };
   return (
     <div className={classes.root}>
-      <IconButton
-        onClick={handleFirstPageButtonClick}
-        disabled={page === 0}
-        aria-label="first page"
-      >
+      <IconButton onClick={handleFirstPageButtonClick} disabled={page === 0} aria-label="first page">
         {theme.direction === "rtl" ? <LastPageIcon /> : <FirstPageIcon />}
       </IconButton>
-      <IconButton
-        onClick={handleBackButtonClick}
-        disabled={page === 0}
-        aria-label="previous page"
-      >
-        {theme.direction === "rtl" ? (
-          <KeyboardArrowRight />
-        ) : (
-          <KeyboardArrowLeft />
-        )}
+      <IconButton onClick={handleBackButtonClick} disabled={page === 0} aria-label="previous page">
+        {theme.direction === "rtl" ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
       </IconButton>
       <IconButton
         onClick={handleNextButtonClick}
         disabled={page >= Math.ceil(count / rowsPerPage) - 1}
         aria-label="next page"
       >
-        {theme.direction === "rtl" ? (
-          <KeyboardArrowLeft />
-        ) : (
-          <KeyboardArrowRight />
-        )}
+        {theme.direction === "rtl" ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
       </IconButton>
       <IconButton
         onClick={handleLastPageButtonClick}
@@ -147,7 +131,7 @@ const headCells = [
   },
 ];
 
-export default function DataTable({ data }) {
+export default function DataTable({ data, appEnv }) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(-1);
@@ -161,12 +145,8 @@ export default function DataTable({ data }) {
       return (
         row.name.toLowerCase().includes(searchedVal.toLowerCase()) ||
         JSON.stringify(row.releasedate).includes(searchedVal) ||
-        JSON.stringify(row.developers)
-          .toLowerCase()
-          .includes(searchedVal.toLowerCase()) ||
-        JSON.stringify(row.platforms)
-          .toLowerCase()
-          .includes(searchedVal.toLowerCase())
+        JSON.stringify(row.developers).toLowerCase().includes(searchedVal.toLowerCase()) ||
+        JSON.stringify(row.platforms).toLowerCase().includes(searchedVal.toLowerCase())
       );
     });
     setRows(filteredRows);
@@ -183,8 +163,7 @@ export default function DataTable({ data }) {
     setOrderBy(property);
   };
 
-  const emptyRows =
-    rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
+  const emptyRows = rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -214,20 +193,24 @@ export default function DataTable({ data }) {
           />
           <TableBody>
             {stableSort(rows, getComparator(order, orderBy))
-              .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+              .slice(page * rowsPerPage, rowsPerPage !== -1 ? page * rowsPerPage + rowsPerPage : data.length)
               .map((row) => (
                 <TableRow key={row.name}>
                   <TableCell component="th" scope="row">
                     {row.rank}
                   </TableCell>
                   <TableCell align="left">
-                    <a href={`/game/${encodeURIComponent(row.name)}.html`}>
+                    <a
+                      href={
+                        appEnv === "dev"
+                          ? `/game/${encodeURIComponent(row.name)}`
+                          : `/game/${encodeURIComponent(row.name)}.html`
+                      }
+                    >
                       {row.name}
                     </a>
                   </TableCell>
-                  <TableCell align="left">
-                    {row.totalscore.toFixed(2)}
-                  </TableCell>
+                  <TableCell align="left">{row.totalscore.toFixed(2)}</TableCell>
                   <TableCell align="left">{row.numoflists}</TableCell>
                   <TableCell align="left">{row.releasedate}</TableCell>
                   <TableCell align="left">{row.developers}</TableCell>
@@ -243,13 +226,7 @@ export default function DataTable({ data }) {
           <TableFooter>
             <TableRow>
               <TablePagination
-                rowsPerPageOptions={[
-                  10,
-                  25,
-                  50,
-                  100,
-                  { label: "All", value: -1 },
-                ]}
+                rowsPerPageOptions={[10, 25, 50, 100, { label: "All", value: -1 }]}
                 colSpan={7}
                 count={data.length}
                 rowsPerPage={rowsPerPage}
@@ -270,10 +247,11 @@ export default function DataTable({ data }) {
   );
 }
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async () => {
   const res = await fetch(`http://localhost:5000/api/results`);
   const data = await res.json();
+  const appEnv = process.env.APP_ENV;
   return {
-    props: { data }, // will be passed to the page component as props
+    props: { data, appEnv }, // will be passed to the page component as props
   };
 };

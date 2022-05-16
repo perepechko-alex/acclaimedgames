@@ -3,7 +3,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["next"],
+  extends: ["next", "prettier"],
   rules: {
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off",
