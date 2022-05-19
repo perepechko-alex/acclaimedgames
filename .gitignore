@@ -223,4 +223,12 @@ fabric.properties
 # vscode
 .vs/
 
+# Python
+venv
+
+# Mac
+.DS_Store
+
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
+/.idea/dataSources.xml
+/.idea/sqldialects.xml
