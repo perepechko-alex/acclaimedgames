@@ -1,11 +1,12 @@
 import csv
 import re
-import glob
 import os
 from db import create_connection
 from formulas import goat_calc, goty_calc
 from typing import Union
 from decimal import Decimal
+from glob import glob
+
 
 GOAT_FILES: str = "./data/in/goat/**/*.csv"
 GOTY_FILES: str = "./data/in/goty/**/*.csv"
@@ -17,7 +18,7 @@ conn = create_connection()
 
 
 def import_csv_goat():
-    goat_files: list[str] = glob.glob(GOAT_FILES, recursive=True)
+    goat_files: list[str] = glob(GOAT_FILES, recursive=True)
     list_type: str = 'GOAT'
     batch = []
     for files in goat_files:
@@ -54,7 +55,7 @@ def import_csv_goat():
 
 
 def import_csv_goty():
-    goty_files: list[str] = glob.glob(GOTY_FILES, recursive=True)
+    goty_files: list[str] = glob(GOTY_FILES, recursive=True)
     list_type: str = 'GOTY'
     batch = []
     for files in goty_files:

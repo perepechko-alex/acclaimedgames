@@ -224,7 +224,7 @@ fabric.properties
 .vs/
 
 # Python
-venv
+.venv
 
 # Mac
 .DS_Store
