@@ -27,8 +27,9 @@ def format_devs(game, devs):
 
 def format_companies(companies):
     companies_arr = []
+    # print(companies)
     for company in companies:
-        companies_arr.append(str(company['company']))
+        companies_arr.append(str(company.setdefault('company', 'nocomp')))
     devs_joined_string = ','.join(companies_arr)
     return devs_joined_string
 
