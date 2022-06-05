@@ -11,7 +11,8 @@ start_server_deploy:
 	APP_ENV=deploy node server.mjs
 
 deploy:
-	npm run clean && APP_ENV=deploy npm run build && npm run export-static && aws s3 cp out s3://greatestgamesofalltime --recursive
+	npm run clean && APP_ENV=deploy npm run build && npm run export-static && aws s3 cp out s3://greatestgamesofalltime --recursive \
+	&& 	aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DIST_ID} --paths "/*" > /dev/null
 
 clean:
 	rm -rf out; rm -rf .next

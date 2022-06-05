@@ -106,12 +106,6 @@ const headCells = [
     label: "Total Score",
   },
   {
-    id: "numoflists",
-    numeric: false,
-    disablePadding: false,
-    label: "Number of Lists",
-  },
-  {
     id: "releasedate",
     numeric: false,
     disablePadding: false,
@@ -128,6 +122,12 @@ const headCells = [
     numeric: false,
     disablePadding: false,
     label: "Platforms",
+  },
+  {
+    id: "genres",
+    numeric: false,
+    disablePadding: false,
+    label: "Genres",
   },
 ];
 
@@ -211,10 +211,10 @@ export default function DataTable({ data, appEnv }) {
                     </a>
                   </TableCell>
                   <TableCell align="left">{row.totalscore.toFixed(2)}</TableCell>
-                  <TableCell align="left">{row.numoflists}</TableCell>
                   <TableCell align="left">{row.releasedate}</TableCell>
                   <TableCell align="left">{row.developers}</TableCell>
                   <TableCell align="left">{row.platforms}</TableCell>
+                  <TableCell align="left">{row.genre}</TableCell>
                 </TableRow>
               ))}
             {emptyRows > 0 && (

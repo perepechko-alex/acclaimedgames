@@ -787,7 +787,7 @@ rank,name,totalscore,numoflists,releasedate,platforms,developers
 778,Metal Gear Solid: Peace Walker,5.321330978715494,2,2010,PSP,Konami
 779,Heroes of the Storm,5.31727747138706,4,2015,"Mac, PC",Blizzard Entertainment
 780,No One Lives Forever,5.307042253521127,2,2000,"Mac, PC",Monolith Productions
-781,"Nine Hours, Nine Persons, Nine Doors (999)",5.3020964360587,2,,,
+781,"Nine Hours, Nine Persons, Nine Doors",5.3020964360587,2,,,
 782,Sid Meier's Civilization III,5.302066115702479,2,2001,"Mac, PC",Firaxis Games
 783,Computer Space,5.2334576044355225,2,1971,Arcade,Syzygy Engineering
 784,Tennis For Two,5.232883986928105,2,1958,Analog Computer,William Higinbotham
@@ -2344,7 +2344,7 @@ Nintendo R&D2 (NES)"
 1702,Mario & Luigi: Lost in Time,0.9071428571428571,1,,,
 1703,Sonic 3D Blast,0.9071428571428571,1,,,
 1704,Detroit: Become Human,0.9066666666666667,1,,,
-1704,Dragon Ball FigherZ,0.9066666666666667,1,,,
+1704,Dragon Ball FighterZ,0.9066666666666667,1,,,
 1705,Torment: Tides of Numenera,0.9066666666666667,1,,,
 1706,Gears of War 4,0.9066666666666667,1,,,
 1707,Remember Me,0.9066666666666667,1,,,
@@ -2402,7 +2402,7 @@ Nintendo R&D2 (NES)"
 1742,Resident Evil 6,0.9052631578947369,1,,,
 1742,Trials Evolution,0.9052631578947369,1,,,
 1743,Madden NFL 12,0.9052631578947369,1,,,
-1744,Dragon Quest VIII: The Journey of the Cursed King,0.9052631578947369,1,,,
+1744,Dragon Quest VIII: Journey of the Cursed King,0.9052631578947369,1,,,
 1745,Prince of Persia: The Two Thrones,0.9052631578947369,1,,,
 1746,Shovel Knight Pocket Dungeon,0.905,1,,,
 1747,The Jackbox Party Pack 7,0.905,1,,,
