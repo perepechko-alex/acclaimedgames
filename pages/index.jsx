@@ -14,6 +14,7 @@ import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import LastPageIcon from "@material-ui/icons/LastPage";
 import { TableFooter } from "@material-ui/core";
 import HeaderNavigation from "../components/headerNav";
+import Footer from "../components/footer";
 import SearchBar from "material-ui-search-bar";
 import { EnhancedTableHead } from "../components/enhancedTableHead";
 import { stableSort, getComparator } from "../components/sorting";
@@ -243,6 +244,7 @@ export default function DataTable({ data, appEnv }) {
           </TableFooter>
         </Table>
       </TableContainer>
+      {/*<Footer />*/}
     </>
   );
 }

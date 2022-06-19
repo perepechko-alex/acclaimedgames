@@ -6,6 +6,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import { makeStyles } from "@material-ui/core/styles";
 import HeaderNavigation from "../../components/headerNav";
+import Footer from "../../components/footer";
 import { EnhancedTableHead } from "../../components/enhancedTableHead";
 import { stableSort, getComparator } from "../../components/sorting";
 
@@ -94,6 +95,7 @@ export default function Game({ data }) {
           </TableBody>
         </Table>
       </TableContainer>
+      <Footer />
     </>
   );
 }
