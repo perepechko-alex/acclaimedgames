@@ -25,6 +25,11 @@ const useStyles = makeStyles({
     top: 20,
     width: 1,
   },
+  body: {
+    minHeight: "100%",
+    display: "grid",
+    gridTemplateRows: "1fr auto",
+  },
 });
 
 const headCells = [
@@ -68,33 +73,35 @@ export default function Game({ data }) {
   return (
     <>
       <HeaderNavigation />
-      <h1>
-        <center>{data[0].name}</center>
-      </h1>
-      <TableContainer>
-        <Table className={classes.table} aria-label="simple table">
-          <EnhancedTableHead
-            classes={classes}
-            headCells={headCells}
-            order={order}
-            orderBy={orderBy}
-            onRequestSort={handleRequestSort}
-          />
-          <TableBody>
-            {stableSort(data, getComparator(order, orderBy)).map((row) => (
-              <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
-                <TableCell component="th" scope="row">
-                  {getRank(row.rank, row.weightedpoints)}
-                </TableCell>
-                <TableCell align="left">{row.weightedpoints.toFixed(2)}</TableCell>
-                <TableCell align="left">{row.publication}</TableCell>
-                <TableCell align="left">{row.listyear}</TableCell>
-                <TableCell align="left">{row.listtype}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+      <div className={classes.body}>
+        <h1>
+          <center>{data[0].name}</center>
+        </h1>
+        <TableContainer>
+          <Table className={classes.table} aria-label="simple table">
+            <EnhancedTableHead
+              classes={classes}
+              headCells={headCells}
+              order={order}
+              orderBy={orderBy}
+              onRequestSort={handleRequestSort}
+            />
+            <TableBody>
+              {stableSort(data, getComparator(order, orderBy)).map((row) => (
+                <TableRow key={`${row.name} ${row.publication} ${row.listyear}`}>
+                  <TableCell component="th" scope="row">
+                    {getRank(row.rank, row.weightedpoints)}
+                  </TableCell>
+                  <TableCell align="left">{row.weightedpoints.toFixed(2)}</TableCell>
+                  <TableCell align="left">{row.publication}</TableCell>
+                  <TableCell align="left">{row.listyear}</TableCell>
+                  <TableCell align="left">{row.listtype}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>
       <Footer />
     </>
   );

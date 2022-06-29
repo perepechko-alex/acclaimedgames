@@ -244,7 +244,7 @@ export default function DataTable({ data, appEnv }) {
           </TableFooter>
         </Table>
       </TableContainer>
-      {/*<Footer />*/}
+      <Footer />
     </>
   );
 }

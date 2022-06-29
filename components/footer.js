@@ -1,21 +1,20 @@
 import * as React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import { FaGitlab, FaTwitter } from "react-icons/fa";
 
 const useStyles = makeStyles({
   root: {
-    margin: "auto",
-    bottom: "0",
-    width: "29%",
-    height: "70px",
     backgroundColor: "transparent",
     textAlign: "center",
+    gridRowStart: "2",
+    gridRowEnd: "3",
     "& li": {
-      float: "left",
+      float: "center",
       "& a": {
         display: "block",
         color: "grey",
         textAlign: "center",
-        padding: "14px 16px",
+        padding: "8px 10px",
         textDecoration: "none",
         fontFamily: ["Roboto", "Helvetica", "Arial", "sans-serif"],
       },
@@ -32,10 +31,14 @@ export default function Footer() {
   return (
     <ul className={classes.root}>
       <li style={display}>
-        <a href="../">Home</a>
+        <a href="https://gitlab.com/perepechko.alex" title="Gitlab">
+          <FaGitlab />
+        </a>
       </li>
       <li style={display}>
-        <a href="../about">About</a>
+        <a href={"https://twitter.com/alxexperience"} title="Twitter">
+          <FaTwitter />
+        </a>
       </li>
     </ul>
   );

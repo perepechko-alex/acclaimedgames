@@ -34,7 +34,7 @@ export default function HeaderNavigation() {
         <a href="../">Home</a>
       </li>
       <li style={display}>
-        <a href="../formulas">Formulas</a>
+        <a href={process.env.APP_ENV === "dev" ? "../formulas" : "../formulas.html"}>Formulas</a>
       </li>
       {/*<li style={display}>*/}
       {/*  <a href="../about">About</a>*/}
