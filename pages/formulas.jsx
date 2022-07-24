@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     minHeight: "100%",
     display: "grid",
     gridTemplateRows: "1fr auto",
+    fontFamily: "Helvetica Neue",
   },
 });
 

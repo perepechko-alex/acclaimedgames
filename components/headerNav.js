@@ -16,7 +16,7 @@ const useStyles = makeStyles({
         textAlign: "center",
         padding: "14px 16px",
         textDecoration: "none",
-        fontFamily: ["Roboto", "Helvetica", "Arial", "sans-serif"],
+        fontFamily: "Helvetica",
       },
       "& a:hover": {
         backgroundColor: "#111",
@@ -36,9 +36,9 @@ export default function HeaderNavigation() {
       <li style={display}>
         <a href={process.env.APP_ENV === "dev" ? "../formulas" : "../formulas.html"}>Formulas</a>
       </li>
-      {/*<li style={display}>*/}
-      {/*  <a href="../about">About</a>*/}
-      {/*</li>*/}
+      <li style={display}>
+        <a href={process.env.APP_ENV === "dev" ? "../about" : "../about.html"}>About</a>
+      </li>
     </ul>
   );
 }

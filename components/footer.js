@@ -36,7 +36,7 @@ export default function Footer() {
         </a>
       </li>
       <li style={display}>
-        <a href={"https://twitter.com/alxexperience"} title="Twitter">
+        <a href="https://twitter.com/alxexperience" title="Twitter">
           <FaTwitter />
         </a>
       </li>
